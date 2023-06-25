@@ -16,9 +16,8 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
-
 	"github.com/spf13/cobra"
+	"github.com/xackery/rebuildeq/aa"
 )
 
 // aaCmd represents the aa command
@@ -26,9 +25,7 @@ var aaCmd = &cobra.Command{
 	Use:   "aa",
 	Short: "Generate SQL/dbstr changes for AAs",
 	Long:  `When you need an AA generated`,
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("aa called")
-	},
+	RunE:  aa.Run,
 }
 
 func init() {

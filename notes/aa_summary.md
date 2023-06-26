@@ -1,4 +1,5 @@
-Carry Weight 15
+Carry Weight 15 <-- done
+Movement <-- done
 Health 20
 Mana 20
 Stamina 20
@@ -48,3 +49,4 @@ Fists of Steel - Win a number of brawls
 Silver Tongued - Reach 100 in Speechcraft
 
 
+Resistant songs now grant an additional 10 resistance to each resistance type.

@@ -28,11 +28,76 @@ func generateAASQL(aa *AAYaml) error {
 	w.WriteString("INSERT INTO aa_rank_effects (rank_id, slot, effect_id, base1, base2) VALUES\n")
 	for skillIndex, skill := range aa.Skills {
 		for rankIndex, rank := range skill.Ranks {
+			isDone := false
 			w.WriteString(fmt.Sprintf("	(%d, 1, %d, %d, %d)", rank.ID, rank.Slot1.EffectID, rank.Slot1.Base1, rank.Slot1.Base2))
 			if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
-				w.WriteString(";\n\n")
+				isDone = true
 			} else {
 				w.WriteString(",\n")
+			}
+
+			if rank.Slot2.EffectID != 0 {
+				if isDone {
+					w.WriteString(",\n")
+				}
+				w.WriteString(fmt.Sprintf("	(%d, 2, %d, %d, %d)", rank.ID, rank.Slot2.EffectID, rank.Slot2.Base1, rank.Slot2.Base2))
+				if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
+					isDone = true
+				} else {
+					w.WriteString(",\n")
+				}
+			}
+
+			if rank.Slot3.EffectID != 0 {
+				if isDone {
+					w.WriteString(",\n")
+				}
+				w.WriteString(fmt.Sprintf("	(%d, 3, %d, %d, %d)", rank.ID, rank.Slot3.EffectID, rank.Slot3.Base1, rank.Slot3.Base2))
+				if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
+					isDone = true
+				} else {
+					w.WriteString(",\n")
+				}
+			}
+
+			if rank.Slot4.EffectID != 0 {
+				if isDone {
+					w.WriteString(",\n")
+				}
+				w.WriteString(fmt.Sprintf("	(%d, 4, %d, %d, %d)", rank.ID, rank.Slot4.EffectID, rank.Slot4.Base1, rank.Slot4.Base2))
+				if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
+					isDone = true
+				} else {
+					w.WriteString(",\n")
+				}
+			}
+
+			if rank.Slot5.EffectID != 0 {
+				if isDone {
+					w.WriteString(",\n")
+				}
+				w.WriteString(fmt.Sprintf("	(%d, 5, %d, %d, %d)", rank.ID, rank.Slot5.EffectID, rank.Slot5.Base1, rank.Slot5.Base2))
+				if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
+					isDone = true
+				} else {
+					w.WriteString(",\n")
+				}
+			}
+
+			if rank.Slot6.EffectID != 0 {
+				if isDone {
+					w.WriteString(",\n")
+				}
+				w.WriteString(fmt.Sprintf("	(%d, 6, %d, %d, %d)", rank.ID, rank.Slot6.EffectID, rank.Slot6.Base1, rank.Slot6.Base2))
+				if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
+					isDone = true
+				} else {
+					w.WriteString(",\n")
+				}
+			}
+
+			if isDone {
+				w.WriteString(";\n\n")
 			}
 		}
 	}

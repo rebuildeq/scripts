@@ -235,3 +235,417 @@ skills:
               effect_id: 221
               base1: 30
               base2: 0
+    - short_name: stats
+      aa_name: Base Stats
+      id: 3
+      classes: 65535
+      type: 1
+      grant_only: 0
+      ranks:
+        - index: 1
+          id: 21
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 255 to 265 (+10).
+          desc_sid: 22
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 262
+            base1: 10
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 10
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 10
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 10
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 10
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 10
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 10
+            base2: 6
+        - index: 2
+          id: 22
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 265 to 275 (+10).
+          desc_sid: 23
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 20
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 20
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 20
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 20
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 20
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 20
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 20
+            base2: 6
+        - index: 3
+          id: 23
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 275 to 285 (+10).
+          desc_sid: 24
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 30
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 30
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 30
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 30
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 30
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 30
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 30
+            base2: 6
+        - index: 4
+          id: 24
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 285 to 295 (+10).
+          desc_sid: 25
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 40
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 40
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 40
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 40
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 40
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 40
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 40
+            base2: 6
+        - index: 5
+          id: 25
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 295 to 305 (+10).
+          desc_sid: 26
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 50
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 50
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 50
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 50
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 50
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 50
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 50
+            base2: 6
+        - index: 6
+          id: 26
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 305 to 315 (+10).
+          desc_sid: 27
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 60
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 60
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 60
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 60
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 60
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 60
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 60
+            base2: 6
+        - index: 7
+          id: 27
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 315 to 325 (+10).
+          desc_sid: 28
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 70
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 70
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 70
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 70
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 70
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 70
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 70
+            base2: 6
+        - index: 8
+          id: 28
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 325 to 335 (+10).
+          desc_sid: 29
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 80
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 80
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 80
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 80
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 80
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 80
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 80
+            base2: 6
+        - index: 9
+          id: 29
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 335 to 345 (+10).
+          desc_sid: 30
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 90
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 90
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 90
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 90
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 90
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 90
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 90
+            base2: 6
+        - index: 10
+          id: 30
+          name: Base Stats
+          title_sid: 3
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 345 to 355 (+10).
+          desc_sid: 31
+          cost: 1
+          slot1:
+            effect_id: 262
+            base1: 100
+            base2: 0
+          slot2:
+            effect_id: 262
+            base1: 100
+            base2: 1
+          slot3:
+            effect_id: 262
+            base1: 100
+            base2: 2
+          slot4:
+            effect_id: 262
+            base1: 100
+            base2: 3
+          slot5:
+            effect_id: 262
+            base1: 100
+            base2: 4
+          slot6:
+            effect_id: 262
+            base1: 100
+            base2: 5
+          slot7:
+            effect_id: 262
+            base1: 100
+            base2: 6
+    - short_name: darkelf
+      aa_name: Dark Elf
+      id: 4
+      classes: 65535
+      races: 16
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 31
+          name: Dark Elf
+          title_sid: 4
+          description: As a Dark Elf, you have ultravision, 100% metabolism, Hide, 5 Mana Regeneration, and 50 to FR/MR.
+          desc_sid: 32
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 15
+            base1: 5
+            base2: 0
+          slot2:
+            effect_id: 46
+            base1: 50
+            base2: 0
+          slot3:
+            effect_id: 50
+            base1: 50
+            base2: 0
+    - short_name: barbarian
+      aa_name: Barbarian
+      id: 5
+      classes: 65535
+      races: 2
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 32
+          name: Barbarian
+          title_sid: 5
+          description: As a Barbarian, you have normal vision, 25% metabolism, Slam, and 60 to CR/DR.
+          desc_sid: 33
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 47
+            base1: 60
+            base2: 0
+          slot2:
+            effect_id: 49
+            base1: 60
+            base2: 0
+          slot3:
+            effect_id: 233
+            base1: 175
+            base2: 0

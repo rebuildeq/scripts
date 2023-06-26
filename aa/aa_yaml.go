@@ -7,6 +7,7 @@ type AAYaml struct {
 		ID        int    `yaml:"id"`
 		Type      int    `yaml:"type"`
 		Classes   int    `yaml:"classes"`
+		Races     int    `yaml:"races"` // if 0, default to 65535
 		GrantOnly int    `yaml:"grant_only"`
 		Ranks     []struct {
 			Index          int    `yaml:"index"`
@@ -22,6 +23,31 @@ type AAYaml struct {
 				Base1    int `yaml:"base1"`
 				Base2    int `yaml:"base2"`
 			} `yaml:"slot1"`
+			Slot2 struct {
+				EffectID int `yaml:"effect_id"`
+				Base1    int `yaml:"base1"`
+				Base2    int `yaml:"base2"`
+			} `yaml:"slot2"`
+			Slot3 struct {
+				EffectID int `yaml:"effect_id"`
+				Base1    int `yaml:"base1"`
+				Base2    int `yaml:"base2"`
+			} `yaml:"slot3"`
+			Slot4 struct {
+				EffectID int `yaml:"effect_id"`
+				Base1    int `yaml:"base1"`
+				Base2    int `yaml:"base2"`
+			} `yaml:"slot4"`
+			Slot5 struct {
+				EffectID int `yaml:"effect_id"`
+				Base1    int `yaml:"base1"`
+				Base2    int `yaml:"base2"`
+			} `yaml:"slot5"`
+			Slot6 struct {
+				EffectID int `yaml:"effect_id"`
+				Base1    int `yaml:"base1"`
+				Base2    int `yaml:"base2"`
+			} `yaml:"slot6"`
 		} `yaml:"ranks"`
 	} `yaml:"skills"`
 }

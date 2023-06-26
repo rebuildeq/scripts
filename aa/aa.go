@@ -21,14 +21,14 @@ func Run(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("unmarshal: %w", err)
 	}
 
-	err = modifyDBStr(&aa)
-	if err != nil {
-		return fmt.Errorf("modifyDBStr: %w", err)
-	}
-
 	err = generateAASQL(&aa)
 	if err != nil {
 		return fmt.Errorf("generateAASQL: %w", err)
+	}
+
+	err = modifyDBStr(&aa)
+	if err != nil {
+		return fmt.Errorf("modifyDBStr: %w", err)
 	}
 
 	fmt.Println("finished in", time.Since(start).String())

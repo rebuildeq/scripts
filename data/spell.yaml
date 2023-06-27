@@ -1,0 +1,7 @@
+spells:
+  - id: 1001
+    name: Cascade of Decay
+    descnum: 1
+    typedescnum: 1
+    effectdescnum: 1
+

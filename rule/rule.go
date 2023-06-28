@@ -11,7 +11,11 @@ import (
 
 func Run(cmd *cobra.Command, args []string) error {
 	start := time.Now()
-	data, err := os.ReadFile("data/rule.yaml")
+	fmt.Printf("Rule...")
+	defer func() {
+		fmt.Println(" finished in", time.Since(start).String())
+	}()
+	data, err := os.ReadFile("rule.yaml")
 	if err != nil {
 		return err
 	}
@@ -31,12 +35,11 @@ func Run(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("generateRuleSQL: %w", err)
 	}
 
-	fmt.Println("finished in", time.Since(start).String())
 	return nil
 }
 
 func generateRuleSQL(sp *RuleYaml) error {
-	w, err := os.Create("bin/rule_out.sql")
+	w, err := os.Create("rule.sql")
 	if err != nil {
 		return err
 	}

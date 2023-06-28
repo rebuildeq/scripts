@@ -6,6 +6,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/xackery/rebuildeq/util"
 )
 
 type dbReader struct {
@@ -74,11 +76,19 @@ func (d *dbReader) line(scanner *bufio.Scanner, sid int, category int) string {
 	return line
 }
 
-func modifyDBStr(aa *AAYaml) error {
+func modifyDBStr(db *dbReader, aa *AAYaml) error {
 	var err error
 
-	db := &dbReader{}
-	r, err := os.Open("bin/dbstr_us.txt")
+	err = util.PrepFile("dbstr_us", ".txt")
+	if err != nil {
+		return err
+	}
+
+	defer func() {
+		os.Remove("dbstr_us_tmp.txt")
+	}()
+
+	r, err := os.Open("dbstr_us_tmp.txt")
 	if err != nil {
 		return err
 	}
@@ -99,7 +109,7 @@ func modifyDBStr(aa *AAYaml) error {
 		}
 	}
 
-	w, err := os.Create("bin/dbstr_us_out.txt")
+	w, err := os.Create("dbstr_us.txt")
 	if err != nil {
 		return err
 	}
@@ -128,6 +138,5 @@ func modifyDBStr(aa *AAYaml) error {
 		}
 	}
 
-	fmt.Println("changed", db.changedDBStrCount, "DBStr entries")
 	return nil
 }

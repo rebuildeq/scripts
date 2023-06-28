@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/fatih/structs"
+	"github.com/xackery/rebuildeq/util"
 )
 
 type dbReader struct {
@@ -63,11 +64,19 @@ func (d *dbReader) line(scanner *bufio.Scanner, sid int) string {
 	return line
 }
 
-func modifySpellsUS(sp *SpellYaml) error {
+func modifySpellsUS(db *dbReader, sp *SpellYaml) error {
 	var err error
 
-	db := &dbReader{}
-	r, err := os.Open("bin/spells_us.txt")
+	err = util.PrepFile("spells_us", ".txt")
+	if err != nil {
+		return err
+	}
+
+	defer func() {
+		os.Remove("spells_us_tmp.txt")
+	}()
+
+	r, err := os.Open("spells_us_tmp.txt")
 	if err != nil {
 		return err
 	}
@@ -104,7 +113,7 @@ func modifySpellsUS(sp *SpellYaml) error {
 		db.SIDs[key] = line
 	}
 
-	w, err := os.Create("bin/spells_us_out.txt")
+	w, err := os.Create("spells_us.txt")
 	if err != nil {
 		return err
 	}
@@ -122,6 +131,5 @@ func modifySpellsUS(sp *SpellYaml) error {
 		}
 	}
 
-	fmt.Println("changed", db.changedSpellsUSCount, "spells_us entries")
 	return nil
 }

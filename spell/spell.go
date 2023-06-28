@@ -13,7 +13,13 @@ import (
 
 func Run(cmd *cobra.Command, args []string) error {
 	start := time.Now()
-	data, err := os.ReadFile("data/spell.yaml")
+	db := &dbReader{}
+	fmt.Printf("Spell...")
+	defer func() {
+		fmt.Println(" finished in", time.Since(start).String())
+		fmt.Println("Spell changed", db.changedSpellsUSCount, "spells_us entries")
+	}()
+	data, err := os.ReadFile("spell.yaml")
 	if err != nil {
 		return err
 	}
@@ -33,17 +39,16 @@ func Run(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("generateSpellSQL: %w", err)
 	}
 
-	err = modifySpellsUS(&spell)
+	err = modifySpellsUS(db, &spell)
 	if err != nil {
 		return fmt.Errorf("modifySpellsUS: %w", err)
 	}
 
-	fmt.Println("finished in", time.Since(start).String())
 	return nil
 }
 
 func generateSpellSQL(sp *SpellYaml) error {
-	w, err := os.Create("bin/spell_out.sql")
+	w, err := os.Create("spell.sql")
 	if err != nil {
 		return err
 	}

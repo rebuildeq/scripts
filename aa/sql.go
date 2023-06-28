@@ -6,7 +6,7 @@ import (
 )
 
 func generateAASQL(aa *AAYaml) error {
-	w, err := os.Create("bin/aa.sql")
+	w, err := os.Create("aa.sql")
 	if err != nil {
 		return err
 	}

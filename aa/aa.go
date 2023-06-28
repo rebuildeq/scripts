@@ -11,7 +11,13 @@ import (
 
 func Run(cmd *cobra.Command, args []string) error {
 	start := time.Now()
-	data, err := os.ReadFile("data/aa.yaml")
+	db := &dbReader{}
+	fmt.Printf("AA...")
+	defer func() {
+		fmt.Println(" finished in", time.Since(start).String())
+		fmt.Println("AA changed", db.changedDBStrCount, "DBStr entries")
+	}()
+	data, err := os.ReadFile("aa.yaml")
 	if err != nil {
 		return err
 	}
@@ -26,11 +32,9 @@ func Run(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("generateAASQL: %w", err)
 	}
 
-	err = modifyDBStr(&aa)
+	err = modifyDBStr(db, &aa)
 	if err != nil {
 		return fmt.Errorf("modifyDBStr: %w", err)
 	}
-
-	fmt.Println("finished in", time.Since(start).String())
 	return nil
 }

@@ -7,12 +7,12 @@ type SpellYaml struct {
 		ID                   int    `yaml:"id"`                   // int(11) NOT NULL DEFAULT 0,
 		Name                 string `yaml:"name"`                 // varchar(64) DEFAULT NULL,
 		Player_1             string `yaml:"player_1"`             // varchar(64) DEFAULT 'BLUE_TRAIL',
-		Teleport_zone        int    `yaml:"teleport_zone"`        // varchar(64) DEFAULT NULL,
-		You_cast             int    `yaml:"you_cast"`             // varchar(120) DEFAULT NULL,
-		Other_casts          int    `yaml:"other_casts"`          // varchar(120) DEFAULT NULL,
-		Cast_on_you          int    `yaml:"cast_on_you"`          // varchar(120) DEFAULT NULL,
-		Cast_on_other        int    `yaml:"cast_on_other"`        // varchar(120) DEFAULT NULL,
-		Spell_fades          int    `yaml:"spell_fades"`          // varchar(120) DEFAULT NULL,
+		Teleport_zone        string `yaml:"teleport_zone"`        // varchar(64) DEFAULT NULL,
+		You_cast             string `yaml:"you_cast"`             // varchar(120) DEFAULT NULL,
+		Other_casts          string `yaml:"other_casts"`          // varchar(120) DEFAULT NULL,
+		Cast_on_you          string `yaml:"cast_on_you"`          // varchar(120) DEFAULT NULL,
+		Cast_on_other        string `yaml:"cast_on_other"`        // varchar(120) DEFAULT NULL,
+		Spell_fades          string `yaml:"spell_fades"`          // varchar(120) DEFAULT NULL,
 		Range                int    `yaml:"range"`                // int(11) NOT NULL DEFAULT 100,
 		Aoerange             int    `yaml:"aoerange"`             // int(11) NOT NULL DEFAULT 0,
 		Pushback             int    `yaml:"pushback"`             // int(11) NOT NULL DEFAULT 0,
@@ -254,7 +254,7 @@ func (e *SpellYaml) sanitize() error {
 			return fmt.Errorf("spell name must not be empty")
 		}
 		if spell.Player_1 == "" {
-			spell.Player_1 = "BLUE_TRAIL"
+			spell.Player_1 = "PLAYER_1"
 		}
 
 		//`teleport_zone` varchar(64) DEFAULT NULL,

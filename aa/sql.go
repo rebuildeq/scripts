@@ -12,6 +12,7 @@ func generateAASQL(aa *AAYaml) error {
 	}
 	defer w.Close()
 
+	w.WriteString("TRUNCATE aa_ability;\n")
 	w.WriteString("INSERT INTO aa_ability (id, `name`, category, classes, races, drakkin_heritage, deities, `status`, `type`, charges, grant_only, first_rank_id, `enabled`, reset_on_death) VALUES\n")
 	for skillIndex, skill := range aa.Skills {
 		if len(skill.Ranks) == 0 {
@@ -25,10 +26,24 @@ func generateAASQL(aa *AAYaml) error {
 		}
 	}
 
+	w.WriteString("TRUNCATE aa_rank_prereqs;\n")
+
+	w.WriteString("TRUNCATE aa_rank_effects;\n")
 	w.WriteString("INSERT INTO aa_rank_effects (rank_id, slot, effect_id, base1, base2) VALUES\n")
+	levelReq := 1
+
 	for skillIndex, skill := range aa.Skills {
 		for rankIndex, rank := range skill.Ranks {
 			isDone := false
+
+			if rank.LevelReq > levelReq {
+				levelReq = rank.LevelReq
+			}
+
+			if rank.LevelReq == 0 {
+				rank.LevelReq = levelReq
+			}
+
 			w.WriteString(fmt.Sprintf("	(%d, 1, %d, %d, %d)", rank.ID, rank.Slot1.EffectID, rank.Slot1.Base1, rank.Slot1.Base2))
 			if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
 				isDone = true
@@ -101,6 +116,8 @@ func generateAASQL(aa *AAYaml) error {
 			}
 		}
 	}
+
+	w.WriteString("TRUNCATE aa_ranks;\n")
 	w.WriteString("INSERT INTO aa_ranks (id, upper_hotkey_sid, lower_hotkey_sid, title_sid, desc_sid, cost, level_req, spell, spell_type, recast_time, expansion, prev_id, next_id) VALUES\n")
 	for skillIndex, skill := range aa.Skills {
 		for rankIndex, rank := range skill.Ranks {

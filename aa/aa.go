@@ -10,6 +10,7 @@ import (
 )
 
 func Build(cmd *cobra.Command, args []string) error {
+	cmd.SilenceUsage = true
 	start := time.Now()
 	db := &dbReader{}
 	fmt.Printf("AA...")
@@ -25,6 +26,11 @@ func Build(cmd *cobra.Command, args []string) error {
 	err = yaml.Unmarshal(data, &aa)
 	if err != nil {
 		return fmt.Errorf("unmarshal: %w", err)
+	}
+
+	err = aa.sanitize()
+	if err != nil {
+		return fmt.Errorf("sanitize: %w", err)
 	}
 
 	err = generateAASQL(&aa)

@@ -1,5 +1,7 @@
 package aa
 
+import "fmt"
+
 type AAYaml struct {
 	Skills []struct {
 		ShortName string `yaml:"short_name"`
@@ -50,4 +52,41 @@ type AAYaml struct {
 			} `yaml:"slot6"`
 		} `yaml:"ranks"`
 	} `yaml:"skills"`
+}
+
+func (e *AAYaml) sanitize() error {
+
+	abilityNames := make(map[int]string)
+	titleNames := make(map[int]string)
+	descNames := make(map[int]string)
+
+	for skillIndex, skill := range e.Skills {
+		abilityName, ok := abilityNames[skill.ID]
+		if !ok {
+			abilityNames[skill.ID] = skill.Name
+			abilityName = skill.Name
+		}
+		if abilityName != skill.Name {
+			return fmt.Errorf("ability name mismatch for skill id %d between '%s' and '%s'", skill.ID, abilityName, skill.Name)
+		}
+		for rankIndex, rank := range skill.Ranks {
+			titleName, ok := titleNames[rank.TitleSID]
+			if !ok {
+				titleNames[rank.TitleSID] = rank.Name
+				titleName = rank.Name
+			}
+			if titleName != rank.Name {
+				return fmt.Errorf("title name mismatch for titleSID %d for skill id %d rank %d between '%s' and '%s'", rank.TitleSID, skillIndex, rankIndex, titleName, rank.Name)
+			}
+			descName, ok := descNames[rank.DescriptionSID]
+			if !ok {
+				descNames[rank.DescriptionSID] = rank.Description
+				descName = rank.Description
+			}
+			if descName != rank.Description {
+				return fmt.Errorf("description name mismatch for descriptionSID %d skill id %d rank %d between '%s' and '%s'", rank.DescriptionSID, skillIndex, rankIndex, descName, rank.Description)
+			}
+		}
+	}
+	return nil
 }

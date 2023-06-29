@@ -19,7 +19,7 @@ Into the Depths - Clear a specified number of dungeons
 It's just my hobby - Loot a specified number of chests
 Traveller - Discover a number of locations
 Accustomed to cold - Spend days in cold zones
-Educated - Read a number f books
+Educated - Read a number of books
 Traveler's Haven - Own a specified number of houses
 Stay One's Hunger - Eat a specified number of food items
 Nothing Serious - Contract a specified number of diseases

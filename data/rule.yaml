@@ -1,3 +1,17 @@
 rules:
-  - name: AA:ExpPerPoint
-    value: 23976503
+  - name: World:ExpansionSettings
+    value: "3"
+    ruleset_id: 1
+    notes: Sets the expansion settings for the server, This is sent on login to world
+      and affects client expansion settings. Defaults to all expansions enabled up to
+      TSS, value is bitmask
+  - name: Expansion:CurrentExpansion
+    value: "2"
+    ruleset_id: 1
+    notes: The current expansion enabled for the server [-1 = ALL, 0 = Classic, 1 =
+      Kunark etc.]
+  - name: World:UseClientBasedExpansionSettings
+    value: "false"
+    ruleset_id: 1
+    notes: If true it will overrule World, ExpansionSettings and set someone's expansion
+      based on the client they're using

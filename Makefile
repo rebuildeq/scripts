@@ -16,6 +16,9 @@ build-spell: build copy-data
 # builds rule
 build-rule: build copy-data
 	cd bin && ./rebuildeq build rule
+# builds task
+build-task: build copy-data
+	cd bin && ./rebuildeq build task
 # copies data from data/ to bin/
 copy-data:
 	cp data/* bin/
@@ -23,3 +26,5 @@ import-rule: build copy-data
 	cd bin && ./rebuildeq import rule
 import-spell: build copy-data
 	cd bin && ./rebuildeq import spell
+import-task: build copy-data
+	cd bin && ./rebuildeq import task

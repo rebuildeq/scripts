@@ -25,6 +25,7 @@ import (
 	"github.com/xackery/rebuildeq/aa"
 	"github.com/xackery/rebuildeq/rule"
 	"github.com/xackery/rebuildeq/spell"
+	"github.com/xackery/rebuildeq/task"
 )
 
 // buildCmd represents the build command
@@ -83,6 +84,11 @@ func buildRun(cmd *cobra.Command, args []string) error {
 			err := aa.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("aa: %w", err)
+			}
+		case "task":
+			err := task.Build(cmd, args)
+			if err != nil {
+				return fmt.Errorf("task: %w", err)
 			}
 		case "all":
 			err := rule.Build(cmd, args)

@@ -25,6 +25,7 @@ import (
 	"github.com/xackery/rebuildeq/aa"
 	"github.com/xackery/rebuildeq/rule"
 	"github.com/xackery/rebuildeq/spell"
+	"github.com/xackery/rebuildeq/task"
 )
 
 // importCmd represents the import command
@@ -84,6 +85,11 @@ func importRun(cmd *cobra.Command, args []string) error {
 			if err != nil {
 				return fmt.Errorf("aa: %w", err)
 			}
+		case "task":
+			err := task.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("task: %w", err)
+			}
 		case "all":
 			err := rule.Import(cmd, args)
 			if err != nil {
@@ -96,6 +102,10 @@ func importRun(cmd *cobra.Command, args []string) error {
 			err = aa.Import(cmd, args)
 			if err != nil {
 				return fmt.Errorf("aa: %w", err)
+			}
+			err = task.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("task: %w", err)
 			}
 			return nil
 		default:

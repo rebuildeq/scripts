@@ -5,7 +5,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+	http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,8 +17,14 @@ package cmd
 
 import (
 	"fmt"
+	"os"
+	"strings"
+	"time"
 
 	"github.com/spf13/cobra"
+	"github.com/xackery/rebuildeq/aa"
+	"github.com/xackery/rebuildeq/rule"
+	"github.com/xackery/rebuildeq/spell"
 )
 
 // importCmd represents the import command
@@ -31,21 +37,71 @@ and usage of using your command. For example:
 Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("import called")
-	},
+	RunE: importRun,
 }
 
 func init() {
 	rootCmd.AddCommand(importCmd)
+}
 
-	// Here you will define your flags and configuration settings.
+func importRun(cmd *cobra.Command, args []string) error {
+	start := time.Now()
+	if len(args) == 0 {
+		fmt.Println("usage: rebuildeq import [rule|spell|aa|all]")
+		os.Exit(1)
+	}
+	fmt.Println("Starting import with args", strings.Join(args, " "))
+	defer func() {
+		fmt.Println("Finished import in", time.Since(start).String())
+	}()
 
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// importCmd.PersistentFlags().String("foo", "", "A help for foo")
+	_, err := os.Stat("dbstr_us_original.txt")
+	if err != nil {
+		fmt.Println("Please copy dbstr_us.txt into this path, and rename it to dbstr_us_original.txt")
+		os.Exit(1)
+	}
 
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// importCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	_, err = os.Stat("spells_us_original.txt")
+	if err != nil {
+		fmt.Println("Please copy spells_us.txt into this path, and rename it to spells_us_original.txt")
+		os.Exit(1)
+	}
+
+	for _, arg := range args {
+		switch arg {
+		case "rule":
+			err := rule.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("rule: %w", err)
+			}
+		case "spell":
+			err := spell.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("spell: %w", err)
+			}
+		case "aa":
+			err := aa.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("aa: %w", err)
+			}
+		case "all":
+			err := rule.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("rule: %w", err)
+			}
+			err = spell.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("spell: %w", err)
+			}
+			err = aa.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("aa: %w", err)
+			}
+			return nil
+		default:
+			return fmt.Errorf("unknown import target: %s", arg)
+		}
+	}
+
+	return nil
 }

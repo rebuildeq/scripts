@@ -3,17 +3,20 @@ package rule
 import "fmt"
 
 type RuleYaml struct {
-	Rules []*struct {
-		ID    int    `yaml:"id"`
-		Name  string `yaml:"name"`
-		Value string `yaml:"value"`
-	} `yaml:"rules"`
+	Rules []*Rule `yaml:"rules"`
+}
+
+type Rule struct {
+	Name      string `yaml:"name,omitempty" db:"rule_name"`
+	Value     string `yaml:"value,omitempty" db:"rule_value"`
+	RulesetID int    `yaml:"ruleset_id,omitempty" db:"ruleset_id"`
+	Notes     string `yaml:"notes,omitempty" db:"notes"`
 }
 
 func (e *RuleYaml) sanitize() error {
 	for _, rule := range e.Rules {
-		if rule.ID == 0 {
-			rule.ID = 1
+		if rule.RulesetID == 0 {
+			rule.RulesetID = 1
 		}
 		if rule.Name == "" {
 			return fmt.Errorf("rule name must not be empty")

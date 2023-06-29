@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func Run(cmd *cobra.Command, args []string) error {
+func Build(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	db := &dbReader{}
 	fmt.Printf("AA...")
@@ -36,5 +36,9 @@ func Run(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return fmt.Errorf("modifyDBStr: %w", err)
 	}
+	return nil
+}
+
+func Import(cmd *cobra.Command, args []string) error {
 	return nil
 }

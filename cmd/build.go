@@ -70,30 +70,30 @@ func buildRun(cmd *cobra.Command, args []string) error {
 	for _, arg := range args {
 		switch arg {
 		case "rule":
-			err := rule.Run(cmd, args)
+			err := rule.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("rule: %w", err)
 			}
 		case "spell":
-			err := spell.Run(cmd, args)
+			err := spell.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("spell: %w", err)
 			}
 		case "aa":
-			err := aa.Run(cmd, args)
+			err := aa.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("aa: %w", err)
 			}
 		case "all":
-			err := rule.Run(cmd, args)
+			err := rule.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("rule: %w", err)
 			}
-			err = spell.Run(cmd, args)
+			err = spell.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("spell: %w", err)
 			}
-			err = aa.Run(cmd, args)
+			err = aa.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("aa: %w", err)
 			}

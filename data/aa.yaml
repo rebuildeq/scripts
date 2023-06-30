@@ -1013,13 +1013,13 @@ skills:
           id: 46
           name: Elemental Harmony
           title_sid: 20
-          description: Songs grant an additional resistance from 0 to 5 for each resistance type.
+          description: Resist songs grant an additional resistance from 0 to 5 for each resistance type.
           desc_sid: 49
           cost: 1
           level_req: 9
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 5
+            base1: 10
             base2: 5
         - index: 2
           id: 47
@@ -1030,7 +1030,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 5
+            base1: 10
             base2: 10
         - index: 3
           id: 48
@@ -1052,7 +1052,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 15
+            base1: 10
             base2: 20
         - index: 5
           id: 50
@@ -1063,7 +1063,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 20
+            base1: 10
             base2: 25
         - index: 6
           id: 51
@@ -1074,7 +1074,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 25
+            base1: 10
             base2: 30
         - index: 7
           id: 52
@@ -1085,7 +1085,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 30
+            base1: 10
             base2: 35
         - index: 8
           id: 53
@@ -1096,7 +1096,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 35
+            base1: 10
             base2: 40
         - index: 9
           id: 54
@@ -1107,7 +1107,7 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 40
+            base1: 10
             base2: 45
         - index: 10
           id: 55
@@ -1118,5 +1118,239 @@ skills:
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 45
+            base1: 10
+            base2: 50
+    - aa_name: Healing Treble
+      id: 20
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      ranks:
+        - index: 1
+          id: 47
+          name: Healing Treble
+          title_sid: 30
+          description: Healing songs heal from 0 to 5% more.
+          desc_sid: 59
+          cost: 1
+          level_req: 6
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 5
+        - index: 2
+          id: 48
+          name: Healing Treble
+          title_sid: 31
+          description: Healing songs heal from 5 to 10% more.
+          desc_sid: 60
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 10
+        - index: 3
+          id: 49
+          name: Healing Treble
+          title_sid: 32
+          description: Healing songs heal from 10 to 15% more.
+          desc_sid: 61
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 15
+        - index: 4
+          id: 50
+          name: Healing Treble
+          title_sid: 33
+          description: Healing songs heal from 15 to 20% more.
+          desc_sid: 62
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 20
+        - index: 5
+          id: 51
+          name: Healing Treble
+          title_sid: 34
+          description: Healing songs heal from 20 to 25% more.
+          desc_sid: 63
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 25
+        - index: 6
+          id: 52
+          name: Healing Treble
+          title_sid: 35
+          description: Healing songs heal from 25 to 30% more.
+          desc_sid: 64
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 30
+        - index: 7
+          id: 53
+          name: Healing Treble
+          title_sid: 36
+          description: Healing songs heal from 30 to 35% more.
+          desc_sid: 65
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 35
+        - index: 8
+          id: 54
+          name: Healing Treble
+          title_sid: 37
+          description: Healing songs heal from 35 to 40% more.
+          desc_sid: 66
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 40
+        - index: 9
+          id: 55
+          name: Healing Treble
+          title_sid: 38
+          description: Healing songs heal from 40 to 45% more.
+          desc_sid: 67
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 45
+        - index: 10
+          id: 56
+          name: Healing Treble
+          title_sid: 39
+          description: Healing songs heal from 45 to 50% more.
+          desc_sid: 68
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 11
+            base2: 50
+    - aa_name: Psalm of Norrath
+      id: 21
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      ranks:
+        - index: 1
+          id: 57
+          name: Psalm of Norrath
+          title_sid: 40
+          description: Damage shield songs deal from 0 to 10% more damage.
+          desc_sid: 69
+          cost: 1
+          level_req: 25
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 5
+        - index: 2
+          id: 58
+          name: Psalm of Norrath
+          title_sid: 41
+          description: Damage shield songs deal from 5 to 20% more damage.
+          desc_sid: 70
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 10
+        - index: 3
+          id: 59
+          name: Psalm of Norrath
+          title_sid: 42
+          description: Damage shield songs deal from 10 to 30% more damage.
+          desc_sid: 71
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 15
+        - index: 4
+          id: 60
+          name: Psalm of Norrath
+          title_sid: 43
+          description: Damage shield songs deal from 15 to 40% more damage.
+          desc_sid: 72
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 20
+        - index: 5
+          id: 61
+          name: Psalm of Norrath
+          title_sid: 44
+          description: Damage shield songs deal from 20 to 50% more damage.
+          desc_sid: 73
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 25
+        - index: 6
+          id: 62
+          name: Psalm of Norrath
+          title_sid: 45
+          description: Damage shield songs deal from 25 to 60% more damage.
+          desc_sid: 74
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 30
+        - index: 7
+          id: 63
+          name: Psalm of Norrath
+          title_sid: 46
+          description: Damage shield songs deal from 30 to 70% more damage.
+          desc_sid: 75
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 35
+        - index: 8
+          id: 64
+          name: Psalm of Norrath
+          title_sid: 47
+          description: Damage shield songs deal from 35 to 80% more damage.
+          desc_sid: 76
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 40
+        - index: 9
+          id: 65
+          name: Psalm of Norrath
+          title_sid: 48
+          description: Damage shield songs deal from 40 to 90% more damage.
+          desc_sid: 77
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
+            base2: 45
+        - index: 10
+          id: 66
+          name: Psalm of Norrath
+          title_sid: 49
+          description: Damage shield songs deal from 45 to 100% more damage.
+          desc_sid: 78
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 12
             base2: 50

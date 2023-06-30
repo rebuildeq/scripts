@@ -1,6 +1,5 @@
 skills:
-    - short_name: movement
-      aa_name: Innate Movement Speed
+    - aa_name: Innate Movement Speed
       id: 1
       classes: 65535
       type: 1
@@ -117,8 +116,7 @@ skills:
             effect_id: 271 # SE_BaseMovementSpeed
             base1: 30
             base2: 0
-    - short_name: weight
-      aa_name: Weight Reduction
+    - aa_name: Weight Reduction
       id: 2
       classes: 65535
       type: 1
@@ -235,8 +233,7 @@ skills:
               effect_id: 221 # SE_Packrat
               base1: 30
               base2: 0
-    - short_name: stats
-      aa_name: Increase Max Base Stats
+    - aa_name: Increase Max Base Stats
       id: 3
       classes: 65535
       type: 1
@@ -593,8 +590,7 @@ skills:
             effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 6
-    - short_name: darkelf
-      aa_name: Dark Elf
+    - aa_name: Dark Elf
       id: 4
       classes: 65535
       races: 16
@@ -625,8 +621,35 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - short_name: barbarian
-      aa_name: Barbarian
+    - aa_name: Barbarian
+      id: 5
+      classes: 65535
+      races: 2
+      type: 1
+      grant_only: 1
+      # test
+      ranks:
+        - index: 1
+          id: 32
+          name: Barbarian
+          title_sid: 6
+          description: As a Barbarian, you have normal vision, 25% metabolism, Slam, and 60 to CR/DR.
+          desc_sid: 33
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 47 # SE_ResistCold
+            base1: 60
+            base2: 0
+          slot2:
+            effect_id: 49 # SE_ResistDisease
+            base1: 60
+            base2: 0
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 175
+            base2: 0
+    - aa_name: BarbarianDw
       id: 5
       classes: 65535
       races: 2

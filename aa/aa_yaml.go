@@ -4,7 +4,6 @@ import "fmt"
 
 type AAYaml struct {
 	Skills []struct {
-		ShortName string `yaml:"short_name"`
 		Name      string `yaml:"aa_name"`
 		ID        int    `yaml:"id"`
 		Type      int    `yaml:"type"`

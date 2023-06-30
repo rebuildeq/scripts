@@ -2,7 +2,7 @@ skills:
     - aa_name: Innate Movement Speed
       id: 1
       classes: 65535
-      type: 1
+      type: 1 # General
       grant_only: 0
       ranks:
         - index: 1
@@ -119,7 +119,7 @@ skills:
     - aa_name: Weight Reduction
       id: 2
       classes: 65535
-      type: 1
+      type: 1 # General
       grant_only: 0
       ranks:
         - index: 1
@@ -236,7 +236,7 @@ skills:
     - aa_name: Increase Max Base Stats
       id: 3
       classes: 65535
-      type: 1
+      type: 1 # General
       grant_only: 0
       ranks:
         - index: 1
@@ -594,7 +594,7 @@ skills:
       id: 4
       classes: 65535
       races: 16
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -625,7 +625,7 @@ skills:
       id: 5
       classes: 65535
       races: 2
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -652,7 +652,7 @@ skills:
       id: 6
       classes: 65535
       races: 128
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -679,7 +679,7 @@ skills:
       id: 7
       classes: 65535
       races: 4
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -710,7 +710,7 @@ skills:
       id: 8
       classes: 65535
       races: 16384
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -737,7 +737,7 @@ skills:
       id: 9
       classes: 65535
       races: 2048
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -764,7 +764,7 @@ skills:
       id: 10
       classes: 65535
       races: 64
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -807,7 +807,7 @@ skills:
       id: 11
       classes: 65535
       races: 16
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -830,7 +830,7 @@ skills:
       id: 12
       classes: 65535
       races: 1
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -869,7 +869,7 @@ skills:
       id: 13
       classes: 65535
       races: 4096
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -900,7 +900,7 @@ skills:
       id: 14
       classes: 65535
       races: 512
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -919,7 +919,7 @@ skills:
       id: 15
       classes: 65535
       races: 9
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -942,7 +942,7 @@ skills:
       id: 16
       classes: 65535
       races: 8
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -969,7 +969,7 @@ skills:
       id: 17
       classes: 65535
       races: 32768
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -988,7 +988,7 @@ skills:
       id: 18
       classes: 65535
       races: 32768
-      type: 1
+      type: 1 # General
       grant_only: 1
       ranks:
         - index: 1
@@ -1003,3 +1003,120 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
+    - aa_name: Elemental Harmony
+      id: 19
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      ranks:
+        - index: 1
+          id: 46
+          name: Elemental Harmony
+          title_sid: 20
+          description: Songs grant an additional resistance from 0 to 5 for each resistance type.
+          desc_sid: 49
+          cost: 1
+          level_req: 9
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 5
+            base2: 5
+        - index: 2
+          id: 47
+          name: Elemental Harmony
+          title_sid: 21
+          description: Songs grant an additional resistance from 5 to 10 for each resistance type.
+          desc_sid: 50
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 5
+            base2: 10
+        - index: 3
+          id: 48
+          name: Elemental Harmony
+          title_sid: 22
+          description: Songs grant an additional resistance from 10 to 15 for each resistance type.
+          desc_sid: 51
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 10
+            base2: 15
+        - index: 4
+          id: 49
+          name: Elemental Harmony
+          title_sid: 23
+          description: Songs grant an additional resistance from 15 to 20 for each resistance type.
+          desc_sid: 52
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 15
+            base2: 20
+        - index: 5
+          id: 50
+          name: Elemental Harmony
+          title_sid: 24
+          description: Songs grant an additional resistance from 20 to 25 for each resistance type.
+          desc_sid: 53
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 20
+            base2: 25
+        - index: 6
+          id: 51
+          name: Elemental Harmony
+          title_sid: 25
+          description: Songs grant an additional resistance from 25 to 30 for each resistance type.
+          desc_sid: 54
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 25
+            base2: 30
+        - index: 7
+          id: 52
+          name: Elemental Harmony
+          title_sid: 26
+          description: Songs grant an additional resistance from 30 to 35 for each resistance type.
+          desc_sid: 55
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 30
+            base2: 35
+        - index: 8
+          id: 53
+          name: Elemental Harmony
+          title_sid: 27
+          description: Songs grant an additional resistance from 35 to 40 for each resistance type.
+          desc_sid: 56
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 40
+        - index: 9
+          id: 54
+          name: Elemental Harmony
+          title_sid: 28
+          description: Songs grant an additional resistance from 40 to 45 for each resistance type.
+          desc_sid: 57
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 40
+            base2: 45
+        - index: 10
+          id: 55
+          name: Elemental Harmony
+          title_sid: 29
+          description: Songs grant an additional resistance from 45 to 50 for each resistance type.
+          desc_sid: 58
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 45
+            base2: 50

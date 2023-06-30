@@ -15,7 +15,7 @@ skills:
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 3
             base2: 0
         - index: 2
@@ -26,7 +26,7 @@ skills:
           desc_sid: 3
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 6
             base2: 0
         - index: 3
@@ -37,7 +37,7 @@ skills:
           desc_sid: 4
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 9
             base2: 0
         - index: 4
@@ -48,7 +48,7 @@ skills:
           desc_sid: 5
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 12
             base2: 0
         - index: 5
@@ -59,7 +59,7 @@ skills:
           desc_sid: 6
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 15
             base2: 0
         - index: 6
@@ -70,7 +70,7 @@ skills:
           desc_sid: 7
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 18
             base2: 0
         - index: 7
@@ -81,7 +81,7 @@ skills:
           desc_sid: 8
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 21
             base2: 0
         - index: 8
@@ -92,7 +92,7 @@ skills:
           desc_sid: 9
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 24
             base2: 0
         - index: 9
@@ -103,7 +103,7 @@ skills:
           desc_sid: 10
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 27
             base2: 0
         - index: 10
@@ -114,7 +114,7 @@ skills:
           desc_sid: 11
           cost: 1
           slot1:
-            effect_id: 271
+            effect_id: 271 # SE_BaseMovementSpeed
             base1: 30
             base2: 0
     - short_name: weight
@@ -133,7 +133,7 @@ skills:
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 221
+            effect_id: 221 # SE_Packrat
             base1: 3
             base2: 0
         - index: 2
@@ -144,7 +144,7 @@ skills:
           desc_sid: 13
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 6
               base2: 0
         - index: 3
@@ -155,7 +155,7 @@ skills:
           desc_sid: 14
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 9
               base2: 0
         - index: 4
@@ -166,7 +166,7 @@ skills:
           desc_sid: 15
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 12
               base2: 0
         - index: 5
@@ -177,7 +177,7 @@ skills:
           desc_sid: 16
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 15
               base2: 0
         - index: 6
@@ -188,7 +188,7 @@ skills:
           desc_sid: 17
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 18
               base2: 0
         - index: 7
@@ -199,7 +199,7 @@ skills:
           desc_sid: 18
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 21
               base2: 0
         - index: 8
@@ -210,7 +210,7 @@ skills:
           desc_sid: 19
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 24
               base2: 0
         - index: 9
@@ -221,7 +221,7 @@ skills:
           desc_sid: 20
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 27
               base2: 0
         - index: 0
@@ -232,7 +232,7 @@ skills:
           desc_sid: 21
           cost: 1
           slot1:
-              effect_id: 221
+              effect_id: 221 # SE_Packrat
               base1: 30
               base2: 0
     - short_name: stats
@@ -251,31 +251,31 @@ skills:
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 10
             base2: 6
         - index: 2
@@ -286,31 +286,31 @@ skills:
           desc_sid: 23
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 20
             base2: 6
         - index: 3
@@ -321,31 +321,31 @@ skills:
           desc_sid: 24
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 30
             base2: 6
         - index: 4
@@ -356,31 +356,31 @@ skills:
           desc_sid: 25
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 40
             base2: 6
         - index: 5
@@ -391,31 +391,31 @@ skills:
           desc_sid: 26
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 50
             base2: 6
         - index: 6
@@ -426,31 +426,31 @@ skills:
           desc_sid: 27
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 60
             base2: 6
         - index: 7
@@ -461,31 +461,31 @@ skills:
           desc_sid: 28
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 70
             base2: 6
         - index: 8
@@ -496,31 +496,31 @@ skills:
           desc_sid: 29
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 80
             base2: 6
         - index: 9
@@ -531,31 +531,31 @@ skills:
           desc_sid: 30
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 90
             base2: 6
         - index: 10
@@ -566,31 +566,31 @@ skills:
           desc_sid: 31
           cost: 1
           slot1:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 0
           slot2:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 1
           slot3:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 2
           slot4:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 3
           slot5:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 4
           slot6:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 5
           slot7:
-            effect_id: 262
+            effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 6
     - short_name: darkelf
@@ -610,16 +610,20 @@ skills:
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 15
+            effect_id: 15 # SE_CurrentMana
             base1: 5
             base2: 0
           slot2:
-            effect_id: 46
+            effect_id: 46 # SE_ResistFire
             base1: 50
             base2: 0
           slot3:
-            effect_id: 50
+            effect_id: 50 # SE_ResistMagic
             base1: 50
+            base2: 0
+          slot4:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
             base2: 0
     - short_name: barbarian
       aa_name: Barbarian
@@ -628,6 +632,7 @@ skills:
       races: 2
       type: 1
       grant_only: 1
+      # test
       ranks:
         - index: 1
           id: 32
@@ -638,14 +643,14 @@ skills:
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 47
+            effect_id: 47 # SE_ResistCold
             base1: 60
             base2: 0
           slot2:
-            effect_id: 49
+            effect_id: 49 # SE_ResistDisease
             base1: 60
             base2: 0
           slot3:
-            effect_id: 233
+            effect_id: 233 # SE_Metabolism
             base1: 175
             base2: 0

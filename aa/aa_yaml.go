@@ -4,13 +4,14 @@ import "fmt"
 
 type AAYaml struct {
 	Skills []struct {
-		Name      string `yaml:"aa_name"`
-		ID        int    `yaml:"id"`
-		Type      int    `yaml:"type"`
-		Classes   int    `yaml:"classes"`
-		Races     int    `yaml:"races"` // if 0, default to 65535
-		GrantOnly int    `yaml:"grant_only"`
-		Ranks     []struct {
+		Name            string `yaml:"aa_name"`
+		ID              int    `yaml:"id"`
+		Type            int    `yaml:"type"`
+		Classes         int    `yaml:"classes"`
+		Races           int    `yaml:"races"` // if 0, default to 65535
+		GrantOnly       int    `yaml:"grant_only"`
+		DrakkinHeritage int    `yaml:"drakkin_heritage"`
+		Ranks           []struct {
 			Index          int    `yaml:"index"`
 			Name           string `yaml:"name"`
 			ID             int    `yaml:"id"`

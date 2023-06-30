@@ -627,7 +627,6 @@ skills:
       races: 2
       type: 1
       grant_only: 1
-      # test
       ranks:
         - index: 1
           id: 32
@@ -649,31 +648,358 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 175
             base2: 0
-    - aa_name: BarbarianDw
-      id: 5
+    - aa_name: Dwarf
+      id: 6
       classes: 65535
-      races: 2
+      races: 128
       type: 1
       grant_only: 1
-      # test
       ranks:
         - index: 1
-          id: 32
-          name: Barbarian
-          title_sid: 6
-          description: As a Barbarian, you have normal vision, 25% metabolism, Slam, and 60 to CR/DR.
-          desc_sid: 33
+          id: 33
+          name: Dwarf
+          title_sid: 7
+          description: As a Dwarf, you have normal infravision, 150% metabolism, Barrel Roll, and 50 to MR/PR.
+          desc_sid: 34
           cost: 1
           level_req: 1
           slot1:
-            effect_id: 47 # SE_ResistCold
-            base1: 60
+            effect_id: 50 # SE_ResistMagic
+            base1: 50
+            base2: 0
+          slot2:
+            effect_id: 48 # SE_ResistPoison
+            base1: 50
+            base2: 0
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 25
+            base2: 0
+    - aa_name: Erudite
+      id: 7
+      classes: 65535
+      races: 4
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 34
+          name: Erudite
+          title_sid: 8
+          description: As an Erudite, you have normal vision, 100% metabolism, 5 Mana Regeneration, -5 DR, 25 MR
+          desc_sid: 35
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 15 # SE_CurrentMana
+            base1: 5
             base2: 0
           slot2:
             effect_id: 49 # SE_ResistDisease
-            base1: 60
+            base1: -5
+            base2: 0
+          slot3:
+            effect_id: 50 # SE_ResistMagic
+            base1: 25
+            base2: 0
+          slot4:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Froglok
+      id: 8
+      classes: 65535
+      races: 16384
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 35
+          name: Froglok
+          title_sid: 9
+          description: As a Froglok, you have normal vision, 100% metabolism, Backflip, and Everlasting Breath
+          desc_sid: 36
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 14 # SE_WaterBreathing
+            base1: 1
+            base2: 0
+          slot2:
+            effect_id: 246 # SE_SetBreathLevel
+            base1: 350
+            base2: 0
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Gnome
+      id: 9
+      classes: 65535
+      races: 2048
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 36
+          name: Gnome
+          title_sid: 10
+          description: As a Gnome, you have infravision, 100% metabolism, Tinkering, 2 Mana Regeneration, 50 MR
+          desc_sid: 37
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 15 # SE_CurrentMana
+            base1: 2
+            base2: 0
+          slot2:
+            effect_id: 50 # SE_ResistMagic
+            base1: 25
+            base2: 0
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Half Elf
+      id: 10
+      classes: 65535
+      races: 64
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 37
+          name: Half Elf
+          title_sid: 11
+          description: As a Half Elf, you have infravision, 100% metabolism, 2 Mana Regeneration, 20 MR/CR/FR/DR/PR
+          desc_sid: 38
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 15 # SE_CurrentMana
+            base1: 2
+            base2: 0
+          slot2:
+            effect_id: 50 # SE_ResistMagic
+            base1: 20
+            base2: 0
+          slot3:
+            effect_id: 46 # SE_ResistFire
+            base1: 20
+            base2: 0
+          slot4:
+            effect_id: 47 # SE_ResistCold
+            base1: 20
+            base2: 0
+          slot5:
+            effect_id: 48 # SE_ResistPoison
+            base1: 20
+            base2: 0
+          slot6:
+            effect_id: 49 # SE_ResistDisease
+            base1: 20
+            base2: 0
+          slot7:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: High Elf
+      id: 11
+      classes: 65535
+      races: 16
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 38
+          name: High Elf
+          title_sid: 12
+          description: As a High Elf, you have infravision, 100% metabolism, 6 Mana Regeneration
+          desc_sid: 39
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 15 # SE_CurrentMana
+            base1: 6
+            base2: 0
+          slot7:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Human
+      id: 12
+      classes: 65535
+      races: 1
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 39
+          name: Human
+          title_sid: 13
+          description: As a Human, you have normal vision, 100% metabolism, 25 MR/CR/FR/DR/PR
+          desc_sid: 40
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 50 # SE_ResistMagic
+            base1: 40
+            base2: 0
+          slot2:
+            effect_id: 46 # SE_ResistFire
+            base1: 40
+            base2: 0
+          slot3:
+            effect_id: 47 # SE_ResistCold
+            base1: 40
+            base2: 0
+          slot4:
+            effect_id: 48 # SE_ResistPoison
+            base1: 40
+            base2: 0
+          slot5:
+            effect_id: 49 # SE_ResistDisease
+            base1: 40
+            base2: 0
+          slot6:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Iksar
+      id: 13
+      classes: 65535
+      races: 4096
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 40
+          name: Iksar
+          title_sid: 14
+          description: As an Iksar, you have infravision, 100% metabolism, Forage, Improved Armor Class, Racial HP Regeneration, Everlasting Breath, -10 CR, 30 FR
+          desc_sid: 41
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 14 # SE_WaterBreathing
+            base1: 1
+            base2: 0
+          slot2:
+            effect_id: 246 # SE_SetBreathLevel
+            base1: 350
+            base2: 0
+          slot3:
+            effect_id: 46 # SE_ResistFire
+            base1: 20 # only 20 since they have innate 10
+            base2: 0
+          slot4:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Ogre
+      id: 14
+      classes: 65535
+      races: 512
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 41
+          name: Ogre
+          title_sid: 15
+          description: As an Ogre, you have infravision, 175% metabolism, Slam, All Direction Stun Immunity
+          desc_sid: 42
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 233 # SE_Metabolism
+            base1: 25
+            base2: 0
+    - aa_name: Troll
+      id: 15
+      classes: 65535
+      races: 9
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 42
+          name: Troll
+          title_sid: 16
+          description: As a Troll, you have infravision, 175% metabolism, Slam, Racial HP Regeneration, -20 FR
+          desc_sid: 43
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 233 # SE_Metabolism
+            base1: 25
+            base2: 0
+          slot2:
+            effect_id: 46 # SE_ResistFire
+            base1: -10 # -10 innate+-10 here = -20 FR
+            base2: 0
+    - aa_name: Wood Elf
+      id: 16
+      classes: 65535
+      races: 8
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 43
+          name: Wood Elf
+          title_sid: 17
+          description: As a Wood Elf, you have infravision, 25% metabolism, Forage, Hide, 50 MR/PR
+          desc_sid: 44
+          cost: 1
+          level_req: 1
+          slot1:
+            effect_id: 50 # SE_ResistMagic
+            base1: 50
+            base2: 0
+          slot2:
+            effect_id: 48 # SE_ResistPoison
+            base1: 50
             base2: 0
           slot3:
             effect_id: 233 # SE_Metabolism
             base1: 175
+            base2: 0
+    - aa_name: Vah Shir
+      id: 17
+      classes: 65535
+      races: 32768
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 44
+          name: Vah Shir
+          title_sid: 18
+          description: As a Vah Shir, you have normal vision, 100% metabolism
+          desc_sid: 46
+          cost: 1
+          level_req: 1
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
+            base2: 0
+    - aa_name: Drakkin
+      id: 18
+      classes: 65535
+      races: 32768
+      type: 1
+      grant_only: 1
+      ranks:
+        - index: 1
+          id: 45
+          name: Drakkin
+          title_sid: 19
+          description: As a Drakkin, you have normal vision, 100% metabolism
+          desc_sid: 48
+          cost: 1
+          level_req: 1
+          slot3:
+            effect_id: 233 # SE_Metabolism
+            base1: 100
             base2: 0

@@ -95,11 +95,17 @@ func modifyDBStr(db *dbReader, aa *AAYaml) error {
 	defer r.Close()
 	scanner := bufio.NewScanner(r)
 
+	key := ""
 	db.SIDs = map[string]string{}
 	for _, skill := range aa.Skills {
+		key = fmt.Sprintf("%d^1^", skill.NameSID)
+		db.SIDs[key] = fmt.Sprintf("%s%s^0", key, skill.Name)
+
 		for _, rank := range skill.Ranks {
-			key := fmt.Sprintf("%d^1^", rank.TitleSID)
-			db.SIDs[key] = fmt.Sprintf("%s%s^0", key, rank.Name)
+			if rank.TitleSID != 0 {
+				key = fmt.Sprintf("%d^1^", rank.TitleSID)
+				db.SIDs[key] = fmt.Sprintf("%s%s^0", key, rank.Title)
+			}
 
 			key = fmt.Sprintf("%d^4^", rank.DescriptionSID)
 			if db.SIDs[key] != "" {

@@ -121,17 +121,28 @@ func generateAASQL(aa *AAYaml) error {
 
 	w.WriteString("TRUNCATE aa_ranks;\n")
 	w.WriteString("INSERT INTO aa_ranks (id, upper_hotkey_sid, lower_hotkey_sid, title_sid, desc_sid, cost, level_req, spell, spell_type, recast_time, expansion, prev_id, next_id) VALUES\n")
+
+	lastSID := 0
 	for skillIndex, skill := range aa.Skills {
+		if skill.NameSID != 0 {
+			lastSID = skill.NameSID
+		}
 		for rankIndex, rank := range skill.Ranks {
 			prevID := -1
 			nextID := -1
+
+			if rank.TitleSID != 0 {
+				lastSID = rank.TitleSID
+			}
+
 			if rankIndex > 0 {
 				prevID = skill.Ranks[rankIndex-1].ID
 			}
 			if rankIndex < len(skill.Ranks)-1 {
 				nextID = skill.Ranks[rankIndex+1].ID
 			}
-			w.WriteString(fmt.Sprintf("	(%d, -1, -1, %d, %d, %d, %d, 0, 0, 0, 0, %d, %d)", rank.ID, rank.TitleSID, rank.DescriptionSID, rank.Cost, rank.LevelReq, prevID, nextID))
+
+			w.WriteString(fmt.Sprintf("	(%d, -1, -1, %d, %d, %d, %d, 0, 0, 0, 0, %d, %d)", rank.ID, lastSID, rank.DescriptionSID, rank.Cost, rank.LevelReq, prevID, nextID))
 			if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
 				w.WriteString(";\n\n")
 			} else {

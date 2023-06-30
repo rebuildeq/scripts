@@ -5,6 +5,7 @@ import "fmt"
 type AAYaml struct {
 	Skills []struct {
 		Name            string `yaml:"aa_name"`
+		NameSID         int    `yaml:"aa_name_sid"`
 		ID              int    `yaml:"id"`
 		Type            int    `yaml:"type"`
 		Classes         int    `yaml:"classes"`
@@ -13,8 +14,8 @@ type AAYaml struct {
 		DrakkinHeritage int    `yaml:"drakkin_heritage"`
 		Ranks           []struct {
 			Index          int    `yaml:"index"`
-			Name           string `yaml:"name"`
 			ID             int    `yaml:"id"`
+			Title          string `yaml:"title"`
 			TitleSID       int    `yaml:"title_sid"`
 			Description    string `yaml:"description"`
 			DescriptionSID int    `yaml:"desc_sid"`
@@ -69,15 +70,27 @@ func (e *AAYaml) sanitize() error {
 		if abilityName != skill.Name {
 			return fmt.Errorf("ability name mismatch for skill id %d between '%s' and '%s'", skill.ID, abilityName, skill.Name)
 		}
+		titleName, ok := titleNames[skill.NameSID]
+		if !ok {
+			titleNames[skill.NameSID] = skill.Name
+			titleName = skill.Name
+		}
+		if titleName != skill.Name {
+			return fmt.Errorf("title name mismatch for nameSID %d for skill id %d between '%s' and '%s'", skill.NameSID, skillIndex, titleName, skill.Name)
+		}
 		for rankIndex, rank := range skill.Ranks {
-			titleName, ok := titleNames[rank.TitleSID]
-			if !ok {
-				titleNames[rank.TitleSID] = rank.Name
-				titleName = rank.Name
+
+			if rank.TitleSID != 0 {
+				titleName, ok := titleNames[rank.TitleSID]
+				if !ok {
+					titleNames[rank.TitleSID] = rank.Title
+					titleName = rank.Title
+				}
+				if titleName != rank.Title {
+					return fmt.Errorf("title name mismatch for titleSID %d skill id %d rank %d between '%s' and '%s'", rank.TitleSID, skillIndex, rankIndex, titleName, rank.Title)
+				}
 			}
-			if titleName != rank.Name {
-				return fmt.Errorf("title name mismatch for titleSID %d for skill id %d rank %d between '%s' and '%s'", rank.TitleSID, skillIndex, rankIndex, titleName, rank.Name)
-			}
+
 			descName, ok := descNames[rank.DescriptionSID]
 			if !ok {
 				descNames[rank.DescriptionSID] = rank.Description

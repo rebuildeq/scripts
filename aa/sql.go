@@ -3,6 +3,8 @@ package aa
 import (
 	"fmt"
 	"os"
+
+	"github.com/xackery/rebuildeq/util"
 )
 
 func generateAASQL(aa *AAYaml) error {
@@ -18,7 +20,7 @@ func generateAASQL(aa *AAYaml) error {
 		if len(skill.Ranks) == 0 {
 			continue
 		}
-		w.WriteString(fmt.Sprintf("	(%d, '%s', -1, %d, 65535, 127, 131071, 0, %d, 0, %d, %d, 1, 0)", skill.ID, skill.Name, skill.Classes, skill.Type, skill.GrantOnly, skill.Ranks[0].ID))
+		w.WriteString(fmt.Sprintf("	(%d, '%s', -1, %d, 65535, 127, 131071, 0, %d, 0, %d, %d, 1, 0)", skill.ID, util.EscapeSQL(skill.Name), skill.Classes, skill.Type, skill.GrantOnly, skill.Ranks[0].ID))
 		if skillIndex == len(aa.Skills)-1 {
 			w.WriteString(";\n\n")
 		} else {

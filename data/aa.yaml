@@ -9,7 +9,7 @@ skills:
           id: 1
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 0% to 3% when not affected by a movement speed buff.
+          description: Increase movement from 0% to 3% when not affected by a movement speed buff.
           desc_sid: 2
           cost: 1
           level_req: 1
@@ -21,7 +21,7 @@ skills:
           id: 2
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 3% to 6% when not affected by a movement speed buff.
+          description: Increase movement from 3% to 6% when not affected by a movement speed buff.
           desc_sid: 3
           cost: 1
           slot1:
@@ -32,7 +32,7 @@ skills:
           id: 3
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 6% to 9% when not affected by a movement speed buff.
+          description: Increase movement from 6% to 9% when not affected by a movement speed buff.
           desc_sid: 4
           cost: 1
           slot1:
@@ -43,7 +43,7 @@ skills:
           id: 4
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 9% to 12% when not affected by a movement speed buff.
+          description: Increase movement from 9% to 12% when not affected by a movement speed buff.
           desc_sid: 5
           cost: 1
           slot1:
@@ -54,7 +54,7 @@ skills:
           id: 5
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 12% to 15% when not affected by a movement speed buff.
+          description: Increase movement from 12% to 15% when not affected by a movement speed buff.
           desc_sid: 6
           cost: 1
           slot1:
@@ -65,7 +65,7 @@ skills:
           id: 6
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 15% to 18% when not affected by a movement speed buff.
+          description: Increase movement from 15% to 18% when not affected by a movement speed buff.
           desc_sid: 7
           cost: 1
           slot1:
@@ -76,7 +76,7 @@ skills:
           id: 7
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 18% to 21% when not affected by a movement speed buff.
+          description: Increase movement from 18% to 21% when not affected by a movement speed buff.
           desc_sid: 8
           cost: 1
           slot1:
@@ -87,7 +87,7 @@ skills:
           id: 8
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 21% to 24% when not affected by a movement speed buff.
+          description: Increase movement from 21% to 24% when not affected by a movement speed buff.
           desc_sid: 9
           cost: 1
           slot1:
@@ -98,7 +98,7 @@ skills:
           id: 9
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 24% to 27% when not affected by a movement speed buff.
+          description: Increase movement from 24% to 27% when not affected by a movement speed buff.
           desc_sid: 10
           cost: 1
           slot1:
@@ -109,14 +109,14 @@ skills:
           id: 10
           name: Innate Movement Speed
           title_sid: 2
-          description: TODO Increase movement from 27% to 30% when not affected by a movement speed buff.
+          description: Increase movement from 27% to 30% when not affected by a movement speed buff.
           desc_sid: 11
           cost: 1
           slot1:
             effect_id: 271 # SE_BaseMovementSpeed
             base1: 30
             base2: 0
-    - aa_name: Weight Reduction
+    - aa_name: TODO Weight Reduction
       id: 2
       classes: 65535
       type: 1 # General
@@ -124,9 +124,9 @@ skills:
       ranks:
         - index: 1
           id: 11
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 0% to 3%.
+          description: Reduce weight of items in your inventory from 0% to 3%.
           desc_sid: 12
           cost: 1
           level_req: 1
@@ -136,9 +136,9 @@ skills:
             base2: 0
         - index: 2
           id: 12
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 3% to 6%.
+          description: Reduce weight of items in your inventory from 3% to 6%.
           desc_sid: 13
           cost: 1
           slot1:
@@ -147,9 +147,9 @@ skills:
               base2: 0
         - index: 3
           id: 13
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 6% to 9%.
+          description: Reduce weight of items in your inventory from 6% to 9%.
           desc_sid: 14
           cost: 1
           slot1:
@@ -158,9 +158,9 @@ skills:
               base2: 0
         - index: 4
           id: 14
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 9% to 12%.
+          description: Reduce weight of items in your inventory from 9% to 12%.
           desc_sid: 15
           cost: 1
           slot1:
@@ -169,9 +169,9 @@ skills:
               base2: 0
         - index: 5
           id: 15
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 12% to 15%.
+          description: Reduce weight of items in your inventory from 12% to 15%.
           desc_sid: 16
           cost: 1
           slot1:
@@ -180,9 +180,9 @@ skills:
               base2: 0
         - index: 6
           id: 16
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 15% to 18%.
+          description: Reduce weight of items in your inventory from 15% to 18%.
           desc_sid: 17
           cost: 1
           slot1:
@@ -191,9 +191,9 @@ skills:
               base2: 0
         - index: 7
           id: 17
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 18% to 21%.
+          description: Reduce weight of items in your inventory from 18% to 21%.
           desc_sid: 18
           cost: 1
           slot1:
@@ -202,9 +202,9 @@ skills:
               base2: 0
         - index: 8
           id: 18
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 21% to 24%.
+          description: Reduce weight of items in your inventory from 21% to 24%.
           desc_sid: 19
           cost: 1
           slot1:
@@ -213,9 +213,9 @@ skills:
               base2: 0
         - index: 9
           id: 19
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 24% to 27%.
+          description: Reduce weight of items in your inventory from 24% to 27%.
           desc_sid: 20
           cost: 1
           slot1:
@@ -224,9 +224,9 @@ skills:
               base2: 0
         - index: 0
           id: 20
-          name: Weight Reduction
+          name: TODO Weight Reduction
           title_sid: 3
-          description: TODO Reduce weight of items in your inventory from 27% to 30%.
+          description: Reduce weight of items in your inventory from 27% to 30%.
           desc_sid: 21
           cost: 1
           slot1:
@@ -243,7 +243,7 @@ skills:
           id: 21
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 255 to 265 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 255 to 265 (+10).
           desc_sid: 22
           cost: 1
           level_req: 1
@@ -279,7 +279,7 @@ skills:
           id: 22
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 265 to 275 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 265 to 275 (+10).
           desc_sid: 23
           cost: 1
           slot1:
@@ -314,7 +314,7 @@ skills:
           id: 23
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 275 to 285 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 275 to 285 (+10).
           desc_sid: 24
           cost: 1
           slot1:
@@ -349,7 +349,7 @@ skills:
           id: 24
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 285 to 295 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 285 to 295 (+10).
           desc_sid: 25
           cost: 1
           slot1:
@@ -384,7 +384,7 @@ skills:
           id: 25
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 295 to 305 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 295 to 305 (+10).
           desc_sid: 26
           cost: 1
           slot1:
@@ -419,7 +419,7 @@ skills:
           id: 26
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 305 to 315 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 305 to 315 (+10).
           desc_sid: 27
           cost: 1
           slot1:
@@ -454,7 +454,7 @@ skills:
           id: 27
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 315 to 325 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 315 to 325 (+10).
           desc_sid: 28
           cost: 1
           slot1:
@@ -489,7 +489,7 @@ skills:
           id: 28
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 325 to 335 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 325 to 335 (+10).
           desc_sid: 29
           cost: 1
           slot1:
@@ -524,7 +524,7 @@ skills:
           id: 29
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 335 to 345 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 335 to 345 (+10).
           desc_sid: 30
           cost: 1
           slot1:
@@ -559,7 +559,7 @@ skills:
           id: 30
           name: Increase Max Base Stats
           title_sid: 4
-          description: TODO Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 345 to 355 (+10).
+          description: Increase max STR/DEX/AGI/DEX/WIS/INT/CHA from 345 to 355 (+10).
           desc_sid: 31
           cost: 1
           slot1:
@@ -590,7 +590,7 @@ skills:
             effect_id: 262 # SE_RaiseStatCap
             base1: 100
             base2: 6
-    - aa_name: Dark Elf
+    - aa_name: TODO Dark Elf
       id: 4
       classes: 65535
       races: 16
@@ -599,9 +599,9 @@ skills:
       ranks:
         - index: 1
           id: 31
-          name: Dark Elf
+          name: TODO Dark Elf
           title_sid: 5
-          description: TODO As a Dark Elf, you have ultravision, 100% metabolism, Hide, 5 Mana Regeneration, and 50 to FR/MR.
+          description: As a Dark Elf, you have ultravision, 100% metabolism, Hide, 5 Mana Regeneration, and 50 to FR/MR.
           desc_sid: 32
           cost: 1
           level_req: 1
@@ -621,7 +621,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Barbarian
+    - aa_name: TODO Barbarian
       id: 5
       classes: 65535
       races: 2
@@ -630,9 +630,9 @@ skills:
       ranks:
         - index: 1
           id: 32
-          name: Barbarian
+          name: TODO Barbarian
           title_sid: 6
-          description: TODO As a Barbarian, you have normal vision, 25% metabolism, Slam, and 60 to CR/DR.
+          description: As a Barbarian, you have normal vision, 25% metabolism, Slam, and 60 to CR/DR.
           desc_sid: 33
           cost: 1
           level_req: 1
@@ -648,7 +648,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 175
             base2: 0
-    - aa_name: Dwarf
+    - aa_name: TODO Dwarf
       id: 6
       classes: 65535
       races: 128
@@ -657,9 +657,9 @@ skills:
       ranks:
         - index: 1
           id: 33
-          name: Dwarf
+          name: TODO Dwarf
           title_sid: 7
-          description: TODO As a Dwarf, you have normal infravision, 150% metabolism, Barrel Roll, and 50 to MR/PR.
+          description: As a Dwarf, you have normal infravision, 150% metabolism, Barrel Roll, and 50 to MR/PR.
           desc_sid: 34
           cost: 1
           level_req: 1
@@ -675,7 +675,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 25
             base2: 0
-    - aa_name: Erudite
+    - aa_name: TODO Erudite
       id: 7
       classes: 65535
       races: 4
@@ -684,9 +684,9 @@ skills:
       ranks:
         - index: 1
           id: 34
-          name: Erudite
+          name: TODO Erudite
           title_sid: 8
-          description: TODO As an Erudite, you have normal vision, 100% metabolism, 5 Mana Regeneration, -5 DR, 25 MR
+          description: As an Erudite, you have normal vision, 100% metabolism, 5 Mana Regeneration, -5 DR, 25 MR
           desc_sid: 35
           cost: 1
           level_req: 1
@@ -706,7 +706,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Froglok
+    - aa_name: TODO Froglok
       id: 8
       classes: 65535
       races: 16384
@@ -715,9 +715,9 @@ skills:
       ranks:
         - index: 1
           id: 35
-          name: Froglok
+          name: TODO Froglok
           title_sid: 9
-          description: TODO As a Froglok, you have normal vision, 100% metabolism, Backflip, and Everlasting Breath
+          description: As a Froglok, you have normal vision, 100% metabolism, Backflip, and Everlasting Breath
           desc_sid: 36
           cost: 1
           level_req: 1
@@ -733,7 +733,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Gnome
+    - aa_name: TODO Gnome
       id: 9
       classes: 65535
       races: 2048
@@ -742,9 +742,9 @@ skills:
       ranks:
         - index: 1
           id: 36
-          name: Gnome
+          name: TODO Gnome
           title_sid: 10
-          description: TODO As a Gnome, you have infravision, 100% metabolism, Tinkering, 2 Mana Regeneration, 50 MR
+          description: As a Gnome, you have infravision, 100% metabolism, Tinkering, 2 Mana Regeneration, 50 MR
           desc_sid: 37
           cost: 1
           level_req: 1
@@ -760,7 +760,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Half Elf
+    - aa_name: TODO Half Elf
       id: 10
       classes: 65535
       races: 64
@@ -769,9 +769,9 @@ skills:
       ranks:
         - index: 1
           id: 37
-          name: Half Elf
+          name: TODO Half Elf
           title_sid: 11
-          description: TODO As a Half Elf, you have infravision, 100% metabolism, 2 Mana Regeneration, 20 MR/CR/FR/DR/PR
+          description: As a Half Elf, you have infravision, 100% metabolism, 2 Mana Regeneration, 20 MR/CR/FR/DR/PR
           desc_sid: 38
           cost: 1
           level_req: 1
@@ -803,7 +803,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: High Elf
+    - aa_name: TODO High Elf
       id: 11
       classes: 65535
       races: 16
@@ -812,9 +812,9 @@ skills:
       ranks:
         - index: 1
           id: 38
-          name: High Elf
+          name: TODO High Elf
           title_sid: 12
-          description: TODO As a High Elf, you have infravision, 100% metabolism, 6 Mana Regeneration
+          description: As a High Elf, you have infravision, 100% metabolism, 6 Mana Regeneration
           desc_sid: 39
           cost: 1
           level_req: 1
@@ -826,7 +826,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Human
+    - aa_name: TODO Human
       id: 12
       classes: 65535
       races: 1
@@ -835,9 +835,9 @@ skills:
       ranks:
         - index: 1
           id: 39
-          name: Human
+          name: TODO Human
           title_sid: 13
-          description: TODO As a Human, you have normal vision, 100% metabolism, 25 MR/CR/FR/DR/PR
+          description: As a Human, you have normal vision, 100% metabolism, 25 MR/CR/FR/DR/PR
           desc_sid: 40
           cost: 1
           level_req: 1
@@ -865,7 +865,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Iksar
+    - aa_name: TODO Iksar
       id: 13
       classes: 65535
       races: 4096
@@ -874,9 +874,9 @@ skills:
       ranks:
         - index: 1
           id: 40
-          name: Iksar
+          name: TODO Iksar
           title_sid: 14
-          description: TODO As an Iksar, you have infravision, 100% metabolism, Forage, Improved Armor Class, Racial HP Regeneration, Everlasting Breath, -10 CR, 30 FR
+          description: As an Iksar, you have infravision, 100% metabolism, Forage, Improved Armor Class, Racial HP Regeneration, Everlasting Breath, -10 CR, 30 FR
           desc_sid: 41
           cost: 1
           level_req: 1
@@ -896,7 +896,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Ogre
+    - aa_name: TODO Ogre
       id: 14
       classes: 65535
       races: 512
@@ -905,9 +905,9 @@ skills:
       ranks:
         - index: 1
           id: 41
-          name: Ogre
+          name: TODO Ogre
           title_sid: 15
-          description: TODO As an Ogre, you have infravision, 175% metabolism, Slam, All Direction Stun Immunity
+          description: As an Ogre, you have infravision, 175% metabolism, Slam, All Direction Stun Immunity
           desc_sid: 42
           cost: 1
           level_req: 1
@@ -915,7 +915,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 25
             base2: 0
-    - aa_name: Troll
+    - aa_name: TODO Troll
       id: 15
       classes: 65535
       races: 9
@@ -924,9 +924,9 @@ skills:
       ranks:
         - index: 1
           id: 42
-          name: Troll
+          name: TODO Troll
           title_sid: 16
-          description: TODO As a Troll, you have infravision, 175% metabolism, Slam, Racial HP Regeneration, -20 FR
+          description: As a Troll, you have infravision, 175% metabolism, Slam, Racial HP Regeneration, -20 FR
           desc_sid: 43
           cost: 1
           level_req: 1
@@ -938,7 +938,7 @@ skills:
             effect_id: 46 # SE_ResistFire
             base1: -10 # -10 innate+-10 here = -20 FR
             base2: 0
-    - aa_name: Wood Elf
+    - aa_name: TODO Wood Elf
       id: 16
       classes: 65535
       races: 8
@@ -947,9 +947,9 @@ skills:
       ranks:
         - index: 1
           id: 43
-          name: Wood Elf
+          name: TODO Wood Elf
           title_sid: 17
-          description: TODO As a Wood Elf, you have infravision, 25% metabolism, Forage, Hide, 50 MR/PR
+          description: As a Wood Elf, you have infravision, 25% metabolism, Forage, Hide, 50 MR/PR
           desc_sid: 44
           cost: 1
           level_req: 1
@@ -965,7 +965,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 175
             base2: 0
-    - aa_name: Vah Shir
+    - aa_name: TODO Vah Shir
       id: 17
       classes: 65535
       races: 32768
@@ -974,9 +974,9 @@ skills:
       ranks:
         - index: 1
           id: 44
-          name: Vah Shir
+          name: TODO Vah Shir
           title_sid: 18
-          description: TODO As a Vah Shir, you have normal vision, 100% metabolism
+          description: As a Vah Shir, you have normal vision, 100% metabolism
           desc_sid: 46
           cost: 1
           level_req: 1
@@ -984,7 +984,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Drakkin
+    - aa_name: TODO Drakkin
       id: 18
       classes: 65535
       races: 32768
@@ -993,9 +993,9 @@ skills:
       ranks:
         - index: 1
           id: 45
-          name: Drakkin
+          name: TODO Drakkin
           title_sid: 19
-          description: TODO As a Drakkin, you have normal vision, 100% metabolism
+          description: As a Drakkin, you have normal vision, 100% metabolism
           desc_sid: 48
           cost: 1
           level_req: 1
@@ -1003,7 +1003,7 @@ skills:
             effect_id: 233 # SE_Metabolism
             base1: 100
             base2: 0
-    - aa_name: Elemental Harmony
+    - aa_name: TODO Elemental Harmony
       id: 19
       classes: 128 # Bard
       type: 3 # Class
@@ -1011,9 +1011,9 @@ skills:
       ranks:
         - index: 1
           id: 46
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 20
-          description: TODO Resist songs grant an additional resistance from 0 to 5 for each resistance type.
+          description: Resist songs grant an additional resistance from 0 to 5 for each resistance type.
           desc_sid: 49
           cost: 1
           level_req: 9
@@ -1023,9 +1023,9 @@ skills:
             base2: 5
         - index: 2
           id: 47
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 21
-          description: TODO Songs grant an additional resistance from 5 to 10 for each resistance type.
+          description: Songs grant an additional resistance from 5 to 10 for each resistance type.
           desc_sid: 50
           cost: 1
           slot1:
@@ -1034,9 +1034,9 @@ skills:
             base2: 10
         - index: 3
           id: 48
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 22
-          description: TODO Songs grant an additional resistance from 10 to 15 for each resistance type.
+          description: Songs grant an additional resistance from 10 to 15 for each resistance type.
           desc_sid: 51
           cost: 1
           slot1:
@@ -1045,9 +1045,9 @@ skills:
             base2: 15
         - index: 4
           id: 49
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 23
-          description: TODO Songs grant an additional resistance from 15 to 20 for each resistance type.
+          description: Songs grant an additional resistance from 15 to 20 for each resistance type.
           desc_sid: 52
           cost: 1
           slot1:
@@ -1056,9 +1056,9 @@ skills:
             base2: 20
         - index: 5
           id: 50
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 24
-          description: TODO Songs grant an additional resistance from 20 to 25 for each resistance type.
+          description: Songs grant an additional resistance from 20 to 25 for each resistance type.
           desc_sid: 53
           cost: 1
           slot1:
@@ -1067,9 +1067,9 @@ skills:
             base2: 25
         - index: 6
           id: 51
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 25
-          description: TODO Songs grant an additional resistance from 25 to 30 for each resistance type.
+          description: Songs grant an additional resistance from 25 to 30 for each resistance type.
           desc_sid: 54
           cost: 1
           slot1:
@@ -1078,9 +1078,9 @@ skills:
             base2: 30
         - index: 7
           id: 52
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 26
-          description: TODO Songs grant an additional resistance from 30 to 35 for each resistance type.
+          description: Songs grant an additional resistance from 30 to 35 for each resistance type.
           desc_sid: 55
           cost: 1
           slot1:
@@ -1089,9 +1089,9 @@ skills:
             base2: 35
         - index: 8
           id: 53
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 27
-          description: TODO Songs grant an additional resistance from 35 to 40 for each resistance type.
+          description: Songs grant an additional resistance from 35 to 40 for each resistance type.
           desc_sid: 56
           cost: 1
           slot1:
@@ -1100,9 +1100,9 @@ skills:
             base2: 40
         - index: 9
           id: 54
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 28
-          description: TODO Songs grant an additional resistance from 40 to 45 for each resistance type.
+          description: Songs grant an additional resistance from 40 to 45 for each resistance type.
           desc_sid: 57
           cost: 1
           slot1:
@@ -1111,16 +1111,16 @@ skills:
             base2: 45
         - index: 10
           id: 55
-          name: Elemental Harmony
+          name: TODO Elemental Harmony
           title_sid: 29
-          description: TODO Songs grant an additional resistance from 45 to 50 for each resistance type.
+          description: Songs grant an additional resistance from 45 to 50 for each resistance type.
           desc_sid: 58
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 10
             base2: 50
-    - aa_name: Healing Treble
+    - aa_name: TODO Healing Treble
       id: 20
       classes: 128 # Bard
       type: 3 # Class
@@ -1128,9 +1128,9 @@ skills:
       ranks:
         - index: 1
           id: 56
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 30
-          description: TODO Healing songs heal from 0 to 5% more.
+          description: Healing songs heal from 0 to 5% more.
           desc_sid: 59
           cost: 1
           level_req: 6
@@ -1140,9 +1140,9 @@ skills:
             base2: 5
         - index: 2
           id: 57
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 31
-          description: TODO Healing songs heal from 5 to 10% more.
+          description: Healing songs heal from 5 to 10% more.
           desc_sid: 60
           cost: 1
           slot1:
@@ -1151,9 +1151,9 @@ skills:
             base2: 10
         - index: 3
           id: 58
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 32
-          description: TODO Healing songs heal from 10 to 15% more.
+          description: Healing songs heal from 10 to 15% more.
           desc_sid: 61
           cost: 1
           slot1:
@@ -1162,9 +1162,9 @@ skills:
             base2: 15
         - index: 4
           id: 59
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 33
-          description: TODO Healing songs heal from 15 to 20% more.
+          description: Healing songs heal from 15 to 20% more.
           desc_sid: 62
           cost: 1
           slot1:
@@ -1173,9 +1173,9 @@ skills:
             base2: 20
         - index: 5
           id: 60
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 34
-          description: TODO Healing songs heal from 20 to 25% more.
+          description: Healing songs heal from 20 to 25% more.
           desc_sid: 63
           cost: 1
           slot1:
@@ -1184,9 +1184,9 @@ skills:
             base2: 25
         - index: 6
           id: 61
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 35
-          description: TODO Healing songs heal from 25 to 30% more.
+          description: Healing songs heal from 25 to 30% more.
           desc_sid: 64
           cost: 1
           slot1:
@@ -1195,9 +1195,9 @@ skills:
             base2: 30
         - index: 7
           id: 62
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 36
-          description: TODO Healing songs heal from 30 to 35% more.
+          description: Healing songs heal from 30 to 35% more.
           desc_sid: 65
           cost: 1
           slot1:
@@ -1206,9 +1206,9 @@ skills:
             base2: 35
         - index: 8
           id: 63
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 37
-          description: TODO Healing songs heal from 35 to 40% more.
+          description: Healing songs heal from 35 to 40% more.
           desc_sid: 66
           cost: 1
           slot1:
@@ -1217,9 +1217,9 @@ skills:
             base2: 40
         - index: 9
           id: 64
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 38
-          description: TODO Healing songs heal from 40 to 45% more.
+          description: Healing songs heal from 40 to 45% more.
           desc_sid: 67
           cost: 1
           slot1:
@@ -1228,16 +1228,16 @@ skills:
             base2: 45
         - index: 10
           id: 65
-          name: Healing Treble
+          name: TODO Healing Treble
           title_sid: 39
-          description: TODO Healing songs heal from 45 to 50% more.
+          description: Healing songs heal from 45 to 50% more.
           desc_sid: 68
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 11
             base2: 50
-    - aa_name: Psalm of Norrath
+    - aa_name: TODO Psalm of Norrath
       id: 21
       classes: 128 # Bard
       type: 3 # Class
@@ -1245,9 +1245,9 @@ skills:
       ranks:
         - index: 1
           id: 66
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 40
-          description: TODO Damage shield songs deal from 0 to 10% more damage.
+          description: Damage shield songs deal from 0 to 10% more damage.
           desc_sid: 69
           cost: 1
           level_req: 25
@@ -1257,9 +1257,9 @@ skills:
             base2: 5
         - index: 2
           id: 67
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 41
-          description: TODO Damage shield songs deal from 5 to 20% more damage.
+          description: Damage shield songs deal from 5 to 20% more damage.
           desc_sid: 70
           cost: 1
           slot1:
@@ -1268,9 +1268,9 @@ skills:
             base2: 10
         - index: 3
           id: 68
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 42
-          description: TODO Damage shield songs deal from 10 to 30% more damage.
+          description: Damage shield songs deal from 10 to 30% more damage.
           desc_sid: 71
           cost: 1
           slot1:
@@ -1279,9 +1279,9 @@ skills:
             base2: 15
         - index: 4
           id: 69
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 43
-          description: TODO Damage shield songs deal from 15 to 40% more damage.
+          description: Damage shield songs deal from 15 to 40% more damage.
           desc_sid: 72
           cost: 1
           slot1:
@@ -1290,9 +1290,9 @@ skills:
             base2: 20
         - index: 5
           id: 70
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 44
-          description: TODO Damage shield songs deal from 20 to 50% more damage.
+          description: Damage shield songs deal from 20 to 50% more damage.
           desc_sid: 73
           cost: 1
           slot1:
@@ -1301,9 +1301,9 @@ skills:
             base2: 25
         - index: 6
           id: 71
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 45
-          description: TODO Damage shield songs deal from 25 to 60% more damage.
+          description: Damage shield songs deal from 25 to 60% more damage.
           desc_sid: 74
           cost: 1
           slot1:
@@ -1312,9 +1312,9 @@ skills:
             base2: 30
         - index: 7
           id: 72
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 46
-          description: TODO Damage shield songs deal from 30 to 70% more damage.
+          description: Damage shield songs deal from 30 to 70% more damage.
           desc_sid: 75
           cost: 1
           slot1:
@@ -1323,9 +1323,9 @@ skills:
             base2: 35
         - index: 8
           id: 73
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 47
-          description: TODO Damage shield songs deal from 35 to 80% more damage.
+          description: Damage shield songs deal from 35 to 80% more damage.
           desc_sid: 76
           cost: 1
           slot1:
@@ -1334,9 +1334,9 @@ skills:
             base2: 40
         - index: 9
           id: 74
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 48
-          description: TODO Damage shield songs deal from 40 to 90% more damage.
+          description: Damage shield songs deal from 40 to 90% more damage.
           desc_sid: 77
           cost: 1
           slot1:
@@ -1345,16 +1345,16 @@ skills:
             base2: 45
         - index: 10
           id: 75
-          name: Psalm of Norrath
+          name: TODO Psalm of Norrath
           title_sid: 49
-          description: TODO Damage shield songs deal from 45 to 100% more damage.
+          description: Damage shield songs deal from 45 to 100% more damage.
           desc_sid: 78
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 12
             base2: 50
-    - aa_name: Cassindra's Chorus
+    - aa_name: TODO Cassindra's Chorus
       id: 22
       classes: 128 # Bard
       type: 3 # Class
@@ -1362,9 +1362,9 @@ skills:
       ranks:
         - index: 1
           id: 76
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 50
-          description: TODO Mana songs regen from 0% to 12% more.
+          description: Mana songs regen from 0% to 12% more.
           desc_sid: 79
           cost: 1
           level_req: 20
@@ -1374,9 +1374,9 @@ skills:
             base2: 12
         - index: 2
           id: 77
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 51
-          description: TODO Mana songs regen from 12% to 24% more.
+          description: Mana songs regen from 12% to 24% more.
           desc_sid: 80
           cost: 1
           slot1:
@@ -1385,9 +1385,9 @@ skills:
             base2: 24
         - index: 3
           id: 78
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 52
-          description: TODO Mana songs regen from 24% to 36% more.
+          description: Mana songs regen from 24% to 36% more.
           desc_sid: 81
           cost: 1
           slot1:
@@ -1396,9 +1396,9 @@ skills:
             base2: 36
         - index: 4
           id: 79
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 53
-          description: TODO Mana songs regen from 36% to 48% more.
+          description: Mana songs regen from 36% to 48% more.
           desc_sid: 82
           cost: 1
           slot1:
@@ -1407,9 +1407,9 @@ skills:
             base2: 48
         - index: 5
           id: 80
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 54
-          description: TODO Mana songs regen from 48% to 60% more.
+          description: Mana songs regen from 48% to 60% more.
           desc_sid: 83
           cost: 1
           slot1:
@@ -1418,9 +1418,9 @@ skills:
             base2: 60
         - index: 6
           id: 81
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 55
-          description: TODO Mana songs regen from 60% to 72% more.
+          description: Mana songs regen from 60% to 72% more.
           desc_sid: 84
           cost: 1
           slot1:
@@ -1429,9 +1429,9 @@ skills:
             base2: 72
         - index: 7
           id: 82
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 56
-          description: TODO Mana songs regen from 72% to 84% more.
+          description: Mana songs regen from 72% to 84% more.
           desc_sid: 85
           cost: 1
           slot1:
@@ -1440,9 +1440,9 @@ skills:
             base2: 84
         - index: 8
           id: 83
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 57
-          description: TODO Mana songs regen from 84% to 96% more.
+          description: Mana songs regen from 84% to 96% more.
           desc_sid: 86
           cost: 1
           slot1:
@@ -1451,9 +1451,9 @@ skills:
             base2: 96
         - index: 9
           id: 84
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 58
-          description: TODO Mana songs regen from 96% to 108% more.
+          description: Mana songs regen from 96% to 108% more.
           desc_sid: 87
           cost: 1
           slot1:
@@ -1462,16 +1462,16 @@ skills:
             base2: 108
         - index: 10
           id: 85
-          name: Cassindra's Chorus
+          name: TODO Cassindra's Chorus
           title_sid: 59
-          description: TODO Mana songs regen from 108% to 120% more.
+          description: Mana songs regen from 108% to 120% more.
           desc_sid: 88
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 13
             base2: 120
-    - aa_name: Shield of Songs
+    - aa_name: TODO Shield of Songs
       id: 23
       classes: 128 # Bard
       type: 3 # Class
@@ -1479,9 +1479,9 @@ skills:
       ranks:
         - index: 1
           id: 86
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 60
-          description: TODO Rune songs increase from 0% to 13% more rune effect.
+          description: Rune songs increase from 0% to 13% more rune effect.
           desc_sid: 89
           cost: 1
           level_req: 49
@@ -1491,9 +1491,9 @@ skills:
             base2: 13
         - index: 2
           id: 87
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 61
-          description: TODO Rune songs increase from 13% to 26% more rune effect.
+          description: Rune songs increase from 13% to 26% more rune effect.
           desc_sid: 90
           cost: 1
           slot1:
@@ -1502,9 +1502,9 @@ skills:
             base2: 26
         - index: 3
           id: 88
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 62
-          description: TODO Rune songs increase from 26% to 39% more rune effect.
+          description: Rune songs increase from 26% to 39% more rune effect.
           desc_sid: 91
           cost: 1
           slot1:
@@ -1513,9 +1513,9 @@ skills:
             base2: 39
         - index: 4
           id: 89
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 63
-          description: TODO Rune songs increase from 39% to 52% more rune effect.
+          description: Rune songs increase from 39% to 52% more rune effect.
           desc_sid: 92
           cost: 1
           slot1:
@@ -1524,9 +1524,9 @@ skills:
             base2: 52
         - index: 5
           id: 90
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 64
-          description: TODO Rune songs increase from 52% to 65% more rune effect.
+          description: Rune songs increase from 52% to 65% more rune effect.
           desc_sid: 93
           cost: 1
           slot1:
@@ -1535,9 +1535,9 @@ skills:
             base2: 65
         - index: 6
           id: 91
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 65
-          description: TODO Rune songs increase from 65% to 78% more rune effect.
+          description: Rune songs increase from 65% to 78% more rune effect.
           desc_sid: 94
           cost: 1
           slot1:
@@ -1546,9 +1546,9 @@ skills:
             base2: 78
         - index: 7
           id: 92
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 66
-          description: TODO Rune songs increase from 78% to 91% more rune effect.
+          description: Rune songs increase from 78% to 91% more rune effect.
           desc_sid: 95
           cost: 1
           slot1:
@@ -1557,9 +1557,9 @@ skills:
             base2: 91
         - index: 8
           id: 93
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 67
-          description: TODO Rune songs increase from 91% to 104% more rune effect.
+          description: Rune songs increase from 91% to 104% more rune effect.
           desc_sid: 96
           cost: 1
           slot1:
@@ -1568,9 +1568,9 @@ skills:
             base2: 104
         - index: 9
           id: 94
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 68
-          description: TODO Rune songs increase from 104% to 117% more rune effect.
+          description: Rune songs increase from 104% to 117% more rune effect.
           desc_sid: 97
           cost: 1
           slot1:
@@ -1579,16 +1579,16 @@ skills:
             base2: 117
         - index: 10
           id: 95
-          name: Shield of Songs
+          name: TODO Shield of Songs
           title_sid: 69
-          description: TODO Rune songs increase from 117% to 130% more rune effect.
+          description: Rune songs increase from 117% to 130% more rune effect.
           desc_sid: 98
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 14
             base2: 130
-    - aa_name: Katta's Concord
+    - aa_name: TODO Katta's Concord
       id: 24
       classes: 128 # Bard
       type: 3 # Class
@@ -1596,7 +1596,7 @@ skills:
       ranks:
         - index: 1
           id: 96
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 70
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 3 weapon damage.
           desc_sid: 99
@@ -1608,7 +1608,7 @@ skills:
             base2: 13
         - index: 2
           id: 97
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 71
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 6 weapon damage.
           desc_sid: 100
@@ -1619,7 +1619,7 @@ skills:
             base2: 26
         - index: 3
           id: 98
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 72
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 9 weapon damage.
           desc_sid: 101
@@ -1630,7 +1630,7 @@ skills:
             base2: 39
         - index: 4
           id: 99
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 73
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 12 weapon damage.
           desc_sid: 102
@@ -1641,7 +1641,7 @@ skills:
             base2: 52
         - index: 5
           id: 100
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 74
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 15 weapon damage.
           desc_sid: 103
@@ -1652,7 +1652,7 @@ skills:
             base2: 65
         - index: 6
           id: 101
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 75
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 18 weapon damage.
           desc_sid: 104
@@ -1663,7 +1663,7 @@ skills:
             base2: 78
         - index: 7
           id: 102
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 76
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 21 weapon damage.
           desc_sid: 105
@@ -1674,7 +1674,7 @@ skills:
             base2: 91
         - index: 8
           id: 103
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 77
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 24 weapon damage.
           desc_sid: 106
@@ -1685,7 +1685,7 @@ skills:
             base2: 104
         - index: 9
           id: 104
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 78
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 27 weapon damage.
           desc_sid: 107
@@ -1696,7 +1696,7 @@ skills:
             base2: 117
         - index: 10
           id: 105
-          name: Katta's Concord
+          name: TODO Katta's Concord
           title_sid: 79
           description: Katta's Song of Sword now also gives a 100 proc chance to those with the buff to deal from 0 to 30 weapon damage.
           desc_sid: 108

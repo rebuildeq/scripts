@@ -1,5 +1,5 @@
 skills:
-    - aa_name: Innate Movement Speed
+    - aa_name: Innate Run Speed
       aa_name_sid: 2
       id: 1
       classes: 65535
@@ -97,7 +97,7 @@ skills:
             effect_id: 271 # SE_BaseMovementSpeed
             base1: 30
             base2: 0
-    - aa_name: TODO Weight Reduction
+    - aa_name: Packrat
       aa_name_sid: 3
       id: 2
       classes: 65535
@@ -195,7 +195,7 @@ skills:
               effect_id: 221 # SE_Packrat
               base1: 30
               base2: 0
-    - aa_name: Increase Max Base Stats
+    - aa_name: Planar Power
       aa_name_sid: 4
       id: 3
       classes: 65535

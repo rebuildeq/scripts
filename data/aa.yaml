@@ -1519,7 +1519,7 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 15
             base2: 130
-    - aa_name: Cassindra's Secret
+    - aa_name: TODO Cassindra's Secret
       aa_name_sid: 26
       id: 25
       classes: 128 # Bard
@@ -1607,19 +1607,94 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
             base2: 30
-    - aa_name: Kinsong
+    - aa_name: TODO Jonthon's Whistle
       aa_name_sid: 27
       id: 26
       classes: 128 # Bard
       type: 3 # Class
       grant_only: 0
+      level_req: 50
       ranks:
         - index: 1
-          description: Grants the Lesson of the Devoted AA, increasing spell crit chance for nukes and DoTs and melee accuracy for the group. 10 minute recast time, each rank reduces recast by 30 seconds.
+          description: Grants the bard a passive 300 mod proc that deals 12 magic damage.
           desc_sid: 119
           cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
-            base1: 17
-            base2: 10
+            base1: 18
+            base2: 12
+        - index: 2
+          description: Grants the bard a passive 300 mod proc that deals 24 magic damage.
+          desc_sid: 120
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 24
+        - index: 3
+          description: Grants the bard a passive 300 mod proc that deals 36 magic damage.
+          desc_sid: 121
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 36
+        - index: 4
+          description: Grants the bard a passive 300 mod proc that deals 48 magic damage.
+          desc_sid: 122
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 48
+        - index: 5
+          description: Grants the bard a passive 300 mod proc that deals 60 magic damage.
+          desc_sid: 123
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 60
+        - index: 6
+          description: Grants the bard a passive 300 mod proc that deals 72 magic damage.
+          desc_sid: 124
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 72
+        - index: 7
+          description: Grants the bard a passive 300 mod proc that deals 84 magic damage.
+          desc_sid: 125
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 84
+        - index: 8
+          description: Grants the bard a passive 300 mod proc that deals 96 magic damage.
+          desc_sid: 126
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 96
+        - index: 9
+          description: Grants the bard a passive 300 mod proc that deals 108 magic damage.
+          desc_sid: 127
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 108
+        - index: 10
+          description: Grants the bard a passive 300 mod proc that deals 120 magic damage.
+          desc_sid: 128
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 18
+            base2: 120
+
+
 

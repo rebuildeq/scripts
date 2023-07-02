@@ -3,6 +3,7 @@ package aa
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 func generateWeb(aa *AAYaml) error {
@@ -19,11 +20,19 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 	page += "Name|Category|Class|Description\n"
 	page += "---|---|---|---|---\n"
 
+	pages := map[string][]string{}
+
 	for _, skill := range aa.Skills {
 		for _, rank := range skill.Ranks {
-			page += fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description)
+			key := fmt.Sprintf("%s^%s", categoryConvert(skill.Type), classConvert(skill.Classes))
+			pages[key] = append(pages[key], fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description))
+			//page += fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description)
 			break
 		}
+	}
+
+	for _, skills := range pages {
+		page += strings.Join(skills, "")
 	}
 
 	err := os.WriteFile("aa.md", []byte(page), os.ModePerm)

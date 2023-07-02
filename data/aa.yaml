@@ -1538,7 +1538,7 @@ skills:
         - index: 2
           description: Enhances Cassindra\'s Elegy from 2 to 4 mana.
           desc_sid: 110
-          cost: 3
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1546,7 +1546,7 @@ skills:
         - index: 3
           description: Enhances Cassindra\'s Elegy from 4 to 6 mana.
           desc_sid: 111
-          cost: 5
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1554,7 +1554,7 @@ skills:
         - index: 4
           description: Enhances Cassindra\'s Elegy from 6 to 8 mana.
           desc_sid: 112
-          cost: 7
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1562,7 +1562,7 @@ skills:
         - index: 5
           description: Enhances Cassindra\'s Elegy from 8 to 10 mana.
           desc_sid: 113
-          cost: 9
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1570,7 +1570,7 @@ skills:
         - index: 6
           description: Enhances Cassindra\'s Elegy from 10 to 12 mana.
           desc_sid: 114
-          cost: 11
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1578,7 +1578,7 @@ skills:
         - index: 7
           description: Enhances Cassindra\'s Elegy from 12 to 14 mana.
           desc_sid: 115
-          cost: 13
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1586,7 +1586,7 @@ skills:
         - index: 8
           description: Enhances Cassindra\'s Elegy from 14 to 16 mana.
           desc_sid: 116
-          cost: 15
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1594,7 +1594,7 @@ skills:
         - index: 9
           description: Enhances Cassindra\'s Elegy from 16 to 18 mana.
           desc_sid: 117
-          cost: 17
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1602,7 +1602,7 @@ skills:
         - index: 10
           description: Enhances Cassindra\'s Elegy from 18 to 20 mana.
           desc_sid: 118
-          cost: 19
+          cost: 1
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 16
@@ -1695,6 +1695,172 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 18
             base2: 120
-
+    - aa_name: Innate Songblade
+      aa_name_sid: 27
+      id: 26
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      ranks:
+        - index: 1
+          description: Increase melee damage with 1h blunt/slash/piercing from 0% to 5%.
+          desc_sid: 119
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 5
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 5
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 5
+            base2: 36 # 1H Piercing
+        - index: 2
+          description: Increase melee damage with 1h blunt/slash/piercing from 5% to 10%.
+          desc_sid: 120
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 10
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 10
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 10
+            base2: 36 # 1H Piercing
+        - index: 3
+          description: Increase melee damage with 1h blunt/slash/piercing from 10% to 15%.
+          desc_sid: 121
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 15
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 15
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 15
+            base2: 36 # 1H Piercing
+        - index: 4
+          description: Increase melee damage with 1h blunt/slash/piercing from 15% to 20%.
+          desc_sid: 122
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 20
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 20
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 20
+            base2: 36 # 1H Piercing
+        - index: 5
+          description: Increase melee damage with 1h blunt/slash/piercing from 20% to 25%.
+          desc_sid: 123
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 25
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 25
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 25
+            base2: 36 # 1H Piercing
+        - index: 6
+          description: Increase melee damage with 1h blunt/slash/piercing from 25% to 30%.
+          desc_sid: 124
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 30
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 30
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 30
+            base2: 36 # 1H Piercing
+        - index: 7
+          description: Increase melee damage with 1h blunt/slash/piercing from 30% to 35%.
+          desc_sid: 125
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 35
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 35
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 35
+            base2: 36 # 1H Piercing
+        - index: 8
+          description: Increase melee damage with 1h blunt/slash/piercing from 35% to 40%.
+          desc_sid: 126
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 40
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 40
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 40
+            base2: 36 # 1H Piercing
+        - index: 9
+          description: Increase melee damage with 1h blunt/slash/piercing from 40% to 45%.
+          desc_sid: 127
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 45
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 45
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 45
+            base2: 36 # 1H Piercing
+        - index: 10
+          description: Increase melee damage with 1h blunt/slash/piercing from 45% to 50%.
+          desc_sid: 128
+          cost: 1
+          slot1:
+            effect_id: 185 # SE_DamageModifier
+            base1: 50
+            base2: 0 # 1H blunt
+          slot2:
+            effect_id: 185 # SE_DamageModifier
+            base1: 50
+            base2: 1 # 1H Slashing
+          slot3:
+            effect_id: 185 # SE_DamageModifier
+            base1: 50
+            base2: 36 # 1H Piercing
 
 

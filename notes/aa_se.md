@@ -185,7 +185,7 @@ id|name|desc
 182|SE_HundredHands|implemented
 183|SE_MeleeSkillCheck|implemented
 184|SE_HitChance|implemented
-185|SE_DamageModifier|implemented
+185|SE_DamageModifier|base1: % of damage increase, base2: skill id
 186|SE_MinDamageModifier|implemented
 187|SE_BalanceMana|implemented - Balances party mana
 188|SE_IncreaseBlockChance|implemented

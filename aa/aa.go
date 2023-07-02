@@ -14,9 +14,14 @@ func Build(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	db := &dbReader{}
 	fmt.Printf("AA...")
+	var err error
 	defer func() {
 		fmt.Println(" finished in", time.Since(start).String())
 		fmt.Println("AA changed", db.changedDBStrCount, "DBStr entries")
+		if err != nil {
+			fmt.Println("Error:", err)
+			os.Exit(1)
+		}
 	}()
 	data, err := os.ReadFile("aa.yaml")
 	if err != nil {
@@ -42,6 +47,12 @@ func Build(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return fmt.Errorf("modifyDBStr: %w", err)
 	}
+
+	err = generateWeb(&aa)
+	if err != nil {
+		return fmt.Errorf("generateWeb: %w", err)
+	}
+
 	return nil
 }
 

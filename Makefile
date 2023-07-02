@@ -12,6 +12,7 @@ build-all:
 # builds aa
 build-aa: build copy-data
 	cd bin && ./rebuildeq build aa
+	cp bin/aa.md ../web/content/aa.md
 # builds spell
 build-spell: build copy-data
 	cd bin && ./rebuildeq build spell

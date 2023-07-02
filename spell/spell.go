@@ -18,9 +18,14 @@ func Build(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	db := &dbReader{}
 	fmt.Printf("Spell...")
+	var err error
 	defer func() {
 		fmt.Println(" finished in", time.Since(start).String())
 		fmt.Println("Spell changed", db.changedSpellsUSCount, "spells_us entries")
+		if err != nil {
+			fmt.Println("Error:", err)
+			os.Exit(1)
+		}
 	}()
 	data, err := os.ReadFile("spell.yaml")
 	if err != nil {

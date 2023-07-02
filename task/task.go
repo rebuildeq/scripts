@@ -18,8 +18,13 @@ import (
 func Build(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	fmt.Printf("Task...")
+	var err error
 	defer func() {
 		fmt.Println(" finished in", time.Since(start).String())
+		if err != nil {
+			fmt.Println("Error:", err)
+			os.Exit(1)
+		}
 	}()
 	data, err := os.ReadFile("task.yaml")
 	if err != nil {

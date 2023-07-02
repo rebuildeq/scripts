@@ -1696,15 +1696,15 @@ skills:
             base1: 18
             base2: 120
     - aa_name: Innate Songblade
-      aa_name_sid: 27
-      id: 26
+      aa_name_sid: 28
+      id: 27
       classes: 128 # Bard
       type: 3 # Class
       grant_only: 0
       ranks:
         - index: 1
           description: Increase melee damage with 1h blunt/slash/piercing from 0% to 5%.
-          desc_sid: 119
+          desc_sid: 129
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1720,7 +1720,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 2
           description: Increase melee damage with 1h blunt/slash/piercing from 5% to 10%.
-          desc_sid: 120
+          desc_sid: 130
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1736,7 +1736,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 3
           description: Increase melee damage with 1h blunt/slash/piercing from 10% to 15%.
-          desc_sid: 121
+          desc_sid: 131
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1752,7 +1752,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 4
           description: Increase melee damage with 1h blunt/slash/piercing from 15% to 20%.
-          desc_sid: 122
+          desc_sid: 132
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1768,7 +1768,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 5
           description: Increase melee damage with 1h blunt/slash/piercing from 20% to 25%.
-          desc_sid: 123
+          desc_sid: 133
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1784,7 +1784,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 6
           description: Increase melee damage with 1h blunt/slash/piercing from 25% to 30%.
-          desc_sid: 124
+          desc_sid: 134
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1800,7 +1800,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 7
           description: Increase melee damage with 1h blunt/slash/piercing from 30% to 35%.
-          desc_sid: 125
+          desc_sid: 135
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1816,7 +1816,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 8
           description: Increase melee damage with 1h blunt/slash/piercing from 35% to 40%.
-          desc_sid: 126
+          desc_sid: 136
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1832,7 +1832,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 9
           description: Increase melee damage with 1h blunt/slash/piercing from 40% to 45%.
-          desc_sid: 127
+          desc_sid: 137
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier
@@ -1848,7 +1848,7 @@ skills:
             base2: 36 # 1H Piercing
         - index: 10
           description: Increase melee damage with 1h blunt/slash/piercing from 45% to 50%.
-          desc_sid: 128
+          desc_sid: 138
           cost: 1
           slot1:
             effect_id: 185 # SE_DamageModifier

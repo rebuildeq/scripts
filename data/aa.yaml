@@ -1038,7 +1038,7 @@ skills:
       ranks:
         - index: 1
           id: 56
-          description: Healing songs heal from 0 to 5% more.
+          description: Healing songs heal from 0% to 5% more.
           desc_sid: 59
           cost: 1
           level_req: 6
@@ -1048,7 +1048,7 @@ skills:
             base2: 5
         - index: 2
           id: 57
-          description: Healing songs heal from 5 to 10% more.
+          description: Healing songs heal from 5% to 10% more.
           desc_sid: 60
           cost: 1
           slot1:
@@ -1057,7 +1057,7 @@ skills:
             base2: 10
         - index: 3
           id: 58
-          description: Healing songs heal from 10 to 15% more.
+          description: Healing songs heal from 10% to 15% more.
           desc_sid: 61
           cost: 1
           slot1:
@@ -1066,7 +1066,7 @@ skills:
             base2: 15
         - index: 4
           id: 59
-          description: Healing songs heal from 15 to 20% more.
+          description: Healing songs heal from 15% to 20% more.
           desc_sid: 62
           cost: 1
           slot1:
@@ -1075,7 +1075,7 @@ skills:
             base2: 20
         - index: 5
           id: 60
-          description: Healing songs heal from 20 to 25% more.
+          description: Healing songs heal from 20% to 25% more.
           desc_sid: 63
           cost: 1
           slot1:
@@ -1084,7 +1084,7 @@ skills:
             base2: 25
         - index: 6
           id: 61
-          description: Healing songs heal from 25 to 30% more.
+          description: Healing songs heal from 25% to 30% more.
           desc_sid: 64
           cost: 1
           slot1:
@@ -1093,7 +1093,7 @@ skills:
             base2: 30
         - index: 7
           id: 62
-          description: Healing songs heal from 30 to 35% more.
+          description: Healing songs heal from 30% to 35% more.
           desc_sid: 65
           cost: 1
           slot1:
@@ -1102,7 +1102,7 @@ skills:
             base2: 35
         - index: 8
           id: 63
-          description: Healing songs heal from 35 to 40% more.
+          description: Healing songs heal from 35% to 40% more.
           desc_sid: 66
           cost: 1
           slot1:
@@ -1111,7 +1111,7 @@ skills:
             base2: 40
         - index: 9
           id: 64
-          description: Healing songs heal from 40 to 45% more.
+          description: Healing songs heal from 40% to 45% more.
           desc_sid: 67
           cost: 1
           slot1:
@@ -1120,7 +1120,7 @@ skills:
             base2: 45
         - index: 10
           id: 65
-          description: Healing songs heal from 45 to 50% more.
+          description: Healing songs heal from 45% to 50% more.
           desc_sid: 68
           cost: 1
           slot1:
@@ -1136,7 +1136,7 @@ skills:
       ranks:
         - index: 1
           id: 66
-          description: Damage shield songs deal from 0 to 10% more damage.
+          description: Damage shield songs deal from 0% to 10% more damage.
           desc_sid: 69
           cost: 1
           level_req: 25
@@ -1146,7 +1146,7 @@ skills:
             base2: 5
         - index: 2
           id: 67
-          description: Damage shield songs deal from 5 to 20% more damage.
+          description: Damage shield songs deal from 5% to 20% more damage.
           desc_sid: 70
           cost: 1
           slot1:
@@ -1155,7 +1155,7 @@ skills:
             base2: 10
         - index: 3
           id: 68
-          description: Damage shield songs deal from 10 to 30% more damage.
+          description: Damage shield songs deal from 10% to 30% more damage.
           desc_sid: 71
           cost: 1
           slot1:
@@ -1164,7 +1164,7 @@ skills:
             base2: 15
         - index: 4
           id: 69
-          description: Damage shield songs deal from 15 to 40% more damage.
+          description: Damage shield songs deal from 15% to 40% more damage.
           desc_sid: 72
           cost: 1
           slot1:
@@ -1173,7 +1173,7 @@ skills:
             base2: 20
         - index: 5
           id: 70
-          description: Damage shield songs deal from 20 to 50% more damage.
+          description: Damage shield songs deal from 20% to 50% more damage.
           desc_sid: 73
           cost: 1
           slot1:
@@ -1182,7 +1182,7 @@ skills:
             base2: 25
         - index: 6
           id: 71
-          description: Damage shield songs deal from 25 to 60% more damage.
+          description: Damage shield songs deal from 25% to 60% more damage.
           desc_sid: 74
           cost: 1
           slot1:
@@ -1191,7 +1191,7 @@ skills:
             base2: 30
         - index: 7
           id: 72
-          description: Damage shield songs deal from 30 to 70% more damage.
+          description: Damage shield songs deal from 30% to 70% more damage.
           desc_sid: 75
           cost: 1
           slot1:
@@ -1200,7 +1200,7 @@ skills:
             base2: 35
         - index: 8
           id: 73
-          description: Damage shield songs deal from 35 to 80% more damage.
+          description: Damage shield songs deal from 35% to 80% more damage.
           desc_sid: 76
           cost: 1
           slot1:
@@ -1209,7 +1209,7 @@ skills:
             base2: 40
         - index: 9
           id: 74
-          description: Damage shield songs deal from 40 to 90% more damage.
+          description: Damage shield songs deal from 40% to 90% more damage.
           desc_sid: 77
           cost: 1
           slot1:
@@ -1218,7 +1218,7 @@ skills:
             base2: 45
         - index: 10
           id: 75
-          description: Damage shield songs deal from 45 to 100% more damage.
+          description: Damage shield songs deal from 45% to 100% more damage.
           desc_sid: 78
           cost: 1
           slot1:

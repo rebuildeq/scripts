@@ -1862,5 +1862,203 @@ skills:
             effect_id: 185 # SE_DamageModifier
             base1: 50
             base2: 36 # 1H Piercing
+    - aa_name: Shin's Spirit
+      aa_name_sid: 29
+      id: 28
+      classes: 65535
+      type: 1 # General
+      grant_only: 0
+      ranks:
+        - index: 1
+          description: When you miss in melee, grants a 10% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 139
+          cost: 1
+          level_req: 5
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 10
+        - index: 2
+          description: When you miss in melee, grants a 20% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 140
+          cost: 1
+          level_req: 10
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 20
+        - index: 3
+          description: When you miss in melee, grants a 30% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 141
+          cost: 1
+          level_req: 15
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 30
+        - index: 4
+          description: When you miss in melee, grants a 40% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 142
+          cost: 1
+          level_req: 20
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 40
+        - index: 5
+          description: When you miss in melee, grants a 50% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 143
+          cost: 1
+          level_req: 25
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 50
+        - index: 6
+          description: When you miss in melee, grants a 60% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 144
+          cost: 1
+          level_req: 30
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 60
+        - index: 7
+          description: When you miss in melee, grants a 70% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 145
+          cost: 1
+          level_req: 35
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 70
+        - index: 8
+          description: When you miss in melee, grants a 80% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 146
+          cost: 1
+          level_req: 40
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 80
+        - index: 9
+          description: When you miss in melee, grants a 90% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 147
+          cost: 1
+          level_req: 45
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 90
+        - index: 10
+          description: When you miss in melee, grants a 100% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+          desc_sid: 148
+          cost: 1
+          level_req: 50
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 267
+            base2: 100
+    - aa_name: Shin's Soul
+      aa_name_sid: 30
+      id: 29
+      classes: 65535
+      type: 1 # General
+      grant_only: 0
+      ranks:
+        - index: 1
+          description: When you resist with an offensive spell, grants a 10% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 149
+          cost: 1
+          level_req: 5
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 10
+        - index: 2
+          description: When you resist with an offensive spell, grants a 20% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 150
+          cost: 1
+          level_req: 10
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 20
+        - index: 3
+          description: When you resist with an offensive spell, grants a 30% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 151
+          cost: 1
+          level_req: 15
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 30
+        - index: 4
+          description: When you resist with an offensive spell, grants a 40% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 152
+          cost: 1
+          level_req: 20
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 40
+        - index: 5
+          description: When you resist with an offensive spell, grants a 50% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 153
+          cost: 1
+          level_req: 25
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 50
+        - index: 6
+          description: When you resist with an offensive spell, grants a 60% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 154
+          cost: 1
+          level_req: 30
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 60
+        - index: 7
+          description: When you resist with an offensive spell, grants a 70% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 155
+          cost: 1
+          level_req: 35
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 70
+        - index: 8
+          description: When you resist with an offensive spell, grants a 80% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 156
+          cost: 1
+          level_req: 40
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 80
+        - index: 9
+          description: When you resist with an offensive spell, grants a 90% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 157
+          cost: 1
+          level_req: 45
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 90
+        - index: 10
+          description: When you resist with an offensive spell, grants a 100% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
+          desc_sid: 158
+          cost: 1
+          level_req: 50
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 268
+            base2: 100
+
+
+
+
 
 

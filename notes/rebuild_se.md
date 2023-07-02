@@ -261,3 +261,5 @@ base1|title|desc
 264|Nightmare|Fear now causes target to be stunned in panic for 0 to 1 seconds before fleeing.
 265|Mental Resistance|Gives a 2% chance to resist stun effects.
 266|Cloak of Shadows|Grants the Cloak of the Shadows AA, allowing you to step into the shadows, causing a 5% chance that all targets will forget your actions.
+267|Shin's Spirit|When you miss in melee, grants a 10% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
+268|Shin's Soul|When you resist with an offensive spell, grants a 10% chance to succeed the spell anyway. Minimum damage on these recovery spells might be lower than normal.

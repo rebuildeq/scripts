@@ -16,9 +16,6 @@ summary: "List of Custom AAs available on RebuildEQ"
 ---
 
 Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained in the classic sense, instead granted when you level up or by completing achievements.`
-	page += "\n\n## Custom AAs\n\n"
-	page += "Name|Category|Class|Description\n"
-	page += "---|---|---|---|---\n"
 
 	pages := map[string][]string{}
 
@@ -31,7 +28,13 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 		}
 	}
 
-	for _, skills := range pages {
+	for key, skills := range pages {
+		info := strings.Split(key, "^")
+		category := info[0]
+		class := info[1]
+		page += fmt.Sprintf("\n\n### %s AAs - %s\n\n", category, class)
+		page += "Name|Category|Class|Description\n"
+		page += "----|--------|-----|-----------\n"
 		page += strings.Join(skills, "")
 	}
 

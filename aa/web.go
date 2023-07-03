@@ -22,7 +22,7 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 	for _, skill := range aa.Skills {
 		for _, rank := range skill.Ranks {
 			key := fmt.Sprintf("%s^%s", categoryConvert(skill.Type), classConvert(skill.Classes))
-			pages[key] = append(pages[key], fmt.Sprintf("%s|%s|%s|%d|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), len(skill.Ranks), strings.TrimPrefix("TODO ", rank.Description)))
+			pages[key] = append(pages[key], fmt.Sprintf("%s|%s|%s|%d|%s\n", strings.TrimPrefix(skill.Name, "TODO "), categoryConvert(skill.Type), classConvert(skill.Classes), len(skill.Ranks), rank.Description))
 			//page += fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description)
 			break
 		}

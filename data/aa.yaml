@@ -1892,7 +1892,7 @@ skills:
             effect_id: 185 # SE_DamageModifier
             base1: 50
             base2: 36 # 1H Piercing
-    - aa_name: Shin's Spirit
+    - aa_name: TODO Shin's Spirit
       aa_name_sid: 29
       id: 28
       classes: 65535
@@ -1999,7 +1999,7 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 267
             base2: 100
-    - aa_name: Shin's Soul
+    - aa_name: TODO Shin's Soul
       aa_name_sid: 30
       id: 29
       classes: 65535
@@ -2106,7 +2106,7 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 268
             base2: 100
-    - aa_name: Harmonic Affinity
+    - aa_name: TODO Harmonic Affinity
       aa_name_sid: 31
       id: 30
       classes: 128 # Bard
@@ -2204,10 +2204,216 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 24
             base2: 20
-
-
-
-
-
-
-
+    - aa_name: TODO Bard's Wish
+      aa_name_sid: 32
+      id: 31
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 166
+          description: All beneficial songs last an additional tick.
+          desc_sid: 172
+          cost: 10
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 24
+            base2: 2
+    - aa_name: TODO Chant Cycle
+      aa_name_sid: 33
+      id: 32
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 167
+          description: Chants with DoT effects now deal from 0% to 2% more damage.
+          desc_sid: 169
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 2
+        - index: 2
+          id: 168
+          description: Chants with DoT effects now deal from 2% to 4% more damage.
+          desc_sid: 170
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 4
+        - index: 3
+          id: 169
+          description: Chants with DoT effects now deal from 4% to 6% more damage.
+          desc_sid: 171
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 6
+        - index: 4
+          id: 170
+          description: Chants with DoT effects now deal from 6% to 8% more damage.
+          desc_sid: 180
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 8
+        - index: 5
+          id: 171
+          description: Chants with DoT effects now deal from 8% to 10% more damage.
+          desc_sid: 174
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 10
+        - index: 6
+          id: 172
+          description: Chants with DoT effects now deal from 10% to 12% more damage.
+          desc_sid: 175
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 12
+        - index: 7
+          id: 173
+          description: Chants with DoT effects now deal from 12% to 14% more damage.
+          desc_sid: 176
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 14
+        - index: 8
+          id: 174
+          description: Chants with DoT effects now deal from 14% to 16% more damage.
+          desc_sid: 177
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 16
+        - index: 9
+          id: 175
+          description: Chants with DoT effects now deal from 16% to 18% more damage.
+          desc_sid: 178
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 18
+        - index: 10
+          id: 176
+          description: Chants with DoT effects now deal from 18% to 20% more damage.
+          desc_sid: 179
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 26
+            base2: 20
+    - aa_name: TODO Boastful Bellow
+      aa_name_sid: 34
+      id: 33
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 177
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 0 to 2 seconds.
+          desc_sid: 181
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 2
+        - index: 2
+          id: 178
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 2 to 4 seconds.
+          desc_sid: 182
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 4
+        - index: 3
+          id: 179
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 4 to 6 seconds.
+          desc_sid: 183
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 6
+        - index: 4
+          id: 180
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 6 to 8 seconds.
+          desc_sid: 184
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 8
+        - index: 5
+          id: 181
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 8 to 10 seconds.
+          desc_sid: 185
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 10
+        - index: 6
+          id: 182
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 10 to 12 seconds.
+          desc_sid: 186
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 12
+        - index: 7
+          id: 183
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 12 to 14 seconds.
+          desc_sid: 187
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 14
+        - index: 8
+          id: 184
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 14 to 16 seconds.
+          desc_sid: 188
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 16
+        - index: 9
+          id: 185
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 16 to 18 seconds.
+          desc_sid: 189
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 18
+        - index: 10
+          id: 186
+          description: Grants the Boastful Bellow AA which causes damage and briefly stuns the enemy. Lowers reuse time from 18 to 20 seconds.
+          desc_sid: 190
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 27
+            base2: 20

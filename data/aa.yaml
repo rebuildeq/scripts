@@ -2417,3 +2417,206 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 27
             base2: 20
+    - aa_name: TODO Selo's Crescendo
+      aa_name_sid: 35
+      id: 34
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 187
+          description: Selo's movement songs now work indoors.
+          desc_sid: 191
+          cost: 5
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 28
+            base2: 1
+    - aa_name: TODO Soothing Melody
+      aa_name_sid: 36
+      id: 35
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 188
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 0 to heal amount * 1.
+          desc_sid: 192
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 1
+        - index: 2
+          id: 189
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 1 to heal amount * 2.
+          desc_sid: 193
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 2
+        - index: 3
+          id: 190
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 2 to heal amount * 3.
+          desc_sid: 194
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 3
+        - index: 4
+          id: 191
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 3 to heal amount * 4.
+          desc_sid: 195
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 4
+        - index: 5
+          id: 192
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 4 to heal amount * 5.
+          desc_sid: 196
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 5
+        - index: 6
+          id: 193
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 5 to heal amount * 6.
+          desc_sid: 197
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 6
+        - index: 7
+          id: 194
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 6 to heal amount * 7.
+          desc_sid: 198
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 7
+        - index: 8
+          id: 195
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 7 to heal amount * 8.
+          desc_sid: 199
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 8
+        - index: 9
+          id: 196
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 8 to heal amount * 9.
+          desc_sid: 200
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 9
+        - index: 10
+          id: 197
+          description: When the bard uses a song with a healing effect on themselves, reduces hate of their target from heal amount * 9 to heal amount * 10.
+          desc_sid: 201
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 29
+            base2: 10
+    - aa_name: Extended Notes
+      aa_name_sid: 37
+      id: 36
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 198
+          description: Increases range of beneficial songs from 0% to 10%.
+          desc_sid: 202
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 10
+        - index: 2
+          id: 199
+          description: Increases range of beneficial songs from 10% to 20%.
+          desc_sid: 203
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 20
+        - index: 3
+          id: 200
+          description: Increases range of beneficial songs from 20% to 30%.
+          desc_sid: 204
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 30
+        - index: 4
+          id: 201
+          description: Increases range of beneficial songs from 30% to 40%.
+          desc_sid: 205
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 40
+        - index: 5
+          id: 202
+          description: Increases range of beneficial songs from 40% to 50%.
+          desc_sid: 206
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 50
+        - index: 6
+          id: 203
+          description: Increases range of beneficial songs from 50% to 60%.
+          desc_sid: 207
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 60
+        - index: 7
+          id: 204
+          description: Increases range of beneficial songs from 60% to 70%.
+          desc_sid: 208
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 70
+        - index: 8
+          id: 205
+          description: Increases range of beneficial songs from 70% to 80%.
+          desc_sid: 209
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 80
+        - index: 9
+          id: 206
+          description: Increases range of beneficial songs from 80% to 90%.
+          desc_sid: 210
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 90
+        - index: 10
+          id: 207
+          description: Increases range of beneficial songs from 90% to 100%.
+          desc_sid: 211
+          cost: 1
+          slot1:
+            effect_id: 270 # SE_BardSongRange
+            base1: 100

@@ -15,9 +15,9 @@ base1|title|desc
 18|Jonthon's Whistle|Grants the bard a passive 300 mod proc that deals (level * 2 * 0.2) magic damage.
 19|Offhand Attack|All offhand attacks (lvl 17) have 5% additional chance to hit.
 20|Innate Songblade|Increases chance to hit and damage by 2%.
-21|Warsong of Zek|Increases bard\'s melee damage by 2%.
-22|Dance of Blades|Grants the Dance of Blades AA, increasing chance to dual wield and double attack as well as proc Bladewhirl at 20% effectiveness.
-23|Blade Dancer|When a bard is attacked while in a group, increases chance to dodge by 2% per player in group.
+21|SKIP Warsong of Zek|Increases bard\'s melee damage by 2%.
+22|sKIP Dance of Blades|Grants the Dance of Blades AA, increasing chance to dual wield and double attack as well as proc Bladewhirl at 20% effectiveness.
+23|SKIP Blade Dancer|When a bard is attacked while in a group, increases chance to dodge by 2% per player in group.
 24|Harmonic Affinity|Increases proc chance modifier by 5% .
 25|Bard's Wish|When rank 5, all beneficial songs last an additional tick.
 26|Chant Cycle|Chants with DoT effects now deal 1% more damage per ally in group .

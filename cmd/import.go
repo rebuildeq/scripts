@@ -23,6 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/xackery/rebuildeq/aa"
+	"github.com/xackery/rebuildeq/charcreate"
 	"github.com/xackery/rebuildeq/rule"
 	"github.com/xackery/rebuildeq/spell"
 	"github.com/xackery/rebuildeq/task"
@@ -48,7 +49,7 @@ func init() {
 func importRun(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	if len(args) == 0 {
-		fmt.Println("usage: rebuildeq import [rule|spell|aa|all]")
+		fmt.Println("usage: rebuildeq import [rule|spell|aa|task|charcreate|all]")
 		os.Exit(1)
 	}
 	fmt.Println("Starting import with args", strings.Join(args, " "))
@@ -90,6 +91,12 @@ func importRun(cmd *cobra.Command, args []string) error {
 			if err != nil {
 				return fmt.Errorf("task: %w", err)
 			}
+		case "charcreate":
+			err := charcreate.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("charcreate: %w", err)
+			}
+
 		case "all":
 			err := rule.Import(cmd, args)
 			if err != nil {
@@ -106,6 +113,10 @@ func importRun(cmd *cobra.Command, args []string) error {
 			err = task.Import(cmd, args)
 			if err != nil {
 				return fmt.Errorf("task: %w", err)
+			}
+			err = charcreate.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("charcreate: %w", err)
 			}
 			return nil
 		default:

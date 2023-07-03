@@ -1591,30 +1591,69 @@ charCreates:
   classes:
   - class: warrior
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 94
   - class: cleric
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 95
   - class: paladin
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 96
   - class: ranger
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 97
   - class: shadowknight
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 98
   - class: druid
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 99
   - class: monk
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 100
   - class: bard
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 101
   - class: rogue
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 102
   - class: necromancer
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 103
   - class: wizard
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 104
   - class: magician
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 105
   - class: enchanter
     deities:
+    - deity: veeshan
+      start_zone: freportwest
+      allocation_id: 106
 allocations:
 - id: 0
   base_str: 103

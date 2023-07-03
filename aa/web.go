@@ -22,7 +22,7 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 	for _, skill := range aa.Skills {
 		for _, rank := range skill.Ranks {
 			key := fmt.Sprintf("%s^%s", categoryConvert(skill.Type), classConvert(skill.Classes))
-			pages[key] = append(pages[key], fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description))
+			pages[key] = append(pages[key], fmt.Sprintf("%s|%s|%s|%d|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), len(skill.Ranks), strings.TrimPrefix("TODO ", rank.Description)))
 			//page += fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description)
 			break
 		}
@@ -33,8 +33,8 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 		category := info[0]
 		class := info[1]
 		page += fmt.Sprintf("\n\n### %s AAs - %s\n\n", category, class)
-		page += "Name|Category|Class|Description\n"
-		page += "----|--------|-----|-----------\n"
+		page += "Name|Category|Class|Ranks|Description\n"
+		page += "----|--------|-----|-----|-----------\n"
 		page += strings.Join(skills, "")
 	}
 

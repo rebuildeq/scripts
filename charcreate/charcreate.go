@@ -2,6 +2,7 @@ package charcreate
 
 import (
 	"context"
+	"database/sql"
 	"fmt"
 	"os"
 	"time"
@@ -65,19 +66,21 @@ func generateCharCreateSQL(sp *CharCreateYaml) error {
 	for charCreateIndex, charCreate := range sp.CharCreates {
 		for _, class := range charCreate.Classes {
 			for _, deity := range class.Deities {
-				w.WriteString(fmt.Sprintf("(%d, %d, %d, %d, %d, %d",
-					deity.AllocationID,
-					util.RaceNameToID(charCreate.Race),
-					util.ClassNameToID(class.Class),
-					util.DeityNameToID(deity.Deity),
-					util.ZoneNameToID(deity.StartZone),
-					deity.ExpansionsReq))
+				for _, zone := range deity.Zones {
+					w.WriteString(fmt.Sprintf("(%d, %d, %d, %d, %d, %d",
+						zone.AllocationID,
+						util.RaceNameToID(charCreate.Race),
+						util.ClassNameToID(class.Class),
+						util.DeityNameToID(deity.Deity),
+						util.ZoneNameToID(zone.Zone),
+						zone.ExpansionsReq))
 
-				//w.WriteString(fmt.Sprintf("%d, ", util.RaceNameToID(charCreate.Race)))
-				if charCreateIndex == len(sp.CharCreates)-1 {
-					w.WriteString(");\n")
-				} else {
-					w.WriteString("),\n")
+					//w.WriteString(fmt.Sprintf("%d, ", util.RaceNameToID(charCreate.Race)))
+					if charCreateIndex == len(sp.CharCreates)-1 {
+						w.WriteString(");\n")
+					} else {
+						w.WriteString("),\n")
+					}
 				}
 			}
 		}
@@ -132,7 +135,7 @@ func Import(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 	defer cancel()
 
 	rows1, err := db.QueryxContext(ctx, "SELECT * FROM char_create_point_allocations")
@@ -240,7 +243,7 @@ func Import(cmd *cobra.Command, args []string) error {
 		isFound = false
 		var dl *CharDeity
 		for deityIndex, dl = range charCreate.CharCreates[raceIndex].Classes[classIndex].Deities {
-			if util.ClassNameToID(dl.Deity) == r.Deity {
+			if util.DeityNameToID(dl.Deity) == r.Deity {
 				isFound = true
 				break
 			}
@@ -251,10 +254,77 @@ func Import(cmd *cobra.Command, args []string) error {
 			deityIndex = len(charCreate.CharCreates[raceIndex].Classes[classIndex].Deities) - 1
 		}
 
-		focus := charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex]
-		focus.StartZone = util.ZoneIDToName(r.StartZone)
+		var zoneIndex int
+		isFound = false
+		var zl *CharZone
+		for zoneIndex, zl = range charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex].Zones {
+			if util.ZoneNameToID(zl.Zone) == r.StartZone {
+				isFound = true
+				break
+			}
+		}
+
+		if !isFound {
+			charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex].Zones = append(charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex].Zones, &CharZone{Zone: util.ZoneIDToName(r.StartZone)})
+			zoneIndex = len(charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex].Zones) - 1
+		}
+
+		focus := charCreate.CharCreates[raceIndex].Classes[classIndex].Deities[deityIndex].Zones[zoneIndex]
+		focus.Zone = util.ZoneIDToName(r.StartZone)
 		focus.ExpansionsReq = r.ExpansionsReq
 		focus.AllocationID = r.AllocationID
+	}
+
+	items, err := startingItemsQuery(ctx, db, 0, 0, 0, 0)
+	if err != nil {
+		return fmt.Errorf("starting items query: %w", err)
+	}
+	charCreate.Items = items
+	for _, char := range charCreate.CharCreates {
+		items, err := startingItemsQuery(ctx, db, util.RaceNameToID(char.Race), 0, 0, 0)
+		if err != nil {
+			return fmt.Errorf("starting items query race %s: %w", char.Race, err)
+		}
+		char.Items = items
+
+		for _, class := range char.Classes {
+			items, err := startingItemsQuery(ctx, db, util.RaceNameToID(char.Race), util.ClassNameToID(class.Class), 0, 0)
+			if err != nil {
+				return fmt.Errorf("starting items query race %s class %s: %w", char.Race, class.Class, err)
+			}
+			class.Items = items
+
+			for _, deity := range class.Deities {
+
+				items, err := startingItemsQuery(ctx, db, util.RaceNameToID(char.Race), util.ClassNameToID(class.Class), util.DeityNameToID(deity.Deity), 0)
+				if err != nil {
+					return fmt.Errorf("starting items query race %s class %s deity %s: %w", char.Race, class.Class, deity.Deity, err)
+				}
+				deity.Items = items
+
+				for _, zone := range deity.Zones {
+					choices, err := choiceQuery(ctx, db, util.RaceNameToID(char.Race), util.ClassNameToID(class.Class), util.DeityNameToID(deity.Deity), util.ZoneNameToID(zone.Zone))
+					if err != nil {
+						return fmt.Errorf("choice query class %s deity %s zone %s: %w", class.Class, deity.Deity, zone.Zone, err)
+					}
+
+					items, err := startingItemsQuery(ctx, db, util.RaceNameToID(char.Race), util.ClassNameToID(class.Class), util.DeityNameToID(deity.Deity), util.ZoneNameToID(zone.Zone))
+					if err != nil {
+						return fmt.Errorf("starting items query class %s deity %s zone %s: %w", class.Class, deity.Deity, zone.Zone, err)
+					}
+
+					zone.Choices = choices
+
+					if len(class.Items) == 0 {
+						class.Items = items
+					} else {
+						if len(items) > 0 && class.Items[0].ItemID != items[0].ItemID {
+							zone.Items = items
+						}
+					}
+				}
+			}
+		}
 	}
 
 	w, err := os.Create("charcreate_dump.yaml")
@@ -271,4 +341,108 @@ func Import(cmd *cobra.Command, args []string) error {
 
 	fmt.Println("Created charcreate_dump.yaml")
 	return nil
+}
+
+func choiceQuery(ctx context.Context, db *sqlx.DB, raceID int, classID int, deityID int, zoneID int) ([]*CharChoice, error) {
+	choices := []*CharChoice{}
+
+	rows, err := db.QueryxContext(ctx, "SELECT * FROM start_zones WHERE player_class = ? AND player_deity = ? AND player_race = ? AND start_zone = ?", classID, deityID, raceID, zoneID)
+	if err != nil {
+		return nil, fmt.Errorf("db query choices: %w", err)
+	}
+	defer rows.Close()
+
+	type charChoiceDB struct {
+		X                    float32        `db:"x"`                      // float NOT NULL DEFAULT 0,
+		Y                    float32        `db:"y"`                      // float NOT NULL DEFAULT 0,
+		Z                    float32        `db:"z"`                      // float NOT NULL DEFAULT 0,
+		Heading              float32        `db:"heading"`                // float NOT NULL DEFAULT 0,
+		ZoneId               int            `db:"zone_id"`                // int(4) NOT NULL DEFAULT 0,
+		BindId               int            `db:"bind_id"`                // int(4) NOT NULL DEFAULT 0,
+		PlayerChoice         int            `db:"player_choice"`          // int(2) NOT NULL DEFAULT 0,
+		PlayerClass          int            `db:"player_class"`           // int(2) NOT NULL DEFAULT 0,
+		PlayerDeity          int            `db:"player_deity"`           // int(4) NOT NULL DEFAULT 0,
+		PlayerRace           int            `db:"player_race"`            // int(4) NOT NULL DEFAULT 0,
+		StartZone            int            `db:"start_zone"`             // int(4) NOT NULL DEFAULT 0,
+		BindX                float32        `db:"bind_x"`                 // float NOT NULL DEFAULT 0,
+		BindY                float32        `db:"bind_y"`                 // float NOT NULL DEFAULT 0,
+		BindZ                float32        `db:"bind_z"`                 // float NOT NULL DEFAULT 0,
+		SelectRank           int            `db:"select_rank"`            // tinyint(3) unsigned NOT NULL DEFAULT 50,
+		MinExpansion         int            `db:"min_expansion"`          // tinyint(4) NOT NULL DEFAULT -1,
+		MaxExpansion         int            `db:"max_expansion"`          // tinyint(4) NOT NULL DEFAULT -1,
+		ContentFlags         sql.NullString `db:"content_flags"`          // varchar(100) DEFAULT NULL,
+		ContentFlagsDisabled sql.NullString `db:"content_flags_disabled"` // varchar(100) DEFAULT NULL,
+	}
+
+	for rows.Next() {
+		r := charChoiceDB{}
+		err = rows.StructScan(&r)
+		if err != nil {
+			return nil, fmt.Errorf("db choice struct scan: %w", err)
+		}
+		choices = append(choices, &CharChoice{
+			Index:        r.PlayerChoice,
+			SpawnX:       r.X,
+			SpawnY:       r.Y,
+			SpawnZ:       r.Z,
+			SpawnHeading: r.Heading,
+			BindID:       r.BindId,
+			BindX:        r.BindX,
+			BindY:        r.BindY,
+			BindZ:        r.BindZ,
+		})
+	}
+
+	return choices, nil
+}
+
+func startingItemsQuery(ctx context.Context, db *sqlx.DB, raceID int, classID int, deityID int, zoneID int) ([]*CharItem, error) {
+	items := []*CharItem{}
+
+	rows, err := db.QueryxContext(ctx, "SELECT starting_items.*, items.name, items.lore FROM starting_items INNER JOIN items ON items.id = starting_items.itemid WHERE `class` = ? AND deityid = ? AND race = ? AND zoneid = ?", classID, deityID, raceID, zoneID)
+	if err != nil {
+		return nil, fmt.Errorf("db query items: %w", err)
+	}
+	defer rows.Close()
+
+	type charItemDB struct {
+		ID                   int            `db:"id"`                     // int(11) unsigned NOT NULL AUTO_INCREMENT,
+		Race                 int            `db:"race"`                   // int(11) NOT NULL DEFAULT 0,
+		Class                int            `db:"class"`                  // int(11) NOT NULL DEFAULT 0,
+		DeityID              int            `db:"deityid"`                // int(11) NOT NULL DEFAULT 0,
+		ZoneID               int            `db:"zoneid"`                 // int(11) NOT NULL DEFAULT 0,
+		ItemID               int            `db:"itemid"`                 // int(11) NOT NULL DEFAULT 0,
+		ItemName             string         `db:"name"`                   // varchar(64) NOT NULL DEFAULT '',
+		ItemLore             string         `db:"lore"`                   // varchar(80) NOT NULL DEFAULT '',
+		ItemCharges          int            `db:"item_charges"`           // tinyint(3) unsigned NOT NULL DEFAULT 1,
+		Gm                   int            `db:"gm"`                     // tinyint(1) NOT NULL DEFAULT 0,
+		Slot                 int            `db:"slot"`                   // mediumint(9) NOT NULL DEFAULT -1,
+		MinExpansion         int            `db:"min_expansion"`          // tinyint(4) NOT NULL DEFAULT -1,
+		MaxExpansion         int            `db:"max_expansion"`          // tinyint(4) NOT NULL DEFAULT -1,
+		ContentFlags         sql.NullString `db:"content_flags"`          // varchar(100) DEFAULT NULL,
+		ContentFlagsDisabled sql.NullString `db:"content_flags_disabled"` // varchar(100) DEFAULT NULL,
+	}
+
+	for rows.Next() {
+		r := charItemDB{}
+		err = rows.StructScan(&r)
+		if err != nil {
+			return nil, fmt.Errorf("db item struct scan: %w", err)
+		}
+
+		name := r.ItemName
+		if r.ItemLore != "" {
+			name = fmt.Sprintf("%s (Lore: %s)", r.ItemName, r.ItemLore)
+		}
+		items = append(items, &CharItem{
+			ID:          r.ID,
+			ItemID:      r.ItemID,
+			Name:        name,
+			ItemCharges: r.ItemCharges,
+			GM:          r.Gm,
+			Slot:        r.Slot,
+		})
+	}
+
+	return items, nil
 }

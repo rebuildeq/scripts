@@ -1,1659 +1,4394 @@
+items:
+- id: 1
+  item_id: 9979
+  name: 'Gloomingdeep Lantern (Lore: Gloomingdeep Lantern)'
+  item_charges: 1
+  slot: 14
+- id: 2
+  item_id: 9990
+  name: 'Skin of Milk (Lore: Skin of Milk)'
+  item_charges: 20
+  slot: -1
+- id: 3
+  item_id: 9991
+  name: 'Bread Cakes* (Lore: Bread Cakes)'
+  item_charges: 20
+  slot: -1
+- id: 35
+  item_id: 32601
+  name: 'Backpack* (Lore: Backpack)'
+  item_charges: 1
+  slot: -1
+- id: 247
+  item_id: 32601
+  name: 'Backpack* (Lore: Backpack)'
+  item_charges: 1
+  slot: 2000
 charCreates:
 - race: human
   classes:
   - class: warrior
+    items:
+    - id: 236
+      item_id: 18748
+      name: 'Tattered Note (Lore: Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 58
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 58
+        choices:
+        - index: 1
+          spawn_x: -371
+          spawn_y: 329
+          spawn_z: -38.220001220703125
+          spawn_heading: 170
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 58
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 58
+        choices:
+        - index: 8
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 58
+      zones:
+      - zone: freeporteast
+        items:
+        - id: 231
+          item_id: 18857
+          name: 'Tattered Note (Lore: Dismal Rage Warrior Note)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 58
+        choices:
+        - index: 8
+          spawn_x: 591
+          spawn_y: -1447
+          spawn_z: -49.209999084472656
+          spawn_heading: 160
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 58
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 58
+        choices:
+        - index: 1
+          spawn_x: -510
+          spawn_y: 57
+          spawn_z: 31.75
     - deity: mithanielmarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 58
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 58
+        choices:
+        - index: 8
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: ralloszek
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 58
-    - deity: ralloszek
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 58
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 58
+        choices:
+        - index: 1
+          spawn_x: -510
+          spawn_y: 57
+          spawn_z: 31.75
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 58
+        choices:
+        - index: 8
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 58
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 58
+        choices:
+        - index: 1
+          spawn_x: -510
+          spawn_y: 57
+          spawn_z: 31.75
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 58
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 58
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 58
+        choices:
+        - index: 1
+          spawn_x: -510
+          spawn_y: 57
+          spawn_z: 31.75
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 58
+        choices:
+        - index: 8
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
   - class: cleric
+    items:
+    - id: 100
+      item_id: 18716
+      name: 'Tattered Note (Lore: Bloodsabers Cleric Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 48
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 48
+        choices:
+        - index: 1
+          spawn_x: -625
+          spawn_y: 354
+          spawn_z: -35.25
+          spawn_heading: 128
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 48
+      zones:
+      - zone: freeportwest
+        items:
+        - id: 217
+          item_id: 18736
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 48
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 48
+      zones:
+      - zone: freeporteast
+        items:
+        - id: 212
+          item_id: 18744
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        - id: 216
+          item_id: 18744
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 48
+        choices:
+        - index: 6
+          spawn_x: 574
+          spawn_y: -1520
+          spawn_z: -49.5
+          spawn_heading: 288
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 48
+      zones:
+      - zone: qeynos
+        items:
+        - id: 106
+          item_id: 18715
+          name: 'Tattered Note (Lore: Qeynos Cleric Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 48
+        choices:
+        - index: 1
+          spawn_x: -440
+          spawn_y: -173
+          spawn_z: 3.75
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 48
+      zones:
+      - zone: freeportwest
+        items:
+        - id: 218
+          item_id: 18735
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 48
+        choices:
+        - index: 6
+          spawn_x: -796
+          spawn_y: 806
+          spawn_z: -166.72999572753906
+          spawn_heading: 192
     - deity: rodcetnife
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 48
+      zones:
+      - zone: qeynos2
+        items:
+        - id: 104
+          item_id: 18714
+          name: 'Tattered Note (Lore: Qeynos Cleric Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 48
+        choices:
+        - index: 1
+          spawn_x: -677
+          spawn_y: -75
+          spawn_z: -10.25
   - class: paladin
+    items:
+    - id: 219
+      item_id: 18738
+      name: 'Tattered Note (Lore: Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 54
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 54
+        choices:
+        - index: 5
+          spawn_x: -1633
+          spawn_y: 1393
+          spawn_z: -195.22999572753906
+          spawn_heading: 80
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 54
+      zones:
+      - zone: qeynos
+        items:
+        - id: 107
+          item_id: 18710
+          name: 'Tattered Note (Lore: Qeynos Paladin Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 54
+        choices:
+        - index: 1
+          spawn_x: -509
+          spawn_y: -149
+          spawn_z: 6.75
+          spawn_heading: 384
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 54
+      zones:
+      - zone: freeportwest
+        items:
+        - id: 221
+          item_id: 18737
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 54
+        choices:
+        - index: 5
+          spawn_x: -500
+          spawn_y: 1123
+          spawn_z: -126.7300033569336
     - deity: rodcetnife
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 54
+      zones:
+      - zone: qeynos2
+        items:
+        - id: 102
+          item_id: 18711
+          name: 'Tattered Note (Lore: Qeynos Paladin Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 54
+        choices:
+        - index: 1
+          spawn_x: -677
+          spawn_y: -187
+          spawn_z: -10.25
+          spawn_heading: 256
   - class: ranger
     deities:
     - deity: karana
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 55
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 55
+        choices:
+        - index: 1
+          spawn_x: 84
+          spawn_y: 127
+          spawn_z: 2.75
+          spawn_heading: 256
     - deity: tunare
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 55
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 55
+        choices:
+        - index: 1
+          spawn_x: 84
+          spawn_y: 127
+          spawn_z: 2.75
+          spawn_heading: 256
   - class: shadowknight
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 57
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 57
+        choices:
+        - index: 1
+          spawn_x: -319
+          spawn_y: 416
+          spawn_z: -38.220001220703125
+          spawn_heading: 64
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 57
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 57
+        choices:
+        - index: 2
+          spawn_x: 300
+          spawn_y: -1455
+          spawn_z: -48.41999816894531
+          spawn_heading: 168
   - class: druid
     deities:
     - deity: karana
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 49
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 49
+        choices:
+        - index: 1
+          spawn_x: -430
+          spawn_y: -209
+          spawn_z: 6.75
+          spawn_heading: 384
     - deity: tunare
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 49
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 49
+        choices:
+        - index: 1
+          spawn_x: -430
+          spawn_y: -209
+          spawn_z: 6.75
+          spawn_heading: 384
   - class: monk
     deities:
     - deity: quellious
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 52
+      items:
+      - id: 249
+        item_id: 18746
+        name: 'Tattered Note (Lore: Guild Summons)'
+        item_charges: 1
+        slot: -1
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 52
+        choices:
+        - index: 2
+          spawn_x: -1539
+          spawn_y: -235
+          spawn_z: -135.75999450683594
+          spawn_heading: 168
     - deity: agnostic2
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 52
+      items:
+      - id: 248
+        item_id: 18712
+        name: 'Note with Fist Insignia (Lore: Silent Fist Clan Summons)'
+        item_charges: 1
+        slot: -1
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 52
+        choices:
+        - index: 1
+          spawn_x: 288
+          spawn_y: 344
+          spawn_z: 3.75
+          spawn_heading: 128
   - class: bard
     deities:
     - deity: brellserilis
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: brellserilis
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: bristlebane
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: bristlebane
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
     - deity: mithanielmarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: prexus
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: prexus
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: quellious
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: quellious
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: ralloszek
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: ralloszek
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
     - deity: solusekro
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: solusekro
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: thetribunal
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: thetribunal
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: tunare
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: tunare
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: veeshan
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: veeshan
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 47
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 47
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 47
+        choices:
+        - index: 1
+          spawn_x: -141
+          spawn_y: 515
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 47
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
   - class: rogue
     deities:
     - deity: bertoxxulous
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 56
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 56
+        choices:
+        - index: 1
+          spawn_x: 167
+          spawn_y: 30
+          spawn_z: -29.25
+          spawn_heading: 384
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 56
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 56
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
     - deity: bristlebane
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 56
-    - deity: bristlebane
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 56
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 56
+        choices:
+        - index: 1
+          spawn_x: 167
+          spawn_y: 30
+          spawn_z: -29.25
+          spawn_heading: 384
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 56
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 56
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 56
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
     - deity: karana
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 56
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 56
+        choices:
+        - index: 1
+          spawn_x: 167
+          spawn_y: 30
+          spawn_z: -29.25
+          spawn_heading: 384
     - deity: rodcetnife
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 56
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 56
+        choices:
+        - index: 1
+          spawn_x: 167
+          spawn_y: 30
+          spawn_z: -29.25
+          spawn_heading: 384
     - deity: agnostic2
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 56
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 56
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 56
+        choices:
+        - index: 1
+          spawn_x: 167
+          spawn_y: 30
+          spawn_z: -29.25
+          spawn_heading: 384
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 56
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
   - class: necromancer
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 53
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 53
+        choices:
+        - index: 1
+          spawn_x: -427
+          spawn_y: 302
+          spawn_z: -38.220001220703125
+          spawn_heading: 192
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 53
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 53
+        choices:
+        - index: 2
+          spawn_x: 578
+          spawn_y: -1358
+          spawn_z: -48.93000030517578
+          spawn_heading: 128
   - class: wizard
+    items:
+    - id: 230
+      item_id: 18854
+      name: 'Tattered Note (Lore: Dismal Rage Wizard Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 51
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 5
+          spawn_x: -896
+          spawn_y: -511
+          spawn_z: -187.25999450683594
+          spawn_heading: 48
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 5
+          spawn_x: 600
+          spawn_y: -1566
+          spawn_z: -49.220001220703125
+          spawn_heading: 96
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -653
+          spawn_y: 314
+          spawn_z: -3.75
+          spawn_heading: 384
+          bind_id: 2
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 5
+          spawn_x: -896
+          spawn_y: -511
+          spawn_z: -187.25999450683594
+          spawn_heading: 48
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -653
+          spawn_y: 314
+          spawn_z: -3.75
+          spawn_heading: 384
+          bind_id: 2
     - deity: solusekro
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
-    - deity: solusekro
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -653
+          spawn_y: 314
+          spawn_z: -3.75
+          spawn_heading: 384
+          bind_id: 2
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 5
+          spawn_x: -896
+          spawn_y: -511
+          spawn_z: -187.25999450683594
+          spawn_heading: 48
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
-    - deity: agnostic2
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -653
+          spawn_y: 314
+          spawn_z: 3.75
+          spawn_heading: 384
+          bind_id: 2
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 5
+          spawn_x: -896
+          spawn_y: -511
+          spawn_z: -187.25999450683594
+          spawn_heading: 48
   - class: magician
+    items:
+    - id: 229
+      item_id: 18855
+      name: 'Tattered Note (Lore: Dismal Rage Magician Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -363
+          spawn_y: 382
+          spawn_z: -38.220001220703125
+          spawn_heading: 32
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 7
+          spawn_x: -924
+          spawn_y: -550
+          spawn_z: -187.25999450683594
+          spawn_heading: 128
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 7
+          spawn_x: 561
+          spawn_y: -1562
+          spawn_z: -49.7400016784668
+          spawn_heading: 144
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 319
+          spawn_z: 3.75
+          spawn_heading: 320
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 7
+          spawn_x: -924
+          spawn_y: -550
+          spawn_z: -187.25999450683594
+          spawn_heading: 128
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 319
+          spawn_z: 3.75
+          spawn_heading: 320
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 51
-    - deity: agnostic2
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 51
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 51
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 319
+          spawn_z: 3.75
+          spawn_heading: 320
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 51
+        choices:
+        - index: 7
+          spawn_x: -924
+          spawn_y: -550
+          spawn_z: -187.25999450683594
+          spawn_heading: 128
   - class: enchanter
+    items:
+    - id: 228
+      item_id: 18856
+      name: 'Tattered Note (Lore: Dismal Rage Enchanter Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 50
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 50
+        choices:
+        - index: 1
+          spawn_x: -370
+          spawn_y: 397
+          spawn_z: -38.220001220703125
+          spawn_heading: 176
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 50
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 50
+        choices:
+        - index: 7
+          spawn_x: -880
+          spawn_y: -248
+          spawn_z: -77.26000213623047
+          spawn_heading: 112
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 50
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 50
+        choices:
+        - index: 7
+          spawn_x: 586
+          spawn_y: -1507
+          spawn_z: -49.7400016784668
+          spawn_heading: 56
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 50
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 50
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 305
+          spawn_z: 3.75
+          spawn_heading: 464
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 50
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 50
+        choices:
+        - index: 7
+          spawn_x: -880
+          spawn_y: -248
+          spawn_z: -77.26000213623047
+          spawn_heading: 112
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 50
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 50
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 305
+          spawn_z: 3.75
+          spawn_heading: 464
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 50
-    - deity: agnostic2
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 50
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 50
+        choices:
+        - index: 1
+          spawn_x: -654
+          spawn_y: 305
+          spawn_z: 3.75
+          spawn_heading: 464
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 50
+        choices:
+        - index: 7
+          spawn_x: -880
+          spawn_y: -248
+          spawn_z: -77.26000213623047
+          spawn_heading: 112
 - race: barbarian
   classes:
   - class: warrior
     deities:
     - deity: ralloszek
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 4
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 4
+        choices:
+        - index: 2
+          spawn_x: -456
+          spawn_y: 560
+          spawn_z: -26.6200008392334
+          spawn_heading: 192
     - deity: thetribunal
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 4
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 4
+        choices:
+        - index: 2
+          spawn_x: -456
+          spawn_y: 560
+          spawn_z: -26.6200008392334
+          spawn_heading: 192
     - deity: agnostic2
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 4
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 4
+        choices:
+        - index: 2
+          spawn_x: -456
+          spawn_y: 560
+          spawn_z: -26.6200008392334
+          spawn_heading: 192
   - class: rogue
     deities:
     - deity: bristlebane
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 2
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 2
+        choices:
+        - index: 2
+          spawn_x: 141
+          spawn_y: 271
+          spawn_z: 9.380000114440918
+          spawn_heading: 64
     - deity: thetribunal
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 2
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 2
+        choices:
+        - index: 2
+          spawn_x: 141
+          spawn_y: 271
+          spawn_z: 9.380000114440918
+          spawn_heading: 64
     - deity: agnostic2
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 2
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 2
+        choices:
+        - index: 2
+          spawn_x: 141
+          spawn_y: 271
+          spawn_z: 9.380000114440918
+          spawn_heading: 64
   - class: shaman
     deities:
     - deity: thetribunal
-      start_zone: halas
-      expansions_req: 0
-      allocation_id: 3
+      zones:
+      - zone: halas
+        expansions_req: 0
+        allocation_id: 3
+        choices:
+        - index: 2
+          spawn_x: 449
+          spawn_y: 332
+          spawn_z: -19.6200008392334
+          spawn_heading: 64
   - class: beastlord
     deities:
     - deity: mithanielmarr
-      start_zone: halas
-      expansions_req: 4
-      allocation_id: 0
+      zones:
+      - zone: halas
+        expansions_req: 0 # was 4
+        allocation_id: 0
+        choices:
+        - index: 2
+          spawn_x: 210
+          spawn_y: 586
+          spawn_z: 4.380000114440918
+          spawn_heading: 192
     - deity: thetribunal
-      start_zone: halas
-      expansions_req: 4
-      allocation_id: 0
+      zones:
+      - zone: halas
+        expansions_req: 0 # was 4
+        allocation_id: 0
+        choices:
+        - index: 2
+          spawn_x: 210
+          spawn_y: 586
+          spawn_z: 4.380000114440918
+          spawn_heading: 192
   - class: berserker
+    items:
+    - id: 185
+      item_id: 36003
+      name: 'Frost-Covered Note (Lore: Bloodrage Brawlers Clan note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: ralloszek
-      start_zone: halas
-      expansions_req: 64
-      allocation_id: 1
+      zones:
+      - zone: halas
+        expansions_req: 0 # was 64
+        allocation_id: 1
+        choices:
+        - index: 2
+          spawn_x: 325
+          spawn_y: 565
+          spawn_z: 4.380000114440918
+          spawn_heading: 48
     - deity: thetribunal
-      start_zone: halas
-      expansions_req: 64
-      allocation_id: 1
+      zones:
+      - zone: halas
+        expansions_req: 0 # was 64
+        allocation_id: 1
+        choices:
+        - index: 2
+          spawn_x: 325
+          spawn_y: 565
+          spawn_z: 4.380000114440918
+          spawn_heading: 48
     - deity: agnostic2
-      start_zone: halas
-      expansions_req: 64
-      allocation_id: 1
+      zones:
+      - zone: halas
+        expansions_req: 0 # was 64
+        allocation_id: 1
+        choices:
+        - index: 2
+          spawn_x: 325
+          spawn_y: 565
+          spawn_z: 4.380000114440918
+          spawn_heading: 48
 - race: erudite
   classes:
   - class: cleric
+    items:
+    - id: 74
+      item_id: 18019
+      name: 'Harbingers of Fear Guild Note (Lore: Harbingers of Fear Guild Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: paineel
-      expansions_req: 0
-      allocation_id: 17
+      zones:
+      - zone: paineel
+        expansions_req: 0
+        allocation_id: 17
+        choices:
+        - spawn_x: 504
+          spawn_y: 1147
+          spawn_z: -38.220001220703125
+          spawn_heading: 96
     - deity: prexus
-      start_zone: erudnext
-      expansions_req: 0
-      allocation_id: 17
+      zones:
+      - zone: erudnext
+        items:
+        - id: 66
+          item_id: 18724
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 17
+        choices:
+        - spawn_x: -385
+          spawn_y: -1071
+          spawn_z: 67.72000122070312
     - deity: quellious
-      start_zone: erudnext
-      expansions_req: 0
-      allocation_id: 17
+      zones:
+      - zone: erudnext
+        items:
+        - id: 65
+          item_id: 18723
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 17
+        choices:
+        - spawn_x: -80
+          spawn_y: -639
+          spawn_z: 67.72000122070312
+          spawn_heading: 144
   - class: paladin
+    items:
+    - id: 67
+      item_id: 18725
+      name: 'Tattered Note (Lore: Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: prexus
-      start_zone: erudnext
-      expansions_req: 0
-      allocation_id: 21
+      zones:
+      - zone: erudnext
+        expansions_req: 0
+        allocation_id: 21
+        choices:
+        - spawn_x: -374
+          spawn_y: -1040
+          spawn_z: 51.720001220703125
+          spawn_heading: 192
     - deity: quellious
-      start_zone: erudnext
-      expansions_req: 0
-      allocation_id: 21
+      zones:
+      - zone: erudnext
+        items:
+        - id: 68
+          item_id: 18726
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 21
+        choices:
+        - spawn_x: -64
+          spawn_y: -656
+          spawn_z: 67.72000122070312
+          spawn_heading: 48
   - class: shadowknight
+    items:
+    - id: 73
+      item_id: 18017
+      name: 'Fell Blade Guild Note (Lore: Fell Blade Guild Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: paineel
-      expansions_req: 0
-      allocation_id: 22
+      zones:
+      - zone: paineel
+        expansions_req: 0
+        allocation_id: 22
+        choices:
+        - spawn_x: 456
+          spawn_y: 880
+          spawn_z: -120.18000030517578
+          spawn_heading: 128
   - class: necromancer
+    items:
+    - id: 72
+      item_id: 18018
+      name: 'Dark Truth Guild Note (Lore: Dark Truth Guild Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: paineel
-      expansions_req: 0
-      allocation_id: 20
+      zones:
+      - zone: paineel
+        expansions_req: 0
+        allocation_id: 20
+        choices:
+        - spawn_x: 840
+          spawn_y: 781
+          spawn_z: -22.25
   - class: wizard
     deities:
     - deity: prexus
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 740
+          spawn_y: 887
+          spawn_z: 83.72000122070312
+          spawn_heading: 192
     - deity: quellious
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 740
+          spawn_y: 887
+          spawn_z: 83.72000122070312
+          spawn_heading: 192
     - deity: solusekro
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 740
+          spawn_y: 887
+          spawn_z: 83.72000122070312
+          spawn_heading: 192
     - deity: agnostic2
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 740
+          spawn_y: 887
+          spawn_z: 83.72000122070312
+          spawn_heading: 192
   - class: magician
     deities:
     - deity: prexus
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 920
+          spawn_y: 716
+          spawn_z: 83.72000122070312
     - deity: quellious
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 920
+          spawn_y: 716
+          spawn_z: 83.72000122070312
     - deity: agnostic2
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 19
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 19
+        choices:
+        - spawn_x: 920
+          spawn_y: 716
+          spawn_z: 83.72000122070312
   - class: enchanter
     deities:
     - deity: prexus
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 18
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 18
+        choices:
+        - spawn_x: 753
+          spawn_y: 536
+          spawn_z: 83.72000122070312
+          spawn_heading: 64
     - deity: quellious
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 18
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 18
+        choices:
+        - spawn_x: 753
+          spawn_y: 536
+          spawn_z: 83.72000122070312
+          spawn_heading: 64
     - deity: agnostic2
-      start_zone: erudnint
-      expansions_req: 0
-      allocation_id: 18
+      zones:
+      - zone: erudnint
+        expansions_req: 0
+        allocation_id: 18
+        choices:
+        - spawn_x: 753
+          spawn_y: 536
+          spawn_z: 83.72000122070312
+          spawn_heading: 64
 - race: woodelf
   classes:
   - class: warrior
     deities:
     - deity: karana
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 85
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 85
+        choices:
+        - index: 9
+          spawn_x: 283
+          spawn_y: 340
+          spawn_z: 77.08999633789062
+          spawn_heading: 205
     - deity: ralloszek
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 85
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 85
+        choices:
+        - index: 9
+          spawn_x: 283
+          spawn_y: 340
+          spawn_z: 77.08999633789062
+          spawn_heading: 205
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 85
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 85
+        choices:
+        - index: 9
+          spawn_x: 283
+          spawn_y: 340
+          spawn_z: 77.08999633789062
+          spawn_heading: 205
     - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 85
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 85
+        choices:
+        - index: 9
+          spawn_x: 283
+          spawn_y: 340
+          spawn_z: 77.08999633789062
+          spawn_heading: 205
   - class: ranger
     deities:
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 83
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 83
+        choices:
+        - index: 9
+          spawn_x: 523
+          spawn_y: -447
+          spawn_z: 117.52999877929688
+          spawn_heading: 128
   - class: druid
     deities:
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 82
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 82
+        choices:
+        - index: 9
+          spawn_x: 226
+          spawn_y: -629
+          spawn_z: 77.05999755859375
+          spawn_heading: 160
   - class: bard
     deities:
     - deity: brellserilis
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: erollsimarr
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: bristlebane
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: karana
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: mithanielmarr
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: prexus
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: quellious
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: ralloszek
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: rodcetnife
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: solusekro
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: thetribunal
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: veeshan
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
     - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 81
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 81
+        choices:
+        - index: 9
+          spawn_x: 252
+          spawn_y: -234
+          spawn_z: 77.08999633789062
+          spawn_heading: 135
   - class: rogue
     deities:
     - deity: bristlebane
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 84
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 84
+        choices:
+        - index: 9
+          spawn_x: -216
+          spawn_y: -504
+          spawn_z: 161.08999633789062
+          spawn_heading: 160
     - deity: karana
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 84
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 84
+        choices:
+        - index: 9
+          spawn_x: -216
+          spawn_y: -504
+          spawn_z: 161.08999633789062
+          spawn_heading: 160
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 84
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 84
+        choices:
+        - index: 9
+          spawn_x: -216
+          spawn_y: -504
+          spawn_z: 161.08999633789062
+          spawn_heading: 160
     - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 84
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 84
+        choices:
+        - index: 9
+          spawn_x: -216
+          spawn_y: -504
+          spawn_z: 161.08999633789062
+          spawn_heading: 160
 - race: highelf
   classes:
   - class: cleric
     deities:
     - deity: tunare
-      start_zone: felwithea
-      expansions_req: 0
-      allocation_id: 43
+      zones:
+      - zone: felwithea
+        expansions_req: 0
+        allocation_id: 43
+        choices:
+        - index: 10
+          spawn_x: -445
+          spawn_y: 11
+          spawn_heading: 128
   - class: paladin
     deities:
     - deity: tunare
-      start_zone: felwithea
-      expansions_req: 0
-      allocation_id: 46
+      zones:
+      - zone: felwithea
+        expansions_req: 0
+        allocation_id: 46
+        choices:
+        - index: 10
+          spawn_x: -317
+          spawn_y: 8
+          spawn_z: 8.75
+          spawn_heading: 416
   - class: wizard
     deities:
     - deity: erollsimarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
     - deity: karana
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
     - deity: mithanielmarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
     - deity: solusekro
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
     - deity: tunare
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
     - deity: agnostic2
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -422
+          spawn_y: 506
+          spawn_heading: 128
   - class: magician
     deities:
     - deity: erollsimarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -603
+          spawn_y: 784
+          spawn_z: 4
+          spawn_heading: 32
     - deity: karana
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -603
+          spawn_y: 784
+          spawn_z: 4
+          spawn_heading: 32
     - deity: mithanielmarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -603
+          spawn_y: 784
+          spawn_z: 4
+          spawn_heading: 32
     - deity: tunare
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -603
+          spawn_y: 784
+          spawn_z: 4
+          spawn_heading: 32
     - deity: agnostic2
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 45
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 45
+        choices:
+        - index: 10
+          spawn_x: -603
+          spawn_y: 784
+          spawn_z: 4
+          spawn_heading: 32
   - class: enchanter
     deities:
     - deity: erollsimarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 44
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 44
+        choices:
+        - index: 10
+          spawn_x: -830
+          spawn_y: 559
+          spawn_z: 4
+          spawn_heading: 352
     - deity: karana
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 44
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 44
+        choices:
+        - index: 10
+          spawn_x: -830
+          spawn_y: 559
+          spawn_z: 4
+          spawn_heading: 352
     - deity: mithanielmarr
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 44
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 44
+        choices:
+        - index: 10
+          spawn_x: -830
+          spawn_y: 559
+          spawn_z: 4
+          spawn_heading: 352
     - deity: tunare
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 44
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 44
+        choices:
+        - index: 10
+          spawn_x: -830
+          spawn_y: 559
+          spawn_z: 4
+          spawn_heading: 352
     - deity: agnostic2
-      start_zone: felwitheb
-      expansions_req: 0
-      allocation_id: 44
+      zones:
+      - zone: felwitheb
+        expansions_req: 0
+        allocation_id: 44
+        choices:
+        - index: 10
+          spawn_x: -830
+          spawn_y: 559
+          spawn_z: 4
+          spawn_heading: 352
 - race: darkelf
   classes:
   - class: warrior
     deities:
     - deity: innoruuk
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 11
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 11
+        choices:
+        - index: 5
+          spawn_x: -1133
+          spawn_y: -76
+          spawn_z: -52.84000015258789
     - deity: ralloszek
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 11
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 11
+        choices:
+        - index: 5
+          spawn_x: -1133
+          spawn_y: -76
+          spawn_z: -52.84000015258789
     - deity: agnostic2
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 11
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 11
+        choices:
+        - index: 5
+          spawn_x: -1133
+          spawn_y: -76
+          spawn_z: -52.84000015258789
   - class: cleric
     deities:
     - deity: innoruuk
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 5
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 5
+        choices:
+        - index: 5
+          spawn_x: -774
+          spawn_y: 405
+          spawn_z: -52.84000015258789
+          spawn_heading: 200
   - class: shadowknight
     deities:
     - deity: innoruuk
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 10
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 10
+        choices:
+        - index: 5
+          spawn_x: -1238
+          spawn_y: 1255
+          spawn_z: -80.83999633789062
   - class: rogue
     deities:
     - deity: bristlebane
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 9
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 9
+        choices:
+        - index: 5
+          spawn_x: -1305
+          spawn_y: 634
+          spawn_z: -80.83999633789062
+          spawn_heading: 185
     - deity: innoruuk
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 9
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 9
+        choices:
+        - index: 5
+          spawn_x: -1305
+          spawn_y: 634
+          spawn_z: -80.83999633789062
+          spawn_heading: 185
     - deity: agnostic2
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 9
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 9
+        choices:
+        - index: 5
+          spawn_x: -1305
+          spawn_y: 634
+          spawn_z: -80.83999633789062
+          spawn_heading: 185
   - class: necromancer
     deities:
     - deity: innoruuk
-      start_zone: neriakc
-      expansions_req: 0
-      allocation_id: 8
+      zones:
+      - zone: neriakc
+        expansions_req: 0
+        allocation_id: 8
+        choices:
+        - index: 5
+          spawn_x: -1253
+          spawn_y: 1255
+          spawn_z: -80.83999633789062
   - class: wizard
     deities:
     - deity: innoruuk
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 7
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 7
+        choices:
+        - index: 5
+          spawn_x: -947
+          spawn_y: 141
+          spawn_z: -38.84000015258789
+          spawn_heading: 192
     - deity: solusekro
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 7
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 7
+        choices:
+        - index: 5
+          spawn_x: -947
+          spawn_y: 141
+          spawn_z: -38.84000015258789
+          spawn_heading: 192
     - deity: agnostic2
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 7
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 7
+        choices:
+        - index: 5
+          spawn_x: -947
+          spawn_y: 141
+          spawn_z: -38.84000015258789
+          spawn_heading: 192
   - class: magician
     deities:
     - deity: innoruuk
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 7
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 7
+        choices:
+        - index: 5
+          spawn_x: -980
+          spawn_y: 148
+          spawn_z: -38.84000015258789
+          spawn_heading: 64
     - deity: agnostic2
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 7
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 7
+        choices:
+        - index: 5
+          spawn_x: -980
+          spawn_y: 148
+          spawn_z: -38.84000015258789
+          spawn_heading: 64
   - class: enchanter
     deities:
     - deity: innoruuk
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 6
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 6
+        choices:
+        - index: 5
+          spawn_x: -951
+          spawn_y: 144
+          spawn_z: -38.84000015258789
+          spawn_heading: 224
     - deity: agnostic2
-      start_zone: neriakb
-      expansions_req: 0
-      allocation_id: 6
+      zones:
+      - zone: neriakb
+        expansions_req: 0
+        allocation_id: 6
+        choices:
+        - index: 5
+          spawn_x: -951
+          spawn_y: 144
+          spawn_z: -38.84000015258789
+          spawn_heading: 224
 - race: halfelf
   classes:
   - class: warrior
+    items:
+    - id: 244
+      item_id: 18748
+      name: 'Tattered Note (Lore: Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: qcat
-      expansions_req: 0
-      allocation_id: 36
+      zones:
+      - zone: qcat
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -372
+          spawn_y: 294
+          spawn_z: -38.650001525878906
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: innoruuk
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: freeporteast
+        items:
+        - id: 232
+          item_id: 18857
+          name: 'Tattered Note (Lore: Dismal Rage Warrior Note)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: 591
+          spawn_y: -1447
+          spawn_z: -49.209999084472656
+          spawn_heading: 160
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
     - deity: mithanielmarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: prexus
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
-    - deity: prexus
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 36
-    - deity: prexus
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 9
+          spawn_x: 282
+          spawn_y: 340
+          spawn_z: 77.41000366210938
+          spawn_heading: 125
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: ralloszek
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
-    - deity: ralloszek
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 36
-    - deity: ralloszek
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 9
+          spawn_x: 282
+          spawn_y: 340
+          spawn_z: 77.41000366210938
+          spawn_heading: 125
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
     - deity: thetribunal
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
-    - deity: thetribunal
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 36
-    - deity: thetribunal
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 9
+          spawn_x: 282
+          spawn_y: 340
+          spawn_z: 77.41000366210938
+          spawn_heading: 125
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 36
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 9
+          spawn_x: 282
+          spawn_y: 340
+          spawn_z: 77.41000366210938
+          spawn_heading: 125
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 36
-    - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 36
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 36
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 1
+          spawn_x: -513
+          spawn_y: 48
+          spawn_z: 31.440000534057617
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 36
+        choices:
+        - index: 9
+          spawn_x: 282
+          spawn_y: 340
+          spawn_z: 77.41000366210938
+          spawn_heading: 125
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 36
+        choices:
+        - index: 7
+          spawn_x: -681
+          spawn_y: 663
+          spawn_z: -21.520000457763672
+          spawn_heading: 96
   - class: paladin
+    items:
+    - id: 220
+      item_id: 18738
+      name: 'Tattered Note (Lore: Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: erollsimarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 33
+      zones:
+      - zone: freeportwest
+        expansions_req: 0 # was 1024
+        allocation_id: 33
+        choices:
+        - index: 5
+          spawn_x: -1633
+          spawn_y: 1393
+          spawn_z: -195.22999572753906
+          spawn_heading: 80
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 33
+      zones:
+      - zone: qeynos
+        items:
+        - id: 171
+          item_id: 18710
+          name: 'Tattered Note (Lore: Qeynos Paladin Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 33
+        choices:
+        - index: 1
+          spawn_x: -148
+          spawn_y: -491
+          spawn_z: -3.440000057220459
     - deity: mithanielmarr
-      start_zone: freeportwest
-      expansions_req: 1024
-      allocation_id: 33
+      zones:
+      - zone: freeportwest
+        items:
+        - id: 222
+          item_id: 18737
+          name: 'Tattered Note (Lore: Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 1024
+        allocation_id: 33
+        choices:
+        - index: 5
+          spawn_x: -500
+          spawn_y: 1123
+          spawn_z: -126.7300033569336
     - deity: rodcetnife
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 33
+      zones:
+      - zone: qeynos2
+        items:
+        - id: 169
+          item_id: 18711
+          name: 'Tattered Note (Lore: Qeynos Paladin Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 33
     - deity: tunare
-      start_zone: felwithea
-      expansions_req: 0
-      allocation_id: 33
+      zones:
+      - zone: felwithea
+        expansions_req: 0
+        allocation_id: 33
+        choices:
+        - index: 10
+          spawn_x: -295
+          spawn_y: 3
+          spawn_z: 3.309999942779541
+          spawn_heading: 192
   - class: ranger
     deities:
     - deity: karana
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 34
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 34
+        choices:
+        - index: 1
+          spawn_x: 84
+          spawn_y: 133
+          spawn_z: 2.440000057220459
+          spawn_heading: 128
     - deity: tunare
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 34
-    - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 34
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 34
+        choices:
+        - index: 1
+          spawn_x: 84
+          spawn_y: 133
+          spawn_z: 2.440000057220459
+          spawn_heading: 128
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 34
+        choices:
+        - index: 9
+          spawn_x: 493
+          spawn_y: -431
+          spawn_z: 117.5
+          spawn_heading: 184
   - class: druid
     deities:
     - deity: karana
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 32
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 32
+        choices:
+        - index: 1
+          spawn_x: -413
+          spawn_y: -210
+          spawn_z: 5.739999771118164
+          spawn_heading: 192
     - deity: tunare
-      start_zone: qrg
-      expansions_req: 0
-      allocation_id: 32
-    - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 32
+      zones:
+      - zone: qrg
+        expansions_req: 0
+        allocation_id: 32
+        choices:
+        - index: 1
+          spawn_x: -413
+          spawn_y: -210
+          spawn_z: 5.739999771118164
+          spawn_heading: 192
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 32
+        choices:
+        - index: 9
+          spawn_x: 226
+          spawn_y: -629
+          spawn_z: 77.05999755859375
+          spawn_heading: 160
   - class: bard
     deities:
     - deity: brellserilis
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: brellserilis
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: brellserilis
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: bristlebane
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: bristlebane
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: bristlebane
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: karana
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
     - deity: mithanielmarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: prexus
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: prexus
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: prexus
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: quellious
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: quellious
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: quellious
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: ralloszek
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: ralloszek
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: ralloszek
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: rodcetnife
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
     - deity: solusekro
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: solusekro
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: solusekro
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: thetribunal
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: thetribunal
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: thetribunal
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: tunare
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: tunare
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: veeshan
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: veeshan
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: veeshan
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
     - deity: agnostic2
-      start_zone: qeynos
-      expansions_req: 0
-      allocation_id: 31
-    - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 31
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 31
+      zones:
+      - zone: qeynos
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 1
+          spawn_x: -140
+          spawn_y: 528
+          spawn_z: 3.75
+          spawn_heading: 256
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 31
+        choices:
+        - index: 9
+          spawn_x: 243
+          spawn_y: -238
+          spawn_z: 77.27999877929688
+          spawn_heading: 128
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 31
+        choices:
+        - index: 14
+          spawn_x: -920
+          spawn_y: -1080
+          spawn_z: 12.430000305175781
+          spawn_heading: 96
   - class: rogue
     deities:
     - deity: bertoxxulous
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 35
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 1
+          spawn_x: 168
+          spawn_y: 31
+          spawn_z: -29.559999465942383
+          spawn_heading: 192
     - deity: erollsimarr
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 35
+      zones:
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 35
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
     - deity: bristlebane
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 35
-    - deity: bristlebane
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 35
-    - deity: bristlebane
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 35
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 1
+          spawn_x: 168
+          spawn_y: 31
+          spawn_z: -29.559999465942383
+          spawn_heading: 192
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 9
+          spawn_x: -210
+          spawn_y: -501
+          spawn_z: 161.41000366210938
+          spawn_heading: 160
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 35
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
     - deity: karana
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 35
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 1
+          spawn_x: 168
+          spawn_y: 31
+          spawn_z: -29.559999465942383
+          spawn_heading: 192
     - deity: rodcetnife
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 35
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 1
+          spawn_x: 168
+          spawn_y: 31
+          spawn_z: -29.559999465942383
+          spawn_heading: 192
     - deity: tunare
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 35
+      zones:
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 9
+          spawn_x: -210
+          spawn_y: -501
+          spawn_z: 161.41000366210938
+          spawn_heading: 160
     - deity: agnostic2
-      start_zone: qeynos2
-      expansions_req: 0
-      allocation_id: 35
-    - deity: agnostic2
-      start_zone: gfaydark
-      expansions_req: 0
-      allocation_id: 35
-    - deity: agnostic2
-      start_zone: freeporteast
-      expansions_req: 1024
-      allocation_id: 35
+      zones:
+      - zone: qeynos2
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 1
+          spawn_x: 168
+          spawn_y: 31
+          spawn_z: -29.559999465942383
+          spawn_heading: 192
+      - zone: gfaydark
+        expansions_req: 0
+        allocation_id: 35
+        choices:
+        - index: 9
+          spawn_x: -210
+          spawn_y: -501
+          spawn_z: 161.41000366210938
+          spawn_heading: 160
+      - zone: freeporteast
+        expansions_req: 0 # was 1024
+        allocation_id: 35
+        choices:
+        - index: 7
+          spawn_x: 612
+          spawn_y: -1297
+          spawn_z: -49.220001220703125
+          spawn_heading: 32
 - race: dwarf
   classes:
   - class: warrior
     deities:
     - deity: brellserilis
-      start_zone: kaladima
-      expansions_req: 0
-      allocation_id: 16
+      zones:
+      - zone: kaladima
+        expansions_req: 0
+        allocation_id: 16
+        choices:
+        - index: 8
+          spawn_x: 304
+          spawn_y: 41
+          spawn_z: 14.5
     - deity: agnostic2
-      start_zone: kaladima
-      expansions_req: 0
-      allocation_id: 16
+      zones:
+      - zone: kaladima
+        expansions_req: 0
+        allocation_id: 16
+        choices:
+        - index: 8
+          spawn_x: 304
+          spawn_y: 41
+          spawn_z: 14.5
   - class: cleric
     deities:
     - deity: brellserilis
-      start_zone: kaladimb
-      expansions_req: 0
-      allocation_id: 13
+      zones:
+      - zone: kaladimb
+        expansions_req: 0
+        allocation_id: 13
+        choices:
+        - index: 8
+          spawn_x: 132
+          spawn_y: 771
+          spawn_z: 2.5
   - class: paladin
     deities:
     - deity: brellserilis
-      start_zone: kaladimb
-      expansions_req: 0
-      allocation_id: 14
+      zones:
+      - zone: kaladimb
+        expansions_req: 0
+        allocation_id: 14
+        choices:
+        - index: 8
+          spawn_x: 132
+          spawn_y: 1351
+          spawn_z: 46.470001220703125
+          spawn_heading: 128
   - class: rogue
     deities:
     - deity: brellserilis
-      start_zone: kaladimb
-      expansions_req: 0
-      allocation_id: 15
+      zones:
+      - zone: kaladimb
+        expansions_req: 0
+        allocation_id: 15
+        choices:
+        - index: 8
+          spawn_x: 218
+          spawn_y: 546
+          spawn_z: -33.5
+          spawn_heading: 480
     - deity: bristlebane
-      start_zone: kaladimb
-      expansions_req: 0
-      allocation_id: 15
+      zones:
+      - zone: kaladimb
+        expansions_req: 0
+        allocation_id: 15
+        choices:
+        - index: 8
+          spawn_x: 218
+          spawn_y: 546
+          spawn_z: -33.5
+          spawn_heading: 480
     - deity: agnostic2
-      start_zone: kaladimb
-      expansions_req: 0
-      allocation_id: 15
+      zones:
+      - zone: kaladimb
+        expansions_req: 0
+        allocation_id: 15
+        choices:
+        - index: 8
+          spawn_x: 218
+          spawn_y: 546
+          spawn_z: -33.5
+          spawn_heading: 480
   - class: berserker
+    items:
+    - id: 182
+      item_id: 36000
+      name: 'Blood-Smeared Note (Lore: Berserkers of the Underfoot note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: brellserilis
-      start_zone: kaladimb
-      expansions_req: 64
-      allocation_id: 12
+      zones:
+      - zone: kaladimb
+        expansions_req: 0 # was 64
+        allocation_id: 12
+        choices:
+        - index: 8
+          spawn_x: 298
+          spawn_y: 494
+          spawn_z: -33.5
+          spawn_heading: 184
     - deity: bristlebane
-      start_zone: kaladimb
-      expansions_req: 64
-      allocation_id: 12
+      zones:
+      - zone: kaladimb
+        expansions_req: 0 # was 64
+        allocation_id: 12
+        choices:
+        - index: 8
+          spawn_x: 298
+          spawn_y: 494
+          spawn_z: -33.5
+          spawn_heading: 184
     - deity: agnostic2
-      start_zone: kaladimb
-      expansions_req: 64
-      allocation_id: 12
+      zones:
+      - zone: kaladimb
+        expansions_req: 0 # was 64
+        allocation_id: 12
+        choices:
+        - index: 8
+          spawn_x: 298
+          spawn_y: 494
+          spawn_z: -33.5
+          spawn_heading: 184
 - race: troll
   classes:
   - class: warrior
     deities:
     - deity: cazicthule
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 74
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 74
+        choices:
+        - index: 5
+          spawn_x: -150
+          spawn_y: 310
+          spawn_z: 25
+          spawn_heading: 364
     - deity: innoruuk
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 74
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 74
+        choices:
+        - index: 5
+          spawn_x: -150
+          spawn_y: 310
+          spawn_z: 25
+          spawn_heading: 364
     - deity: ralloszek
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 74
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 74
+        choices:
+        - index: 5
+          spawn_x: -150
+          spawn_y: 310
+          spawn_z: 25
+          spawn_heading: 364
     - deity: agnostic2
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 74
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 74
+        choices:
+        - index: 5
+          spawn_x: -150
+          spawn_y: 310
+          spawn_z: 25
+          spawn_heading: 364
   - class: shadowknight
+    items:
+    - id: 179
+      item_id: 18792
+      name: 'Tattered Note (Lore: Grobb Shadowknight Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 72
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 72
+        choices:
+        - index: 5
+          spawn_x: -935
+          spawn_y: 515
+          spawn_z: 15
+          spawn_heading: 372
     - deity: innoruuk
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 72
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 72
+        choices:
+        - index: 5
+          spawn_x: -935
+          spawn_y: 515
+          spawn_z: 15
+          spawn_heading: 372
   - class: shaman
     deities:
     - deity: cazicthule
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 73
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 73
+        choices:
+        - index: 5
+          spawn_x: -487
+          spawn_y: 39
+          spawn_z: 55
+          spawn_heading: 256
     - deity: innoruuk
-      start_zone: grobb
-      expansions_req: 0
-      allocation_id: 73
+      zones:
+      - zone: grobb
+        expansions_req: 0
+        allocation_id: 73
+        choices:
+        - index: 5
+          spawn_x: -487
+          spawn_y: 39
+          spawn_z: 55
+          spawn_heading: 256
   - class: beastlord
     deities:
     - deity: cazicthule
-      start_zone: grobb
-      expansions_req: 4
-      allocation_id: 70
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 4
+        allocation_id: 70
+        choices:
+        - index: 5
+          spawn_x: -407
+          spawn_y: 12
+          spawn_z: 75
+          spawn_heading: 294
     - deity: innoruuk
-      start_zone: grobb
-      expansions_req: 4
-      allocation_id: 70
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 4
+        allocation_id: 70
+        choices:
+        - index: 5
+          spawn_x: -407
+          spawn_y: 12
+          spawn_z: 75
+          spawn_heading: 294
   - class: berserker
+    items:
+    - id: 184
+      item_id: 36002
+      name: 'Smelly Crumpled Note (Lore: Dethslashers Guild note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: grobb
-      expansions_req: 64
-      allocation_id: 71
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 64
+        allocation_id: 71
+        choices:
+        - index: 6
+          spawn_x: 117
+          spawn_y: 244
+          spawn_z: -5.300000190734863
+          spawn_heading: 70
     - deity: innoruuk
-      start_zone: grobb
-      expansions_req: 64
-      allocation_id: 71
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 64
+        allocation_id: 71
+        choices:
+        - index: 6
+          spawn_x: 117
+          spawn_y: 244
+          spawn_z: -5.300000190734863
+          spawn_heading: 70
     - deity: ralloszek
-      start_zone: grobb
-      expansions_req: 64
-      allocation_id: 71
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 64
+        allocation_id: 71
+        choices:
+        - index: 6
+          spawn_x: 117
+          spawn_y: 244
+          spawn_z: -5.300000190734863
+          spawn_heading: 70
     - deity: agnostic2
-      start_zone: grobb
-      expansions_req: 64
-      allocation_id: 71
+      zones:
+      - zone: grobb
+        expansions_req: 0 # was 64
+        allocation_id: 71
+        choices:
+        - index: 6
+          spawn_x: 117
+          spawn_y: 244
+          spawn_z: -5.300000190734863
+          spawn_heading: 70
 - race: ogre
   classes:
   - class: warrior
     deities:
     - deity: cazicthule
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 107
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 107
+        choices:
+        - index: 7
+          spawn_x: 71
+          spawn_y: -2
+          spawn_z: -25
     - deity: ralloszek
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 107
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 107
+        choices:
+        - index: 7
+          spawn_x: 71
+          spawn_y: -2
+          spawn_z: -25
     - deity: agnostic2
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 107
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 107
+        choices:
+        - index: 7
+          spawn_x: 71
+          spawn_y: -2
+          spawn_z: -25
   - class: shadowknight
     deities:
     - deity: cazicthule
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 67
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 67
+        choices:
+        - index: 7
+          spawn_x: -7
+          spawn_y: 334
+          spawn_z: 6.5
+          spawn_heading: 384
     - deity: ralloszek
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 67
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 67
+        choices:
+        - index: 7
+          spawn_x: -7
+          spawn_y: 334
+          spawn_z: 6.5
+          spawn_heading: 384
   - class: shaman
     deities:
     - deity: ralloszek
-      start_zone: oggok
-      expansions_req: 0
-      allocation_id: 68
+      zones:
+      - zone: oggok
+        expansions_req: 0
+        allocation_id: 68
+        choices:
+        - index: 7
+          spawn_x: 991
+          spawn_y: 648
+          spawn_z: 81.69999694824219
+          spawn_heading: 143
   - class: beastlord
     deities:
     - deity: ralloszek
-      start_zone: oggok
-      expansions_req: 4
-      allocation_id: 65
+      zones:
+      - zone: oggok
+        expansions_req: 0 # was 4
+        allocation_id: 65
+        choices:
+        - index: 7
+          spawn_x: 1074
+          spawn_y: 289
+          spawn_z: 81.69999694824219
+          spawn_heading: 77
   - class: berserker
+    items:
+    - id: 183
+      item_id: 36001
+      name: 'Gore-Splattered Note (Lore: Bonecutters Guild Recruitment letter)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: cazicthule
-      start_zone: oggok
-      expansions_req: 64
-      allocation_id: 108
+      zones:
+      - zone: oggok
+        expansions_req: 0 # was 64
+        allocation_id: 108
+        choices:
+        - index: 7
+          spawn_x: -255
+          spawn_y: 303
+          spawn_z: 5.5
+          spawn_heading: 248
     - deity: ralloszek
-      start_zone: oggok
-      expansions_req: 64
-      allocation_id: 108
+      zones:
+      - zone: oggok
+        expansions_req: 0 # was 64
+        allocation_id: 108
+        choices:
+        - index: 7
+          spawn_x: -255
+          spawn_y: 303
+          spawn_z: 5.5
+          spawn_heading: 248
     - deity: agnostic2
-      start_zone: oggok
-      expansions_req: 64
-      allocation_id: 108
+      zones:
+      - zone: oggok
+        expansions_req: 0 # was 64
+        allocation_id: 108
+        choices:
+        - index: 7
+          spawn_x: -255
+          spawn_y: 303
+          spawn_z: 5.5
+          spawn_heading: 248
 - race: halfling
   classes:
   - class: warrior
     deities:
     - deity: brellserilis
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 42
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 42
+        choices:
+        - index: 3
+          spawn_x: -152
+          spawn_y: 100
+          spawn_z: 46.15999984741211
+          spawn_heading: 144
     - deity: ralloszek
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 42
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 42
+        choices:
+        - index: 3
+          spawn_x: -152
+          spawn_y: 100
+          spawn_z: 46.15999984741211
+          spawn_heading: 144
     - deity: agnostic2
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 42
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 42
+        choices:
+        - index: 3
+          spawn_x: -152
+          spawn_y: 100
+          spawn_z: 46.15999984741211
+          spawn_heading: 144
   - class: cleric
     deities:
     - deity: bristlebane
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 37
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 37
+        choices:
+        - index: 3
+          spawn_x: -369
+          spawn_y: -228
+          spawn_z: -17.809999465942383
+          spawn_heading: 192
   - class: paladin
     deities:
     - deity: karana
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 39
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 39
+        choices:
+        - index: 3
+          spawn_x: -312
+          spawn_y: -247
+          spawn_z: -9.8100004196167
+          spawn_heading: 128
   - class: ranger
     deities:
     - deity: karana
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 40
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 40
+        choices:
+        - index: 3
+          spawn_x: -439
+          spawn_y: -47
+          spawn_z: -11.8100004196167
   - class: druid
     deities:
     - deity: karana
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 38
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 38
+        choices:
+        - index: 3
+          spawn_x: -424
+          spawn_y: -52
+          spawn_z: -11.8100004196167
   - class: rogue
     deities:
     - deity: brellserilis
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 41
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 41
+        choices:
+        - index: 3
+          spawn_x: -181
+          spawn_y: -58
+          spawn_z: 40.189998626708984
+          spawn_heading: 224
     - deity: bristlebane
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 41
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 41
+        choices:
+        - index: 3
+          spawn_x: -181
+          spawn_y: -58
+          spawn_z: 40.189998626708984
+          spawn_heading: 224
     - deity: agnostic2
-      start_zone: rivervale
-      expansions_req: 0
-      allocation_id: 41
+      zones:
+      - zone: rivervale
+        expansions_req: 0
+        allocation_id: 41
+        choices:
+        - index: 3
+          spawn_x: -181
+          spawn_y: -58
+          spawn_z: 40.189998626708984
+          spawn_heading: 224
 - race: gnome
   classes:
   - class: warrior
+    items:
+    - id: 84
+      item_id: 18759
+      name: 'Stained Parchment (Lore: Dark Reflection Warrior Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 30
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 30
+        choices:
+        - index: 11
+          spawn_x: -511
+          spawn_y: 2113
+          spawn_z: -182.05999755859375
+          spawn_heading: 80
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 30
+      zones:
+      - zone: akanon
+        items:
+        - id: 86
+          item_id: 18770
+          name: 'Recruitment Summons (Lore: Gemchoppers Recruitment Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 30
+        choices:
+        - index: 11
+          spawn_x: -442
+          spawn_y: 854
+          spawn_z: -30.1200008392334
+          spawn_heading: 96
     - deity: ralloszek
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 30
+      zones:
+      - zone: akanon
+        items:
+        - id: 192
+          item_id: 18770
+          name: 'Recruitment Summons (Lore: Gemchoppers Recruitment Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 30
+        choices:
+        - index: 11
+          spawn_x: -442
+          spawn_y: 854
+          spawn_z: -30.1200008392334
+          spawn_heading: 96
     - deity: agnostic2
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 30
+      zones:
+      - zone: akanon
+        items:
+        - id: 193
+          item_id: 18770
+          name: 'Recruitment Summons (Lore: Gemchoppers Recruitment Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 30
+        choices:
+        - index: 11
+          spawn_x: -442
+          spawn_y: 854
+          spawn_z: -30.1200008392334
+          spawn_heading: 96
   - class: cleric
+    items:
+    - id: 85
+      item_id: 18769
+      name: 'Stained Note (Lore: Dark Reflection Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 23
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 23
+        choices:
+        - index: 11
+          spawn_x: -401
+          spawn_y: 2091
+          spawn_z: -182.05999755859375
+          spawn_heading: 45
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 23
+      zones:
+      - zone: akanon
+        items:
+        - id: 91
+          item_id: 18775
+          name: 'Tattered Note (Lore: Deep Muses Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 23
+        choices:
+        - index: 11
+          spawn_x: -549
+          spawn_y: 1191
+          spawn_z: -40.09000015258789
+          spawn_heading: 192
     - deity: bristlebane
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 23
+      zones:
+      - zone: akanon
+        items:
+        - id: 194
+          item_id: 18775
+          name: 'Tattered Note (Lore: Deep Muses Guild Summons)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 23
+        choices:
+        - index: 11
+          spawn_x: -549
+          spawn_y: 1191
+          spawn_z: -40.09000015258789
+          spawn_heading: 192
   - class: paladin
     deities:
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 27
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 27
+        choices:
+        - index: 11
+          spawn_x: -553
+          spawn_y: 1231
+          spawn_z: -40.09000015258789
+          spawn_heading: 64
   - class: shadowknight
+    items:
+    - id: 94
+      item_id: 18434
+      name: 'Gnome Shadowknight Note (Lore: Gnome Shadowknight Note)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 29
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 29
+        choices:
+        - index: 11
+          spawn_x: -443
+          spawn_y: 2132
+          spawn_z: -182.05999755859375
+          spawn_heading: 32
   - class: rogue
+    items:
+    - id: 83
+      item_id: 18705
+      name: 'Old Folded Letter (Lore: Dark Reflection Rogue Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 28
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 28
+        choices:
+        - index: 11
+          spawn_x: -497
+          spawn_y: 2073
+          spawn_z: -182.05999755859375
+          spawn_heading: 176
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 28
+      zones:
+      - zone: akanon
+        items:
+        - id: 92
+          item_id: 18776
+          name: 'Note (Lore: Note from Welno Tanlonikan)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 28
+        choices:
+        - index: 11
+          spawn_x: -596
+          spawn_y: 1231
+          spawn_z: -54.09000015258789
+          spawn_heading: 240
     - deity: bristlebane
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 28
+      zones:
+      - zone: akanon
+        items:
+        - id: 195
+          item_id: 18776
+          name: 'Note (Lore: Note from Welno Tanlonikan)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 28
+        choices:
+        - index: 11
+          spawn_x: -596
+          spawn_y: 1231
+          spawn_z: -54.09000015258789
+          spawn_heading: 240
     - deity: agnostic2
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 28
+      zones:
+      - zone: akanon
+        items:
+        - id: 196
+          item_id: 18776
+          name: 'Note (Lore: Note from Welno Tanlonikan)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 28
+        choices:
+        - index: 11
+          spawn_x: -596
+          spawn_y: 1231
+          spawn_z: -54.09000015258789
+          spawn_heading: 240
   - class: necromancer
+    items:
+    - id: 87
+      item_id: 18771
+      name: 'Stained Letter (Lore: Dark Reflection Guild Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 26
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 26
+        choices:
+        - index: 11
+          spawn_x: -406
+          spawn_y: 2086
+          spawn_z: -182.05999755859375
   - class: wizard
+    items:
+    - id: 187
+      item_id: 18704
+      name: 'Old Folded Letter (Lore: Dark Reflection Wizard Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -585
+          spawn_y: 2040
+          spawn_z: -182.05999755859375
+          spawn_heading: 160
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        items:
+        - id: 90
+          item_id: 18774
+          name: 'Registration Letter (Lore: Eldritch Wizard Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -992
+          spawn_y: 1065
+          spawn_z: 29.8799991607666
+          spawn_heading: 128
     - deity: solusekro
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        items:
+        - id: 197
+          item_id: 18774
+          name: 'Registration Letter (Lore: Eldritch Wizard Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -992
+          spawn_y: 1065
+          spawn_z: 29.8799991607666
+          spawn_heading: 128
     - deity: agnostic2
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        items:
+        - id: 198
+          item_id: 18774
+          name: 'Registration Letter (Lore: Eldritch Wizard Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -992
+          spawn_y: 1065
+          spawn_z: 29.8799991607666
+          spawn_heading: 128
   - class: magician
+    items:
+    - id: 81
+      item_id: 18702
+      name: 'Old Folded Letter (Lore: Dark Reflection Magician Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -588
+          spawn_y: 2037
+          spawn_z: -182.05999755859375
+          spawn_heading: 128
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        items:
+        - id: 88
+          item_id: 18772
+          name: 'Registration Letter (Lore: Eldritch Magician Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -1023
+          spawn_y: 1093
+          spawn_z: 29.8799991607666
+          spawn_heading: 240
     - deity: agnostic2
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 25
+      zones:
+      - zone: akanon
+        items:
+        - id: 199
+          item_id: 18772
+          name: 'Registration Letter (Lore: Eldritch Magician Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 25
+        choices:
+        - index: 11
+          spawn_x: -1023
+          spawn_y: 1093
+          spawn_z: 29.8799991607666
+          spawn_heading: 240
   - class: enchanter
+    items:
+    - id: 82
+      item_id: 18703
+      name: 'Old Folded Letter (Lore: Dark Reflection Enchanter Summons)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: bertoxxulous
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 24
+      zones:
+      - zone: akanon
+        expansions_req: 0
+        allocation_id: 24
+        choices:
+        - index: 11
+          spawn_x: -588
+          spawn_y: 2036
+          spawn_z: -182.05999755859375
+          spawn_heading: 96
     - deity: brellserilis
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 24
+      zones:
+      - zone: akanon
+        items:
+        - id: 89
+          item_id: 18773
+          name: 'Registration Letter (Lore: Eldritch Enchanter Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 24
+        choices:
+        - index: 11
+          spawn_x: -993
+          spawn_y: 1092
+          spawn_z: 29.8799991607666
+          spawn_heading: 48
     - deity: agnostic2
-      start_zone: akanon
-      expansions_req: 0
-      allocation_id: 24
+      zones:
+      - zone: akanon
+        items:
+        - id: 200
+          item_id: 18773
+          name: 'Registration Letter (Lore: Eldritch Enchanter Registration)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0
+        allocation_id: 24
+        choices:
+        - index: 11
+          spawn_x: -993
+          spawn_y: 1092
+          spawn_z: 29.8799991607666
+          spawn_heading: 48
 - race: iksar
   classes:
   - class: warrior
     deities:
     - deity: cazicthule
-      start_zone: cabeast
-      expansions_req: 1
-      allocation_id: 64
+      zones:
+      - zone: cabeast
+        expansions_req: 0 # was 1
+        allocation_id: 64
+        choices:
+        - index: 12
+          spawn_x: 16
+          spawn_y: -477
+          spawn_z: 59.720001220703125
+          spawn_heading: 32
   - class: shadowknight
     deities:
     - deity: cazicthule
-      start_zone: cabeast
-      expansions_req: 1
-      allocation_id: 62
+      zones:
+      - zone: cabeast
+        expansions_req: 0 # was 1
+        allocation_id: 62
+        choices:
+        - index: 12
+          spawn_x: -189
+          spawn_y: 1027
+          spawn_z: 73.72000122070312
+          spawn_heading: 128
   - class: monk
     deities:
     - deity: cazicthule
-      start_zone: cabeast
-      expansions_req: 1
-      allocation_id: 60
+      zones:
+      - zone: cabeast
+        expansions_req: 0 # was 1
+        allocation_id: 60
+        choices:
+        - index: 12
+          spawn_x: -50
+          spawn_y: 421
+          spawn_z: 6.75
+          spawn_heading: 128
   - class: shaman
     deities:
     - deity: cazicthule
-      start_zone: cabeast
-      expansions_req: 1
-      allocation_id: 63
+      zones:
+      - zone: cabeast
+        expansions_req: 0 # was 1
+        allocation_id: 63
+        choices:
+        - index: 12
+          spawn_x: -189
+          spawn_y: 1017
+          spawn_z: 18.75
   - class: necromancer
     deities:
     - deity: cazicthule
-      start_zone: cabwest
-      expansions_req: 1
-      allocation_id: 61
+      zones:
+      - zone: cabwest
+        expansions_req: 0 # was 1
+        allocation_id: 61
+        choices:
+        - index: 12
+          spawn_x: 761
+          spawn_y: 316
+          spawn_z: 76.72000122070312
+          spawn_heading: 64
   - class: beastlord
     deities:
     - deity: cazicthule
-      start_zone: cabeast
-      expansions_req: 5
-      allocation_id: 59
+      zones:
+      - zone: cabeast
+        expansions_req: 0 # was 5
+        allocation_id: 59
+        choices:
+        - index: 12
+          spawn_x: -204
+          spawn_y: 1040
+          spawn_z: 45.720001220703125
 - race: vahshir
   classes:
   - class: warrior
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 4
-      allocation_id: 80
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 4
+        allocation_id: 80
+        choices:
+        - index: 13
+          spawn_x: -535
+          spawn_y: -143
+          spawn_z: -259
+          spawn_heading: 128
   - class: bard
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 4
-      allocation_id: 75
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 4
+        allocation_id: 75
+        choices:
+        - index: 13
+          spawn_x: 529
+          spawn_y: -3
+          spawn_z: -103.5999984741211
   - class: rogue
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 4
-      allocation_id: 78
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 4
+        allocation_id: 78
+        choices:
+        - index: 13
+          spawn_x: -300
+          spawn_y: 190
+          spawn_z: -247.5
+          spawn_heading: 128
   - class: shaman
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 4
-      allocation_id: 79
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 4
+        allocation_id: 79
+        choices:
+        - index: 13
+          spawn_x: 100
+          spawn_y: 55
+          spawn_z: -259.5
+          spawn_heading: 256
   - class: beastlord
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 4
-      allocation_id: 76
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 4
+        allocation_id: 76
+        choices:
+        - index: 13
+          spawn_x: 76
+          spawn_y: 318
+          spawn_z: -259.6000061035156
+          spawn_heading: 80
   - class: berserker
+    items:
+    - id: 186
+      item_id: 36004
+      name: 'Shimmering Cloth Note (Lore: Ireblood Ragers Invitation)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: agnostic2
-      start_zone: sharvahl
-      expansions_req: 68
-      allocation_id: 77
+      zones:
+      - zone: sharvahl
+        expansions_req: 0 # was 68
+        allocation_id: 77
+        choices:
+        - index: 13
+          spawn_x: 50
+          spawn_y: 70
+          spawn_z: -258.1000061035156
+          spawn_heading: 128
 - race: froglok
   classes:
   - class: warrior
     deities:
     - deity: mithanielmarr
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 92
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 92
+        choices:
+        - index: 14
+          spawn_x: 368
+          spawn_y: -1622
+          spawn_z: 0.4099999964237213
+          spawn_heading: 144
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: cleric
+    items:
+    - id: 188
+      item_id: 51637
+      name: 'Cursed Guktan Cleric Recruit Letter (Lore: Cursed Guktan Cleric Recruit
+        Letter)'
+      item_charges: 1
+      slot: -1
     deities:
     - deity: innoruuk
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 86
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 86
+        choices:
+        - index: 14
+          spawn_x: 2037
+          spawn_y: -1889
+          spawn_z: 1.399999976158142
+          spawn_heading: 64
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
     - deity: mithanielmarr
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 86
+      zones:
+      - zone: rathemtn
+        items:
+        - id: 79
+          item_id: 18364
+          name: 'Guktan Cleric Recruit Letter (Lore: Guktan Cleric Recruit Letter)'
+          item_charges: 1
+          slot: -1
+        expansions_req: 0 # was 16
+        allocation_id: 86
+        choices:
+        - index: 14
+          spawn_x: 346
+          spawn_y: -1697
+          spawn_z: 0.8100000023841858
+          spawn_heading: 150
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: paladin
     deities:
     - deity: mithanielmarr
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 88
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 88
+        choices:
+        - index: 14
+          spawn_x: 340
+          spawn_y: -1690
+          spawn_z: 0.6899999976158142
+          spawn_heading: 32
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: shadowknight
     deities:
     - deity: innoruuk
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 90
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 90
+        choices:
+        - index: 14
+          spawn_x: 2132
+          spawn_y: -1764
+          spawn_z: 1.5199999809265137
+          spawn_heading: 32
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: rogue
     deities:
     - deity: innoruuk
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 89
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 89
+        choices:
+        - index: 14
+          spawn_x: 2114
+          spawn_y: -1764
+          spawn_z: 1.159999966621399
+          spawn_heading: 224
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: shaman
     deities:
     - deity: mithanielmarr
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 91
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 91
+        choices:
+        - index: 14
+          spawn_x: 420
+          spawn_y: -1679
+          spawn_z: 1.7599999904632568
+          spawn_heading: 80
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: necromancer
     deities:
     - deity: innoruuk
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 87
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 87
+        choices:
+        - index: 14
+          spawn_x: 1959
+          spawn_y: -2035
+          spawn_z: 0.5400000214576721
+          spawn_heading: 128
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
   - class: wizard
     deities:
     - deity: mithanielmarr
-      start_zone: rathemtn
-      expansions_req: 16
-      allocation_id: 93
+      zones:
+      - zone: rathemtn
+        expansions_req: 0 # was 16
+        allocation_id: 93
+        choices:
+        - index: 14
+          spawn_x: 298
+          spawn_y: -1634
+          spawn_z: 0.4099999964237213
+          spawn_heading: 208
+          bind_x: 343
+          bind_y: -1676
+          bind_z: -0.20000000298023224
 - race: drakkin
   classes:
   - class: warrior
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 94
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 94
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: cleric
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 95
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 95
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: paladin
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 96
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 96
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: ranger
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 97
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 97
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: shadowknight
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 98
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 98
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: druid
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 99
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 99
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: monk
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 100
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 100
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: bard
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 101
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 101
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: rogue
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 102
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 102
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: necromancer
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 103
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 103
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: wizard
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 104
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 104
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: magician
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 105
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 105
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
   - class: enchanter
     deities:
     - deity: veeshan
-      start_zone: freportwest
-      allocation_id: 106
+      zones:
+      - zone: freportwest
+        expansions_req: 0 # was 2048
+        allocation_id: 106
+        choices:
+        - index: 6
+          spawn_x: -1704
+          spawn_y: 1493
+          spawn_z: 16.770000457763672
+          spawn_heading: 240
 allocations:
 - id: 0
   base_str: 103

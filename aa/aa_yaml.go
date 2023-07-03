@@ -61,6 +61,8 @@ func (e *AAYaml) sanitize() error {
 	titleNames := make(map[int]string)
 	descNames := make(map[int]string)
 
+	uniqueRankIDs := make(map[int]bool)
+
 	for skillIndex, skill := range e.Skills {
 		abilityName, ok := abilityNames[skill.ID]
 		if !ok {
@@ -79,7 +81,14 @@ func (e *AAYaml) sanitize() error {
 			return fmt.Errorf("title name mismatch for nameSID %d for skill id %d between '%s' and '%s'", skill.NameSID, skillIndex, titleName, skill.Name)
 		}
 		for rankIndex, rank := range skill.Ranks {
-
+			if rank.ID == 0 {
+				return fmt.Errorf("rank id is 0 for skill id %d rank %d", skillIndex, rankIndex)
+			}
+			_, ok := uniqueRankIDs[rank.ID]
+			if ok {
+				return fmt.Errorf("duplicate rank id %d for skill id %d rank %d", rank.ID, skillIndex, rankIndex)
+			}
+			uniqueRankIDs[rank.ID] = true
 			if rank.TitleSID != 0 {
 				titleName, ok := titleNames[rank.TitleSID]
 				if !ok {

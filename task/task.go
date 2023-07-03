@@ -26,6 +26,12 @@ func Build(cmd *cobra.Command, args []string) error {
 			os.Exit(1)
 		}
 	}()
+	err = generate()
+
+	return nil
+}
+
+func generate() error {
 	data, err := os.ReadFile("task.yaml")
 	if err != nil {
 		return err

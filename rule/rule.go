@@ -25,6 +25,11 @@ func Build(cmd *cobra.Command, args []string) error {
 			os.Exit(1)
 		}
 	}()
+	err = generate()
+	return nil
+}
+
+func generate() error {
 	data, err := os.ReadFile("rule.yaml")
 	if err != nil {
 		return err
@@ -44,7 +49,6 @@ func Build(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return fmt.Errorf("generateRuleSQL: %w", err)
 	}
-
 	return nil
 }
 

@@ -21,16 +21,22 @@ func Build(cmd *cobra.Command, args []string) error {
 	var err error
 	defer func() {
 		fmt.Println(" finished in", time.Since(start).String())
-		fmt.Println("Spell changed", db.changedSpellsUSCount, "spells_us entries")
 		if err != nil {
-			fmt.Println("Error:", err)
+			fmt.Printf("Error: %s\n", err)
 			os.Exit(1)
 		}
+		fmt.Println("Spell changed", db.changedSpellsUSCount, "spells_us entries")
 	}()
+	err = generate(db)
+	return nil
+}
+
+func generate(db *dbReader) error {
 	data, err := os.ReadFile("spell.yaml")
 	if err != nil {
-		return err
+		return fmt.Errorf("read spell.yaml: %w", err)
 	}
+
 	spell := SpellYaml{}
 	err = yaml.Unmarshal(data, &spell)
 	if err != nil {
@@ -78,6 +84,8 @@ func generateSpellSQL(sp *SpellYaml) error {
 			case reflect.Int:
 				w.WriteString(fmt.Sprintf("%d", field.Value()))
 			case reflect.Float64:
+				w.WriteString(fmt.Sprintf("%f", field.Value()))
+			case reflect.Float32:
 				w.WriteString(fmt.Sprintf("%f", field.Value()))
 			case reflect.Bool:
 				w.WriteString(fmt.Sprintf("%t", field.Value()))

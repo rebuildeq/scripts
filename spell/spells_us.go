@@ -99,6 +99,8 @@ func modifySpellsUS(db *dbReader, sp *SpellYaml) error {
 				line += fmt.Sprintf("%d", field.Value())
 			case reflect.Float64:
 				line += fmt.Sprintf("%f", field.Value())
+			case reflect.Float32:
+				line += fmt.Sprintf("%f", field.Value())
 			case reflect.Bool:
 				line += fmt.Sprintf("%t", field.Value())
 			default:

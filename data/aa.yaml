@@ -1528,6 +1528,7 @@ skills:
       level_req: 44
       ranks:
         - index: 1
+          id: 106
           description: Enhances Cassindra\'s Elegy from 0 to 2 mana.
           desc_sid: 109
           cost: 1
@@ -1536,6 +1537,7 @@ skills:
             base1: 16
             base2: 3
         - index: 2
+          id: 107
           description: Enhances Cassindra\'s Elegy from 2 to 4 mana.
           desc_sid: 110
           cost: 1
@@ -1544,6 +1546,7 @@ skills:
             base1: 16
             base2: 6
         - index: 3
+          id: 108
           description: Enhances Cassindra\'s Elegy from 4 to 6 mana.
           desc_sid: 111
           cost: 1
@@ -1552,6 +1555,7 @@ skills:
             base1: 16
             base2: 9
         - index: 4
+          id: 109
           description: Enhances Cassindra\'s Elegy from 6 to 8 mana.
           desc_sid: 112
           cost: 1
@@ -1560,6 +1564,7 @@ skills:
             base1: 16
             base2: 12
         - index: 5
+          id: 110
           description: Enhances Cassindra\'s Elegy from 8 to 10 mana.
           desc_sid: 113
           cost: 1
@@ -1568,6 +1573,7 @@ skills:
             base1: 16
             base2: 15
         - index: 6
+          id: 111
           description: Enhances Cassindra\'s Elegy from 10 to 12 mana.
           desc_sid: 114
           cost: 1
@@ -1576,6 +1582,7 @@ skills:
             base1: 16
             base2: 18
         - index: 7
+          id: 112
           description: Enhances Cassindra\'s Elegy from 12 to 14 mana.
           desc_sid: 115
           cost: 1
@@ -1584,6 +1591,7 @@ skills:
             base1: 16
             base2: 21
         - index: 8
+          id: 113
           description: Enhances Cassindra\'s Elegy from 14 to 16 mana.
           desc_sid: 116
           cost: 1
@@ -1592,6 +1600,7 @@ skills:
             base1: 16
             base2: 24
         - index: 9
+          id: 114
           description: Enhances Cassindra\'s Elegy from 16 to 18 mana.
           desc_sid: 117
           cost: 1
@@ -1600,6 +1609,7 @@ skills:
             base1: 16
             base2: 27
         - index: 10
+          id: 115
           description: Enhances Cassindra\'s Elegy from 18 to 20 mana.
           desc_sid: 118
           cost: 1
@@ -1616,6 +1626,7 @@ skills:
       level_req: 50
       ranks:
         - index: 1
+          id: 116
           description: Grants the bard a passive 300 mod proc that deals 12 magic damage.
           desc_sid: 119
           cost: 1
@@ -1624,6 +1635,7 @@ skills:
             base1: 18
             base2: 12
         - index: 2
+          id: 117
           description: Grants the bard a passive 300 mod proc that deals 24 magic damage.
           desc_sid: 120
           cost: 1
@@ -1632,6 +1644,7 @@ skills:
             base1: 18
             base2: 24
         - index: 3
+          id: 118
           description: Grants the bard a passive 300 mod proc that deals 36 magic damage.
           desc_sid: 121
           cost: 1
@@ -1640,6 +1653,7 @@ skills:
             base1: 18
             base2: 36
         - index: 4
+          id: 119
           description: Grants the bard a passive 300 mod proc that deals 48 magic damage.
           desc_sid: 122
           cost: 1
@@ -1648,6 +1662,7 @@ skills:
             base1: 18
             base2: 48
         - index: 5
+          id: 120
           description: Grants the bard a passive 300 mod proc that deals 60 magic damage.
           desc_sid: 123
           cost: 1
@@ -1656,6 +1671,7 @@ skills:
             base1: 18
             base2: 60
         - index: 6
+          id: 121
           description: Grants the bard a passive 300 mod proc that deals 72 magic damage.
           desc_sid: 124
           cost: 1
@@ -1664,6 +1680,7 @@ skills:
             base1: 18
             base2: 72
         - index: 7
+          id: 122
           description: Grants the bard a passive 300 mod proc that deals 84 magic damage.
           desc_sid: 125
           cost: 1
@@ -1672,6 +1689,7 @@ skills:
             base1: 18
             base2: 84
         - index: 8
+          id: 123
           description: Grants the bard a passive 300 mod proc that deals 96 magic damage.
           desc_sid: 126
           cost: 1
@@ -1680,6 +1698,7 @@ skills:
             base1: 18
             base2: 96
         - index: 9
+          id: 124
           description: Grants the bard a passive 300 mod proc that deals 108 magic damage.
           desc_sid: 127
           cost: 1
@@ -1688,6 +1707,7 @@ skills:
             base1: 18
             base2: 108
         - index: 10
+          id: 125
           description: Grants the bard a passive 300 mod proc that deals 120 magic damage.
           desc_sid: 128
           cost: 1
@@ -1703,6 +1723,7 @@ skills:
       grant_only: 0
       ranks:
         - index: 1
+          id: 146
           description: Increase melee damage with 1h blunt/slash/piercing from 0% to 5%.
           desc_sid: 129
           cost: 1
@@ -1719,6 +1740,7 @@ skills:
             base1: 5
             base2: 36 # 1H Piercing
         - index: 2
+          id: 147
           description: Increase melee damage with 1h blunt/slash/piercing from 5% to 10%.
           desc_sid: 130
           cost: 1
@@ -1735,6 +1757,7 @@ skills:
             base1: 10
             base2: 36 # 1H Piercing
         - index: 3
+          id: 148
           description: Increase melee damage with 1h blunt/slash/piercing from 10% to 15%.
           desc_sid: 131
           cost: 1
@@ -1751,6 +1774,7 @@ skills:
             base1: 15
             base2: 36 # 1H Piercing
         - index: 4
+          id: 149
           description: Increase melee damage with 1h blunt/slash/piercing from 15% to 20%.
           desc_sid: 132
           cost: 1
@@ -1767,6 +1791,7 @@ skills:
             base1: 20
             base2: 36 # 1H Piercing
         - index: 5
+          id: 150
           description: Increase melee damage with 1h blunt/slash/piercing from 20% to 25%.
           desc_sid: 133
           cost: 1
@@ -1783,6 +1808,7 @@ skills:
             base1: 25
             base2: 36 # 1H Piercing
         - index: 6
+          id: 151
           description: Increase melee damage with 1h blunt/slash/piercing from 25% to 30%.
           desc_sid: 134
           cost: 1
@@ -1799,6 +1825,7 @@ skills:
             base1: 30
             base2: 36 # 1H Piercing
         - index: 7
+          id: 152
           description: Increase melee damage with 1h blunt/slash/piercing from 30% to 35%.
           desc_sid: 135
           cost: 1
@@ -1815,6 +1842,7 @@ skills:
             base1: 35
             base2: 36 # 1H Piercing
         - index: 8
+          id: 153
           description: Increase melee damage with 1h blunt/slash/piercing from 35% to 40%.
           desc_sid: 136
           cost: 1
@@ -1831,6 +1859,7 @@ skills:
             base1: 40
             base2: 36 # 1H Piercing
         - index: 9
+          id: 154
           description: Increase melee damage with 1h blunt/slash/piercing from 40% to 45%.
           desc_sid: 137
           cost: 1
@@ -1847,6 +1876,7 @@ skills:
             base1: 45
             base2: 36 # 1H Piercing
         - index: 10
+          id: 155
           description: Increase melee damage with 1h blunt/slash/piercing from 45% to 50%.
           desc_sid: 138
           cost: 1
@@ -1870,6 +1900,7 @@ skills:
       grant_only: 0
       ranks:
         - index: 1
+          id: 126
           description: When you miss in melee, grants a 10% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 139
           cost: 1
@@ -1879,6 +1910,7 @@ skills:
             base1: 267
             base2: 10
         - index: 2
+          id: 127
           description: When you miss in melee, grants a 20% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 140
           cost: 1
@@ -1888,6 +1920,7 @@ skills:
             base1: 267
             base2: 20
         - index: 3
+          id: 128
           description: When you miss in melee, grants a 30% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 141
           cost: 1
@@ -1897,6 +1930,7 @@ skills:
             base1: 267
             base2: 30
         - index: 4
+          id: 129
           description: When you miss in melee, grants a 40% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 142
           cost: 1
@@ -1906,6 +1940,7 @@ skills:
             base1: 267
             base2: 40
         - index: 5
+          id: 130
           description: When you miss in melee, grants a 50% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 143
           cost: 1
@@ -1915,6 +1950,7 @@ skills:
             base1: 267
             base2: 50
         - index: 6
+          id: 131
           description: When you miss in melee, grants a 60% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 144
           cost: 1
@@ -1924,6 +1960,7 @@ skills:
             base1: 267
             base2: 60
         - index: 7
+          id: 132
           description: When you miss in melee, grants a 70% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 145
           cost: 1
@@ -1933,6 +1970,7 @@ skills:
             base1: 267
             base2: 70
         - index: 8
+          id: 133
           description: When you miss in melee, grants a 80% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 146
           cost: 1
@@ -1942,6 +1980,7 @@ skills:
             base1: 267
             base2: 80
         - index: 9
+          id: 134
           description: When you miss in melee, grants a 90% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 147
           cost: 1
@@ -1951,6 +1990,7 @@ skills:
             base1: 267
             base2: 90
         - index: 10
+          id: 135
           description: When you miss in melee, grants a 100% chance to succeed the attack anyway. Minimum damage on these recovery attacks might be lower than normal.
           desc_sid: 148
           cost: 1
@@ -1967,6 +2007,7 @@ skills:
       grant_only: 0
       ranks:
         - index: 1
+          id: 136
           description: When you resist with an offensive spell, grants a 10% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 149
           cost: 1
@@ -1976,6 +2017,7 @@ skills:
             base1: 268
             base2: 10
         - index: 2
+          id: 137
           description: When you resist with an offensive spell, grants a 20% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 150
           cost: 1
@@ -1985,6 +2027,7 @@ skills:
             base1: 268
             base2: 20
         - index: 3
+          id: 138
           description: When you resist with an offensive spell, grants a 30% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 151
           cost: 1
@@ -1994,6 +2037,7 @@ skills:
             base1: 268
             base2: 30
         - index: 4
+          id: 139
           description: When you resist with an offensive spell, grants a 40% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 152
           cost: 1
@@ -2003,6 +2047,7 @@ skills:
             base1: 268
             base2: 40
         - index: 5
+          id: 140
           description: When you resist with an offensive spell, grants a 50% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 153
           cost: 1
@@ -2012,6 +2057,7 @@ skills:
             base1: 268
             base2: 50
         - index: 6
+          id: 141
           description: When you resist with an offensive spell, grants a 60% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 154
           cost: 1
@@ -2021,6 +2067,7 @@ skills:
             base1: 268
             base2: 60
         - index: 7
+          id: 142
           description: When you resist with an offensive spell, grants a 70% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 155
           cost: 1
@@ -2030,6 +2077,7 @@ skills:
             base1: 268
             base2: 70
         - index: 8
+          id: 143
           description: When you resist with an offensive spell, grants a 80% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 156
           cost: 1
@@ -2039,6 +2087,7 @@ skills:
             base1: 268
             base2: 80
         - index: 9
+          id: 144
           description: When you resist with an offensive spell, grants a 90% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 157
           cost: 1
@@ -2048,6 +2097,7 @@ skills:
             base1: 268
             base2: 90
         - index: 10
+          id: 145
           description: When you resist with an offensive spell, grants a 100% chance to succeed the spell anyway. Minimum damage on these magic spells might be lower than normal.
           desc_sid: 158
           cost: 1

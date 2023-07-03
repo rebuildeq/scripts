@@ -7,12 +7,17 @@ build:
 	mkdir -p bin
 	go build -o bin/rebuildeq main.go
 # runs all build commands
-build-all:
+build-all: build copy-data
 	cd bin && ./rebuildeq build all
+	cp bin/aa.md ../web/content/aa.md
+	cp bin/dbstr_us.txt ../launcheq/rof
+	cp bin/spells_us.txt ../launcheq/rof
 # builds aa
 build-aa: build copy-data
 	cd bin && ./rebuildeq build aa
 	cp bin/aa.md ../web/content/aa.md
+	cp bin/dbstr_us.txt ../launcheq/rof
+	cp bin/spells_us.txt ../launcheq/rof
 # builds spell
 build-spell: build copy-data
 	cd bin && ./rebuildeq build spell

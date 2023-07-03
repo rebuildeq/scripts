@@ -1,0 +1,4457 @@
+charCreates:
+- race: human
+  classes:
+  - class: warrior
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 58
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 58
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 58
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 58
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: mithanielmarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 58
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: rallos zek
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 58
+    - deity: rallos zek
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 58
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 58
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 58
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 58
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 58
+  - class: cleric
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 48
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 48
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 48
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 48
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 48
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+    - deity: rodcetnife
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 48
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 48
+  - class: paladin
+    deities:
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 54
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 54
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 54
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 54
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 54
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 54
+    - deity: rodcetnife
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 54
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 54
+  - class: ranger
+    deities:
+    - deity: karana
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 55
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 55
+    - deity: tunare
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 55
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 55
+  - class: shadowknight
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 57
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 57
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 57
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 57
+  - class: druid
+    deities:
+    - deity: karana
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 49
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 49
+    - deity: tunare
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 49
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 49
+  - class: monk
+    deities:
+    - deity: quellious
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 52
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 52
+    - deity: agnostic2
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 52
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 52
+  - class: bard
+    deities:
+    - deity: brellserilis
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: brellserilis
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: bristlebane
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: bristlebane
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: mithanielmarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: prexus
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: prexus
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: quellious
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: quellious
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: rallos zek
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: rallos zek
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: solusekro
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: solusekro
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: thetribunal
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: thetribunal
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: tunare
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: tunare
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: veeshan
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: veeshan
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 47
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 47
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 47
+  - class: rogue
+    deities:
+    - deity: bertoxxulous
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 56
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 56
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: bristlebane
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 56
+    - deity: bristlebane
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 56
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 56
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: karana
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 56
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: rodcetnife
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 56
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+    - deity: agnostic2
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 56
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 56
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 56
+  - class: necromancer
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 53
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 53
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 53
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 53
+  - class: wizard
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 51
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: solusekro
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: solusekro
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+  - class: magician
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 51
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 51
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 51
+  - class: enchanter
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 50
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 50
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 50
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 50
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 50
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 50
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 50
+    - deity: agnostic2
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 50
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 50
+- race: barbarian
+  classes:
+  - class: warrior
+    deities:
+    - deity: rallos zek
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 4
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 4
+    - deity: thetribunal
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 4
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 4
+    - deity: agnostic2
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 4
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 4
+  - class: rogue
+    deities:
+    - deity: bristlebane
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 2
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 2
+    - deity: thetribunal
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 2
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 2
+    - deity: agnostic2
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 2
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 2
+  - class: shaman
+    deities:
+    - deity: thetribunal
+      start_zone: halas
+      expansions_req: 0
+      allocation_id: 3
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 3
+  - class: beastlord
+    deities:
+    - deity: mithanielmarr
+      start_zone: halas
+      expansions_req: 4
+      allocation_id: 0
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 0
+    - deity: thetribunal
+      start_zone: halas
+      expansions_req: 4
+      allocation_id: 0
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 0
+  - class: berserker
+    deities:
+    - deity: rallos zek
+      start_zone: halas
+      expansions_req: 64
+      allocation_id: 1
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 1
+    - deity: thetribunal
+      start_zone: halas
+      expansions_req: 64
+      allocation_id: 1
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 1
+    - deity: agnostic2
+      start_zone: halas
+      expansions_req: 64
+      allocation_id: 1
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 1
+- race: erudite
+  classes:
+  - class: cleric
+    deities:
+    - deity: cazicthule
+      start_zone: paineel
+      expansions_req: 0
+      allocation_id: 17
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 17
+    - deity: prexus
+      start_zone: erudnext
+      expansions_req: 0
+      allocation_id: 17
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 17
+    - deity: quellious
+      start_zone: erudnext
+      expansions_req: 0
+      allocation_id: 17
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 17
+  - class: paladin
+    deities:
+    - deity: prexus
+      start_zone: erudnext
+      expansions_req: 0
+      allocation_id: 21
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 21
+    - deity: quellious
+      start_zone: erudnext
+      expansions_req: 0
+      allocation_id: 21
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 21
+  - class: shadowknight
+    deities:
+    - deity: cazicthule
+      start_zone: paineel
+      expansions_req: 0
+      allocation_id: 22
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 22
+  - class: necromancer
+    deities:
+    - deity: cazicthule
+      start_zone: paineel
+      expansions_req: 0
+      allocation_id: 20
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 20
+  - class: wizard
+    deities:
+    - deity: prexus
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+    - deity: quellious
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+    - deity: solusekro
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+    - deity: agnostic2
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+  - class: magician
+    deities:
+    - deity: prexus
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+    - deity: quellious
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+    - deity: agnostic2
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 19
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 19
+  - class: enchanter
+    deities:
+    - deity: prexus
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 18
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 18
+    - deity: quellious
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 18
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 18
+    - deity: agnostic2
+      start_zone: erudnint
+      expansions_req: 0
+      allocation_id: 18
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 18
+- race: woodelf
+  classes:
+  - class: warrior
+    deities:
+    - deity: karana
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 85
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 85
+    - deity: rallos zek
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 85
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 85
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 85
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 85
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 85
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 85
+  - class: ranger
+    deities:
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 83
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 83
+  - class: druid
+    deities:
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 82
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 82
+  - class: bard
+    deities:
+    - deity: brellserilis
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: erollsimarr
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: bristlebane
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: karana
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: mithanielmarr
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: prexus
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: quellious
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: rallos zek
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: rodcetnife
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: solusekro
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: thetribunal
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: veeshan
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 81
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 81
+  - class: rogue
+    deities:
+    - deity: bristlebane
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 84
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 84
+    - deity: karana
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 84
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 84
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 84
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 84
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 84
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 84
+- race: highelf
+  classes:
+  - class: cleric
+    deities:
+    - deity: tunare
+      start_zone: felwithea
+      expansions_req: 0
+      allocation_id: 43
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 43
+  - class: paladin
+    deities:
+    - deity: tunare
+      start_zone: felwithea
+      expansions_req: 0
+      allocation_id: 46
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 46
+  - class: wizard
+    deities:
+    - deity: erollsimarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: karana
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: mithanielmarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: solusekro
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: tunare
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: agnostic2
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+  - class: magician
+    deities:
+    - deity: erollsimarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: karana
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: mithanielmarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: tunare
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+    - deity: agnostic2
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 45
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 45
+  - class: enchanter
+    deities:
+    - deity: erollsimarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 44
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 44
+    - deity: karana
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 44
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 44
+    - deity: mithanielmarr
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 44
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 44
+    - deity: tunare
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 44
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 44
+    - deity: agnostic2
+      start_zone: felwitheb
+      expansions_req: 0
+      allocation_id: 44
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 44
+- race: darkelf
+  classes:
+  - class: warrior
+    deities:
+    - deity: innoruuk
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 11
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 11
+    - deity: rallos zek
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 11
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 11
+    - deity: agnostic2
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 11
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 11
+  - class: cleric
+    deities:
+    - deity: innoruuk
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 5
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 5
+  - class: shadowknight
+    deities:
+    - deity: innoruuk
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 10
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 10
+  - class: rogue
+    deities:
+    - deity: bristlebane
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 9
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 9
+    - deity: innoruuk
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 9
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 9
+    - deity: agnostic2
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 9
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 9
+  - class: necromancer
+    deities:
+    - deity: innoruuk
+      start_zone: neriakc
+      expansions_req: 0
+      allocation_id: 8
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 8
+  - class: wizard
+    deities:
+    - deity: innoruuk
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 7
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 7
+    - deity: solusekro
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 7
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 7
+    - deity: agnostic2
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 7
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 7
+  - class: magician
+    deities:
+    - deity: innoruuk
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 7
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 7
+    - deity: agnostic2
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 7
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 7
+  - class: enchanter
+    deities:
+    - deity: innoruuk
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 6
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 6
+    - deity: agnostic2
+      start_zone: neriakb
+      expansions_req: 0
+      allocation_id: 6
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 6
+- race: halfelf
+  classes:
+  - class: warrior
+    deities:
+    - deity: bertoxxulous
+      start_zone: qcat
+      expansions_req: 0
+      allocation_id: 36
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: innoruuk
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: mithanielmarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: prexus
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: prexus
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 36
+    - deity: prexus
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: rallos zek
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: rallos zek
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 36
+    - deity: rallos zek
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: thetribunal
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: thetribunal
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 36
+    - deity: thetribunal
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 36
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 36
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 36
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 36
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 36
+  - class: paladin
+    deities:
+    - deity: erollsimarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 33
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 33
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 33
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 33
+    - deity: mithanielmarr
+      start_zone: freeportwest
+      expansions_req: 1024
+      allocation_id: 33
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 33
+    - deity: rodcetnife
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 33
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 33
+    - deity: tunare
+      start_zone: felwithea
+      expansions_req: 0
+      allocation_id: 33
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 33
+  - class: ranger
+    deities:
+    - deity: karana
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 34
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 34
+    - deity: tunare
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 34
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 34
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 34
+  - class: druid
+    deities:
+    - deity: karana
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 32
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 32
+    - deity: tunare
+      start_zone: qrg
+      expansions_req: 0
+      allocation_id: 32
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 32
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 32
+  - class: bard
+    deities:
+    - deity: brellserilis
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: brellserilis
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: brellserilis
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: bristlebane
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: bristlebane
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: bristlebane
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: karana
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: mithanielmarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: prexus
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: prexus
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: prexus
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: prexus
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: quellious
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: quellious
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: quellious
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: quellious
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: rallos zek
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: rallos zek
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: rallos zek
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: rodcetnife
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: solusekro
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: solusekro
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: solusekro
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: thetribunal
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: thetribunal
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: thetribunal
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: thetribunal
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: tunare
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: tunare
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: veeshan
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: veeshan
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: veeshan
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+    - deity: agnostic2
+      start_zone: qeynos
+      expansions_req: 0
+      allocation_id: 31
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 31
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 31
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 31
+  - class: rogue
+    deities:
+    - deity: bertoxxulous
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 35
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: erollsimarr
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 35
+    - deity: erollsimarr
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: bristlebane
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 35
+    - deity: bristlebane
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 35
+    - deity: bristlebane
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 35
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: karana
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 35
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: rodcetnife
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 35
+    - deity: rodcetnife
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: tunare
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 35
+    - deity: tunare
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+    - deity: agnostic2
+      start_zone: qeynos2
+      expansions_req: 0
+      allocation_id: 35
+    - deity: agnostic2
+      start_zone: gfaydark
+      expansions_req: 0
+      allocation_id: 35
+    - deity: agnostic2
+      start_zone: freeporteast
+      expansions_req: 1024
+      allocation_id: 35
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 35
+- race: dwarf
+  classes:
+  - class: warrior
+    deities:
+    - deity: brellserilis
+      start_zone: kaladima
+      expansions_req: 0
+      allocation_id: 16
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 16
+    - deity: agnostic2
+      start_zone: kaladima
+      expansions_req: 0
+      allocation_id: 16
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 16
+  - class: cleric
+    deities:
+    - deity: brellserilis
+      start_zone: kaladimb
+      expansions_req: 0
+      allocation_id: 13
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 13
+  - class: paladin
+    deities:
+    - deity: brellserilis
+      start_zone: kaladimb
+      expansions_req: 0
+      allocation_id: 14
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 14
+  - class: rogue
+    deities:
+    - deity: brellserilis
+      start_zone: kaladimb
+      expansions_req: 0
+      allocation_id: 15
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 15
+    - deity: bristlebane
+      start_zone: kaladimb
+      expansions_req: 0
+      allocation_id: 15
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 15
+    - deity: agnostic2
+      start_zone: kaladimb
+      expansions_req: 0
+      allocation_id: 15
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 15
+  - class: berserker
+    deities:
+    - deity: brellserilis
+      start_zone: kaladimb
+      expansions_req: 64
+      allocation_id: 12
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 12
+    - deity: bristlebane
+      start_zone: kaladimb
+      expansions_req: 64
+      allocation_id: 12
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 12
+    - deity: agnostic2
+      start_zone: kaladimb
+      expansions_req: 64
+      allocation_id: 12
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 12
+- race: troll
+  classes:
+  - class: warrior
+    deities:
+    - deity: cazicthule
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 74
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 74
+    - deity: innoruuk
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 74
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 74
+    - deity: rallos zek
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 74
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 74
+    - deity: agnostic2
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 74
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 74
+  - class: shadowknight
+    deities:
+    - deity: cazicthule
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 72
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 72
+    - deity: innoruuk
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 72
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 72
+  - class: shaman
+    deities:
+    - deity: cazicthule
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 73
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 73
+    - deity: innoruuk
+      start_zone: grobb
+      expansions_req: 0
+      allocation_id: 73
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 73
+  - class: beastlord
+    deities:
+    - deity: cazicthule
+      start_zone: grobb
+      expansions_req: 4
+      allocation_id: 70
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 70
+    - deity: innoruuk
+      start_zone: grobb
+      expansions_req: 4
+      allocation_id: 70
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 70
+  - class: berserker
+    deities:
+    - deity: cazicthule
+      start_zone: grobb
+      expansions_req: 64
+      allocation_id: 71
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 71
+    - deity: innoruuk
+      start_zone: grobb
+      expansions_req: 64
+      allocation_id: 71
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 71
+    - deity: rallos zek
+      start_zone: grobb
+      expansions_req: 64
+      allocation_id: 71
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 71
+    - deity: agnostic2
+      start_zone: grobb
+      expansions_req: 64
+      allocation_id: 71
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 71
+- race: ogre
+  classes:
+  - class: warrior
+    deities:
+    - deity: cazicthule
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 107
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 107
+    - deity: rallos zek
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 107
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 107
+    - deity: agnostic2
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 107
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 107
+  - class: shadowknight
+    deities:
+    - deity: cazicthule
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 67
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 67
+    - deity: rallos zek
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 67
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 67
+  - class: shaman
+    deities:
+    - deity: rallos zek
+      start_zone: oggok
+      expansions_req: 0
+      allocation_id: 68
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 68
+  - class: beastlord
+    deities:
+    - deity: rallos zek
+      start_zone: oggok
+      expansions_req: 4
+      allocation_id: 65
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 65
+  - class: berserker
+    deities:
+    - deity: cazicthule
+      start_zone: oggok
+      expansions_req: 64
+      allocation_id: 108
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 108
+    - deity: rallos zek
+      start_zone: oggok
+      expansions_req: 64
+      allocation_id: 108
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 108
+    - deity: agnostic2
+      start_zone: oggok
+      expansions_req: 64
+      allocation_id: 108
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2112
+      allocation_id: 108
+- race: halfling
+  classes:
+  - class: warrior
+    deities:
+    - deity: brellserilis
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 42
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 42
+    - deity: rallos zek
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 42
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 42
+    - deity: agnostic2
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 42
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 42
+  - class: cleric
+    deities:
+    - deity: bristlebane
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 37
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 37
+  - class: paladin
+    deities:
+    - deity: karana
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 39
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 39
+  - class: ranger
+    deities:
+    - deity: karana
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 40
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 40
+  - class: druid
+    deities:
+    - deity: karana
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 38
+    - deity: karana
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 38
+  - class: rogue
+    deities:
+    - deity: brellserilis
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 41
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 41
+    - deity: bristlebane
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 41
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 41
+    - deity: agnostic2
+      start_zone: rivervale
+      expansions_req: 0
+      allocation_id: 41
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 41
+- race: gnome
+  classes:
+  - class: warrior
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 30
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 30
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 30
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 30
+    - deity: rallos zek
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 30
+    - deity: rallos zek
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 30
+    - deity: agnostic2
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 30
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 30
+  - class: cleric
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 23
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 23
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 23
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 23
+    - deity: bristlebane
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 23
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 23
+  - class: paladin
+    deities:
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 27
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 27
+  - class: shadowknight
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 29
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 29
+  - class: rogue
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 28
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 28
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 28
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 28
+    - deity: bristlebane
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 28
+    - deity: bristlebane
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 28
+    - deity: agnostic2
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 28
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 28
+  - class: necromancer
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 26
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 26
+  - class: wizard
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+    - deity: solusekro
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: solusekro
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+    - deity: agnostic2
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+  - class: magician
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+    - deity: agnostic2
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 25
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 25
+  - class: enchanter
+    deities:
+    - deity: bertoxxulous
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 24
+    - deity: bertoxxulous
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 24
+    - deity: brellserilis
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 24
+    - deity: brellserilis
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 24
+    - deity: agnostic2
+      start_zone: akanon
+      expansions_req: 0
+      allocation_id: 24
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 24
+- race: iksar
+  classes:
+  - class: warrior
+    deities:
+    - deity: cazicthule
+      start_zone: cabeast
+      expansions_req: 1
+      allocation_id: 64
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2059
+      allocation_id: 64
+  - class: shadowknight
+    deities:
+    - deity: cazicthule
+      start_zone: cabeast
+      expansions_req: 1
+      allocation_id: 62
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2059
+      allocation_id: 62
+  - class: monk
+    deities:
+    - deity: cazicthule
+      start_zone: cabeast
+      expansions_req: 1
+      allocation_id: 60
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2059
+      allocation_id: 60
+  - class: shaman
+    deities:
+    - deity: cazicthule
+      start_zone: cabeast
+      expansions_req: 1
+      allocation_id: 63
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2059
+      allocation_id: 63
+  - class: necromancer
+    deities:
+    - deity: cazicthule
+      start_zone: cabwest
+      expansions_req: 1
+      allocation_id: 61
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2059
+      allocation_id: 61
+  - class: beastlord
+    deities:
+    - deity: cazicthule
+      start_zone: cabeast
+      expansions_req: 5
+      allocation_id: 59
+    - deity: cazicthule
+      start_zone: crescent
+      expansions_req: 2053
+      allocation_id: 59
+- race: vahshir
+  classes:
+  - class: warrior
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 4
+      allocation_id: 80
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 80
+  - class: bard
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 4
+      allocation_id: 75
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 75
+  - class: rogue
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 4
+      allocation_id: 78
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 78
+  - class: shaman
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 4
+      allocation_id: 79
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 79
+  - class: beastlord
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 4
+      allocation_id: 76
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2052
+      allocation_id: 76
+  - class: berserker
+    deities:
+    - deity: agnostic2
+      start_zone: sharvahl
+      expansions_req: 68
+      allocation_id: 77
+    - deity: agnostic2
+      start_zone: crescent
+      expansions_req: 2116
+      allocation_id: 77
+- race: froglok
+  classes:
+  - class: warrior
+    deities:
+    - deity: mithanielmarr
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 92
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 92
+  - class: cleric
+    deities:
+    - deity: innoruuk
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 86
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 86
+    - deity: mithanielmarr
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 86
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 86
+  - class: paladin
+    deities:
+    - deity: mithanielmarr
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 88
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 88
+  - class: shadowknight
+    deities:
+    - deity: innoruuk
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 90
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 90
+  - class: rogue
+    deities:
+    - deity: innoruuk
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 89
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 89
+  - class: shaman
+    deities:
+    - deity: mithanielmarr
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 91
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 91
+  - class: necromancer
+    deities:
+    - deity: innoruuk
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 87
+    - deity: innoruuk
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 87
+  - class: wizard
+    deities:
+    - deity: mithanielmarr
+      start_zone: rathemtn
+      expansions_req: 16
+      allocation_id: 93
+    - deity: mithanielmarr
+      start_zone: crescent
+      expansions_req: 2064
+      allocation_id: 93
+- race: drakkin
+  classes:
+  - class: warrior
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 94
+  - class: cleric
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 95
+  - class: paladin
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 96
+  - class: ranger
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 97
+  - class: shadowknight
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 98
+  - class: druid
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 99
+  - class: monk
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 100
+  - class: bard
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 101
+  - class: rogue
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 102
+  - class: necromancer
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 103
+  - class: wizard
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 104
+  - class: magician
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 105
+  - class: enchanter
+    deities:
+    - deity: veeshan
+      start_zone: crescent
+      expansions_req: 2048
+      allocation_id: 106
+allocations:
+- id: 0
+  base_str: 103
+  base_sta: 105
+  base_dex: 70
+  base_agi: 87
+  base_int: 60
+  base_wis: 80
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 5
+  alloc_agi: 5
+  alloc_int: 0
+  alloc_wis: 5
+  alloc_cha: 0
+- id: 1
+  base_str: 113
+  base_sta: 100
+  base_dex: 80
+  base_agi: 82
+  base_int: 60
+  base_wis: 70
+  base_cha: 55
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 2
+  base_str: 103
+  base_sta: 95
+  base_dex: 80
+  base_agi: 92
+  base_int: 60
+  base_wis: 70
+  base_cha: 55
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 3
+  base_str: 103
+  base_sta: 100
+  base_dex: 70
+  base_agi: 82
+  base_int: 60
+  base_wis: 80
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 4
+  base_str: 113
+  base_sta: 105
+  base_dex: 70
+  base_agi: 87
+  base_int: 60
+  base_wis: 70
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 5
+  base_str: 65
+  base_sta: 70
+  base_dex: 75
+  base_agi: 90
+  base_int: 99
+  base_wis: 93
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 6
+  base_str: 60
+  base_sta: 65
+  base_dex: 75
+  base_agi: 90
+  base_int: 109
+  base_wis: 83
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 7
+  base_str: 60
+  base_sta: 75
+  base_dex: 75
+  base_agi: 90
+  base_int: 109
+  base_wis: 83
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 8
+  base_str: 60
+  base_sta: 65
+  base_dex: 85
+  base_agi: 90
+  base_int: 109
+  base_wis: 83
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 9
+  base_str: 60
+  base_sta: 65
+  base_dex: 85
+  base_agi: 100
+  base_int: 99
+  base_wis: 83
+  base_cha: 60
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 10
+  base_str: 70
+  base_sta: 70
+  base_dex: 75
+  base_agi: 90
+  base_int: 109
+  base_wis: 83
+  base_cha: 65
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 11
+  base_str: 70
+  base_sta: 75
+  base_dex: 75
+  base_agi: 95
+  base_int: 99
+  base_wis: 83
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 12
+  base_str: 100
+  base_sta: 95
+  base_dex: 100
+  base_agi: 70
+  base_int: 60
+  base_wis: 83
+  base_cha: 45
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 13
+  base_str: 95
+  base_sta: 95
+  base_dex: 90
+  base_agi: 70
+  base_int: 60
+  base_wis: 93
+  base_cha: 45
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 14
+  base_str: 100
+  base_sta: 95
+  base_dex: 90
+  base_agi: 70
+  base_int: 60
+  base_wis: 88
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 15
+  base_str: 90
+  base_sta: 90
+  base_dex: 100
+  base_agi: 80
+  base_int: 60
+  base_wis: 83
+  base_cha: 45
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 16
+  base_str: 100
+  base_sta: 100
+  base_dex: 90
+  base_agi: 75
+  base_int: 60
+  base_wis: 83
+  base_cha: 45
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 17
+  base_str: 65
+  base_sta: 75
+  base_dex: 70
+  base_agi: 70
+  base_int: 107
+  base_wis: 93
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 18
+  base_str: 60
+  base_sta: 70
+  base_dex: 70
+  base_agi: 70
+  base_int: 117
+  base_wis: 83
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 19
+  base_str: 60
+  base_sta: 80
+  base_dex: 70
+  base_agi: 70
+  base_int: 117
+  base_wis: 83
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 20
+  base_str: 60
+  base_sta: 70
+  base_dex: 80
+  base_agi: 70
+  base_int: 117
+  base_wis: 83
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 21
+  base_str: 70
+  base_sta: 75
+  base_dex: 70
+  base_agi: 70
+  base_int: 107
+  base_wis: 88
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 22
+  base_str: 70
+  base_sta: 75
+  base_dex: 70
+  base_agi: 70
+  base_int: 117
+  base_wis: 83
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 23
+  base_str: 65
+  base_sta: 75
+  base_dex: 85
+  base_agi: 85
+  base_int: 98
+  base_wis: 77
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 24
+  base_str: 60
+  base_sta: 70
+  base_dex: 85
+  base_agi: 85
+  base_int: 108
+  base_wis: 67
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 25
+  base_str: 60
+  base_sta: 80
+  base_dex: 85
+  base_agi: 85
+  base_int: 108
+  base_wis: 67
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 26
+  base_str: 60
+  base_sta: 70
+  base_dex: 95
+  base_agi: 85
+  base_int: 108
+  base_wis: 67
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 27
+  base_str: 70
+  base_sta: 75
+  base_dex: 85
+  base_agi: 85
+  base_int: 98
+  base_wis: 72
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 28
+  base_str: 60
+  base_sta: 70
+  base_dex: 95
+  base_agi: 95
+  base_int: 98
+  base_wis: 67
+  base_cha: 60
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 29
+  base_str: 70
+  base_sta: 75
+  base_dex: 85
+  base_agi: 85
+  base_int: 108
+  base_wis: 67
+  base_cha: 65
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 30
+  base_str: 70
+  base_sta: 80
+  base_dex: 85
+  base_agi: 90
+  base_int: 98
+  base_wis: 67
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 31
+  base_str: 75
+  base_sta: 70
+  base_dex: 95
+  base_agi: 90
+  base_int: 75
+  base_wis: 60
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 32
+  base_str: 70
+  base_sta: 80
+  base_dex: 85
+  base_agi: 90
+  base_int: 75
+  base_wis: 70
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 33
+  base_str: 80
+  base_sta: 75
+  base_dex: 85
+  base_agi: 90
+  base_int: 75
+  base_wis: 65
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 34
+  base_str: 75
+  base_sta: 80
+  base_dex: 85
+  base_agi: 100
+  base_int: 75
+  base_wis: 65
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 20
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 35
+  base_str: 70
+  base_sta: 70
+  base_dex: 95
+  base_agi: 100
+  base_int: 75
+  base_wis: 60
+  base_cha: 75
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 36
+  base_str: 80
+  base_sta: 80
+  base_dex: 85
+  base_agi: 95
+  base_int: 75
+  base_wis: 60
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 37
+  base_str: 75
+  base_sta: 80
+  base_dex: 90
+  base_agi: 95
+  base_int: 67
+  base_wis: 90
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 38
+  base_str: 70
+  base_sta: 85
+  base_dex: 90
+  base_agi: 95
+  base_int: 67
+  base_wis: 90
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 39
+  base_str: 80
+  base_sta: 80
+  base_dex: 90
+  base_agi: 95
+  base_int: 67
+  base_wis: 85
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 40
+  base_str: 75
+  base_sta: 85
+  base_dex: 90
+  base_agi: 105
+  base_int: 67
+  base_wis: 85
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 20
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 41
+  base_str: 70
+  base_sta: 75
+  base_dex: 100
+  base_agi: 105
+  base_int: 67
+  base_wis: 80
+  base_cha: 50
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 42
+  base_str: 80
+  base_sta: 85
+  base_dex: 90
+  base_agi: 100
+  base_int: 67
+  base_wis: 80
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 43
+  base_str: 60
+  base_sta: 70
+  base_dex: 70
+  base_agi: 85
+  base_int: 92
+  base_wis: 105
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 44
+  base_str: 55
+  base_sta: 65
+  base_dex: 70
+  base_agi: 85
+  base_int: 102
+  base_wis: 95
+  base_cha: 90
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 45
+  base_str: 55
+  base_sta: 75
+  base_dex: 70
+  base_agi: 85
+  base_int: 102
+  base_wis: 95
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 46
+  base_str: 65
+  base_sta: 70
+  base_dex: 70
+  base_agi: 85
+  base_int: 92
+  base_wis: 100
+  base_cha: 90
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 47
+  base_str: 80
+  base_sta: 75
+  base_dex: 85
+  base_agi: 75
+  base_int: 75
+  base_wis: 75
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 48
+  base_str: 80
+  base_sta: 80
+  base_dex: 75
+  base_agi: 75
+  base_int: 75
+  base_wis: 85
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 49
+  base_str: 75
+  base_sta: 85
+  base_dex: 75
+  base_agi: 75
+  base_int: 75
+  base_wis: 85
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 50
+  base_str: 75
+  base_sta: 75
+  base_dex: 75
+  base_agi: 75
+  base_int: 85
+  base_wis: 75
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 51
+  base_str: 75
+  base_sta: 85
+  base_dex: 75
+  base_agi: 75
+  base_int: 85
+  base_wis: 75
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 52
+  base_str: 80
+  base_sta: 80
+  base_dex: 85
+  base_agi: 85
+  base_int: 75
+  base_wis: 75
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 20
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 53
+  base_str: 75
+  base_sta: 75
+  base_dex: 85
+  base_agi: 75
+  base_int: 85
+  base_wis: 75
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 54
+  base_str: 85
+  base_sta: 80
+  base_dex: 75
+  base_agi: 75
+  base_int: 75
+  base_wis: 80
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 55
+  base_str: 80
+  base_sta: 85
+  base_dex: 75
+  base_agi: 85
+  base_int: 75
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 20
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 56
+  base_str: 75
+  base_sta: 75
+  base_dex: 85
+  base_agi: 85
+  base_int: 75
+  base_wis: 75
+  base_cha: 75
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 57
+  base_str: 85
+  base_sta: 80
+  base_dex: 75
+  base_agi: 75
+  base_int: 85
+  base_wis: 75
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 58
+  base_str: 85
+  base_sta: 85
+  base_dex: 75
+  base_agi: 80
+  base_int: 75
+  base_wis: 75
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 59
+  base_str: 70
+  base_sta: 80
+  base_dex: 85
+  base_agi: 95
+  base_int: 75
+  base_wis: 90
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 5
+  alloc_agi: 5
+  alloc_int: 0
+  alloc_wis: 5
+  alloc_cha: 0
+- id: 60
+  base_str: 75
+  base_sta: 75
+  base_dex: 95
+  base_agi: 100
+  base_int: 75
+  base_wis: 80
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 20
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 61
+  base_str: 70
+  base_sta: 70
+  base_dex: 95
+  base_agi: 90
+  base_int: 85
+  base_wis: 80
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 62
+  base_str: 80
+  base_sta: 75
+  base_dex: 85
+  base_agi: 90
+  base_int: 85
+  base_wis: 80
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 63
+  base_str: 70
+  base_sta: 75
+  base_dex: 85
+  base_agi: 90
+  base_int: 75
+  base_wis: 90
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 64
+  base_str: 80
+  base_sta: 80
+  base_dex: 85
+  base_agi: 95
+  base_int: 75
+  base_wis: 80
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 65
+  base_str: 130
+  base_sta: 132
+  base_dex: 70
+  base_agi: 75
+  base_int: 60
+  base_wis: 77
+  base_cha: 42
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 5
+  alloc_agi: 5
+  alloc_int: 0
+  alloc_wis: 5
+  alloc_cha: 0
+- id: 66
+  base_str: 140
+  base_sta: 127
+  base_dex: 80
+  base_agi: 70
+  base_int: 60
+  base_wis: 67
+  base_cha: 37
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 67
+  base_str: 140
+  base_sta: 127
+  base_dex: 70
+  base_agi: 70
+  base_int: 70
+  base_wis: 67
+  base_cha: 42
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 68
+  base_str: 130
+  base_sta: 127
+  base_dex: 70
+  base_agi: 70
+  base_int: 60
+  base_wis: 77
+  base_cha: 42
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 69
+  base_str: 140
+  base_sta: 132
+  base_dex: 70
+  base_agi: 75
+  base_int: 60
+  base_wis: 67
+  base_cha: 37
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 70
+  base_str: 108
+  base_sta: 119
+  base_dex: 75
+  base_agi: 88
+  base_int: 52
+  base_wis: 70
+  base_cha: 45
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 5
+  alloc_agi: 5
+  alloc_int: 0
+  alloc_wis: 5
+  alloc_cha: 0
+- id: 71
+  base_str: 118
+  base_sta: 114
+  base_dex: 85
+  base_agi: 83
+  base_int: 52
+  base_wis: 60
+  base_cha: 40
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 72
+  base_str: 118
+  base_sta: 114
+  base_dex: 75
+  base_agi: 83
+  base_int: 62
+  base_wis: 60
+  base_cha: 45
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 73
+  base_str: 108
+  base_sta: 114
+  base_dex: 75
+  base_agi: 83
+  base_int: 52
+  base_wis: 70
+  base_cha: 45
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 74
+  base_str: 118
+  base_sta: 119
+  base_dex: 75
+  base_agi: 88
+  base_int: 52
+  base_wis: 60
+  base_cha: 40
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 75
+  base_str: 95
+  base_sta: 75
+  base_dex: 80
+  base_agi: 90
+  base_int: 65
+  base_wis: 70
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 76
+  base_str: 90
+  base_sta: 85
+  base_dex: 70
+  base_agi: 95
+  base_int: 65
+  base_wis: 80
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 5
+  alloc_agi: 5
+  alloc_int: 0
+  alloc_wis: 5
+  alloc_cha: 0
+- id: 77
+  base_str: 100
+  base_sta: 80
+  base_dex: 80
+  base_agi: 90
+  base_int: 65
+  base_wis: 70
+  base_cha: 65
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 78
+  base_str: 90
+  base_sta: 75
+  base_dex: 80
+  base_agi: 100
+  base_int: 65
+  base_wis: 70
+  base_cha: 65
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 79
+  base_str: 90
+  base_sta: 80
+  base_dex: 70
+  base_agi: 90
+  base_int: 65
+  base_wis: 80
+  base_cha: 70
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 80
+  base_str: 100
+  base_sta: 85
+  base_dex: 70
+  base_agi: 95
+  base_int: 65
+  base_wis: 70
+  base_cha: 65
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 81
+  base_str: 70
+  base_sta: 65
+  base_dex: 90
+  base_agi: 95
+  base_int: 75
+  base_wis: 80
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 82
+  base_str: 65
+  base_sta: 75
+  base_dex: 80
+  base_agi: 95
+  base_int: 75
+  base_wis: 90
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 83
+  base_str: 70
+  base_sta: 75
+  base_dex: 80
+  base_agi: 105
+  base_int: 75
+  base_wis: 85
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 20
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 84
+  base_str: 65
+  base_sta: 65
+  base_dex: 90
+  base_agi: 105
+  base_int: 75
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 85
+  base_str: 75
+  base_sta: 75
+  base_dex: 80
+  base_agi: 100
+  base_int: 75
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 86
+  base_str: 75
+  base_sta: 85
+  base_dex: 100
+  base_agi: 100
+  base_int: 75
+  base_wis: 85
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 87
+  base_str: 70
+  base_sta: 80
+  base_dex: 110
+  base_agi: 100
+  base_int: 85
+  base_wis: 75
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 88
+  base_str: 80
+  base_sta: 85
+  base_dex: 100
+  base_agi: 100
+  base_int: 75
+  base_wis: 80
+  base_cha: 60
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 89
+  base_str: 70
+  base_sta: 80
+  base_dex: 110
+  base_agi: 110
+  base_int: 75
+  base_wis: 75
+  base_cha: 50
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 90
+  base_str: 80
+  base_sta: 85
+  base_dex: 100
+  base_agi: 100
+  base_int: 85
+  base_wis: 75
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 91
+  base_str: 70
+  base_sta: 85
+  base_dex: 100
+  base_agi: 100
+  base_int: 75
+  base_wis: 85
+  base_cha: 55
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 92
+  base_str: 80
+  base_sta: 90
+  base_dex: 100
+  base_agi: 105
+  base_int: 75
+  base_wis: 75
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 93
+  base_str: 70
+  base_sta: 90
+  base_dex: 100
+  base_agi: 100
+  base_int: 85
+  base_wis: 75
+  base_cha: 50
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 94
+  base_str: 80
+  base_sta: 90
+  base_dex: 75
+  base_agi: 90
+  base_int: 85
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 25
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 95
+  base_str: 75
+  base_sta: 85
+  base_dex: 75
+  base_agi: 85
+  base_int: 85
+  base_wis: 90
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 96
+  base_str: 80
+  base_sta: 85
+  base_dex: 75
+  base_agi: 85
+  base_int: 85
+  base_wis: 85
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 97
+  base_str: 75
+  base_sta: 90
+  base_dex: 75
+  base_agi: 95
+  base_int: 85
+  base_wis: 85
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 20
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 98
+  base_str: 80
+  base_sta: 85
+  base_dex: 75
+  base_agi: 85
+  base_int: 95
+  base_wis: 80
+  base_cha: 80
+  alloc_str: 0
+  alloc_sta: 20
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 99
+  base_str: 70
+  base_sta: 90
+  base_dex: 75
+  base_agi: 85
+  base_int: 85
+  base_wis: 90
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 25
+  alloc_cha: 0
+- id: 100
+  base_str: 75
+  base_sta: 85
+  base_dex: 85
+  base_agi: 95
+  base_int: 85
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 20
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 101
+  base_str: 75
+  base_sta: 80
+  base_dex: 85
+  base_agi: 85
+  base_int: 85
+  base_wis: 80
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 102
+  base_str: 70
+  base_sta: 80
+  base_dex: 85
+  base_agi: 95
+  base_int: 85
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 25
+  alloc_sta: 0
+  alloc_dex: 5
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 103
+  base_str: 70
+  base_sta: 80
+  base_dex: 85
+  base_agi: 85
+  base_int: 95
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 104
+  base_str: 70
+  base_sta: 90
+  base_dex: 75
+  base_agi: 85
+  base_int: 95
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 105
+  base_str: 70
+  base_sta: 90
+  base_dex: 75
+  base_agi: 85
+  base_int: 95
+  base_wis: 80
+  base_cha: 75
+  alloc_str: 0
+  alloc_sta: 5
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 25
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 106
+  base_str: 70
+  base_sta: 80
+  base_dex: 75
+  base_agi: 85
+  base_int: 95
+  base_wis: 80
+  base_cha: 85
+  alloc_str: 0
+  alloc_sta: 0
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 5
+  alloc_wis: 0
+  alloc_cha: 25
+- id: 107
+  base_str: 140
+  base_sta: 132
+  base_dex: 70
+  base_agi: 75
+  base_int: 60
+  base_wis: 67
+  base_cha: 37
+  alloc_str: 7
+  alloc_sta: 18
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0
+- id: 108
+  base_str: 140
+  base_sta: 127
+  base_dex: 80
+  base_agi: 70
+  base_int: 60
+  base_wis: 67
+  base_cha: 37
+  alloc_str: 10
+  alloc_sta: 15
+  alloc_dex: 0
+  alloc_agi: 0
+  alloc_int: 0
+  alloc_wis: 0
+  alloc_cha: 0

@@ -23,11 +23,11 @@ charCreates:
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 58
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: qeynos
       expansions_req: 0
       allocation_id: 58
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 58
@@ -173,11 +173,11 @@ charCreates:
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 47
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: qeynos
       expansions_req: 0
       allocation_id: 47
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 47
@@ -387,7 +387,7 @@ charCreates:
   classes:
   - class: warrior
     deities:
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: halas
       expansions_req: 0
       allocation_id: 4
@@ -431,7 +431,7 @@ charCreates:
       allocation_id: 0
   - class: berserker
     deities:
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: halas
       expansions_req: 64
       allocation_id: 1
@@ -535,7 +535,7 @@ charCreates:
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 85
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 85
@@ -589,7 +589,7 @@ charCreates:
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 81
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 81
@@ -727,7 +727,7 @@ charCreates:
       start_zone: neriakb
       expansions_req: 0
       allocation_id: 11
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: neriakb
       expansions_req: 0
       allocation_id: 11
@@ -837,15 +837,15 @@ charCreates:
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 36
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: qeynos
       expansions_req: 0
       allocation_id: 36
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 36
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 36
@@ -993,15 +993,15 @@ charCreates:
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 31
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: qeynos
       expansions_req: 0
       allocation_id: 31
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: gfaydark
       expansions_req: 0
       allocation_id: 31
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: freeporteast
       expansions_req: 1024
       allocation_id: 31
@@ -1179,7 +1179,7 @@ charCreates:
       start_zone: grobb
       expansions_req: 0
       allocation_id: 74
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: grobb
       expansions_req: 0
       allocation_id: 74
@@ -1227,7 +1227,7 @@ charCreates:
       start_zone: grobb
       expansions_req: 64
       allocation_id: 71
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: grobb
       expansions_req: 64
       allocation_id: 71
@@ -1243,7 +1243,7 @@ charCreates:
       start_zone: oggok
       expansions_req: 0
       allocation_id: 107
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: oggok
       expansions_req: 0
       allocation_id: 107
@@ -1257,19 +1257,19 @@ charCreates:
       start_zone: oggok
       expansions_req: 0
       allocation_id: 67
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: oggok
       expansions_req: 0
       allocation_id: 67
   - class: shaman
     deities:
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: oggok
       expansions_req: 0
       allocation_id: 68
   - class: beastlord
     deities:
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: oggok
       expansions_req: 4
       allocation_id: 65
@@ -1279,7 +1279,7 @@ charCreates:
       start_zone: oggok
       expansions_req: 64
       allocation_id: 108
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: oggok
       expansions_req: 64
       allocation_id: 108
@@ -1295,7 +1295,7 @@ charCreates:
       start_zone: rivervale
       expansions_req: 0
       allocation_id: 42
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: rivervale
       expansions_req: 0
       allocation_id: 42
@@ -1353,7 +1353,7 @@ charCreates:
       start_zone: akanon
       expansions_req: 0
       allocation_id: 30
-    - deity: rallos zek
+    - deity: ralloszek
       start_zone: akanon
       expansions_req: 0
       allocation_id: 30

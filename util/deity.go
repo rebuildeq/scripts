@@ -27,7 +27,7 @@ func DeityIDToName(in int) string {
 	case 210:
 		return "quellious"
 	case 211:
-		return "rallos zek"
+		return "ralloszek"
 	case 212:
 		return "rodcetnife"
 	case 213:
@@ -69,7 +69,7 @@ func DeityNameToID(in string) int {
 		return 209
 	case "quellious":
 		return 210
-	case "rallos zek":
+	case "ralloszek":
 		return 211
 	case "rodcetnife":
 		return 212

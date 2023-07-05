@@ -10,6 +10,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	10 Mana Regen
   manaregen: 10
@@ -24,6 +27,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	10 HP
   hp: 10
@@ -38,6 +44,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	10 AC
   ac: 10
@@ -52,6 +61,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	20 AC
   ac: 20
@@ -66,6 +78,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore: 10 STR
   str: 10
@@ -80,6 +95,9 @@ items:
   magic: 1
   icon: 900
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Dwarf Bane Damage
   banedmgrace: 183
@@ -95,6 +113,9 @@ items:
   magic: 1
   icon: 648
   augtype: 2
+  augdistiller: 47001
+  idfile: IT63
+  slots: 262144
   itemtype: 54
   lore:	5 STR
   str: 5
@@ -109,6 +130,9 @@ items:
   magic: 1
   icon: 900
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	5 Strikethrough
   strikethrough: 5
@@ -123,6 +147,9 @@ items:
   magic: 1
   icon: 900
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	2 Magical Damage
   elemdmgamt: 2
@@ -138,6 +165,9 @@ items:
   magic: 1
   icon: 900
   augtype: 2
+  augdistiller: 47001
+  idfile: IT63
+  slots: 262144
   itemtype: 54
   lore:	10 INT
   int: 10
@@ -152,6 +182,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	2 AC
   ac: 2
@@ -166,6 +199,9 @@ items:
   magic: 1
   icon: 648
   augtype: 2
+  augdistiller: 47001
+  idfile: IT63
+  slots: 262144
   itemtype: 54
   lore:	5 Dexterity
   dex: 5
@@ -180,6 +216,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	25 HP
   hp: 25
@@ -194,6 +233,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	50 HP
   hp: 50
@@ -208,6 +250,9 @@ items:
   magic: 1
   icon: 648
   augtype: 2
+  augdistiller: 47001
+  idfile: IT63
+  slots: 262144
   itemtype: 54
   lore:	5 To All Resists
   mr: 5
@@ -226,6 +271,9 @@ items:
   magic: 1
   icon: 648
   augtype: 2
+  augdistiller: 47001
+  idfile: IT63
+  slots: 262144
   itemtype: 54
   lore:	5 AC
   ac: 5
@@ -240,6 +288,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore:	Improved Invisibility vs Undead Effect
   clickeffect: 1411
@@ -257,6 +308,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	15 AC
   ac: 15
@@ -271,6 +325,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	15 HP Regen
   hpregen: 15
@@ -285,6 +342,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore:	Shrink Effect
   clickeffect: 345
@@ -302,6 +362,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore: Eye of Zomm Effect
   clickeffect: 323
@@ -319,6 +382,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Bear Bane Damage
   banedmgrace: 43
@@ -334,6 +400,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Gnoll Bane Damage
   banedmgrace: 39
@@ -349,6 +418,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Kobold Bane Damage
   banedmgrace: 48
@@ -364,6 +436,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore: 20 Orc Bane Damage
   banedmgrace: 54
@@ -379,6 +454,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore: 20 Dark Elf Bane Damage
   banedmgrace: 6
@@ -394,6 +472,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore: 20 Halfling Bane Damage
   banedmgrace: 11
@@ -409,6 +490,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore: 20 Giant Snake Bane Damage
   banedmgrace: 37
@@ -424,6 +508,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Frost Giant Bane Damage
   banedmgrace: 188
@@ -439,6 +526,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Froglok Bane Damage
   banedmgrace: 330
@@ -454,6 +544,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Lizard Man Bane Damage
   banedmgrace: 51
@@ -469,6 +562,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Goblin Bane Damage
   banedmgrace: 40
@@ -484,6 +580,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Minotaur Bane Damage
   banedmgrace: 53
@@ -499,6 +598,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	20 Troll Bane Damage
   banedmgrace: 9
@@ -514,6 +616,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore:	Gather Shadows Effect
   clickeffect: 522
@@ -531,6 +636,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	Poison Bolt Effect
   proceffect: 348
@@ -545,6 +653,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore:	Flame Lick Effect
   clickeffect: 239
@@ -562,6 +673,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	3 Backstab Damage
   backstabdmg: 3
@@ -576,6 +690,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore:	Spirit of Wolf Effect
   clickeffect: 278
@@ -593,6 +710,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	75 HP
   hp: 75
@@ -607,6 +727,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	Ghoul Root Effect
   proceffect: 901
@@ -621,6 +744,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	Disease Effect
   proceffect: 1008
@@ -635,6 +761,9 @@ items:
   magic: 1
   icon: 648
   augtype: 8
+  augdistiller: 47001
+  idfile: IT63
+  slots: 8192
   itemtype: 54
   lore:	Dry Bone Fire Burst Effect
   proceffect: 907
@@ -649,6 +778,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore:	10 To All Resists
   mr: 10
@@ -667,6 +799,9 @@ items:
   magic: 1
   icon: 648
   augtype: 4
+  augdistiller: 47001
+  idfile: IT63
+  slots: 98304
   itemtype: 54
   lore: This item is yet to be discovered
 - id: 150145
@@ -680,6 +815,9 @@ items:
   magic: 1
   icon: 648
   augtype: 1
+  augdistiller: 47001
+  idfile: IT63
+  slots: 131072
   itemtype: 54
   lore: 5 Mana Regen
   manaregen: 5

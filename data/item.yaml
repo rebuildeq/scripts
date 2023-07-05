@@ -1,6 +1,12 @@
 items:
 - id: 150100
   name: Dragon Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -9,6 +15,12 @@ items:
   manaregen: 10
 - id: 150101
   name: Insect Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -17,6 +29,12 @@ items:
   hp: 10
 - id: 150102
   name: Animal Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -25,6 +43,12 @@ items:
   ac: 10
 - id: 150103
   name: Construct Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -33,6 +57,12 @@ items:
   ac: 20
 - id: 150104
   name: Extra Planar Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -41,6 +71,12 @@ items:
   str: 10
 - id: 150105
   name: Giant Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 900
   augtype: 8
@@ -50,6 +86,12 @@ items:
   banedmgraceamt: 20
 - id: 150106
   name: Humanoid Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 2
@@ -58,6 +100,12 @@ items:
   str: 5
 - id: 150107
   name: Lycanthrope Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 900
   augtype: 8
@@ -66,6 +114,12 @@ items:
   strikethrough: 5
 - id: 150108
   name: Magical Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 900
   augtype: 8
@@ -75,6 +129,12 @@ items:
   elemdmgtype: 1
 - id: 150109
   name: Monster Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 900
   augtype: 2
@@ -83,6 +143,12 @@ items:
   int: 10
 - id: 150110
   name: Plant Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -91,6 +157,12 @@ items:
   ac: 2
 - id: 150111
   name: Summoned Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 2
@@ -99,6 +171,12 @@ items:
   dex: 5
 - id: 150112
   name: Undead Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -107,6 +185,12 @@ items:
   hp: 25
 - id: 150113
   name: Gnoll Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -115,6 +199,12 @@ items:
   hp: 50
 - id: 150114
   name: Aviak Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 2
@@ -127,6 +217,12 @@ items:
   pr: 5
 - id: 150115
   name: Werewolf Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 2
@@ -135,6 +231,12 @@ items:
   ac: 5
 - id: 150116
   name: Kobold Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -146,6 +248,12 @@ items:
   clicktype: 4
 - id: 150117
   name: Orc Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -154,6 +262,12 @@ items:
   ac: 15
 - id: 150118
   name: Fungus Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -162,6 +276,12 @@ items:
   hpregen: 15
 - id: 150119
   name: Goblin Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -173,6 +293,12 @@ items:
   clicktype: 4
 - id: 150120
   name: Evil Eye
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -184,6 +310,12 @@ items:
   clicktype: 4
 - id: 150121
   name: Human Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -193,6 +325,12 @@ items:
   banedmgraceamt: 20
 - id: 150122
   name: Barbarian Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -202,6 +340,12 @@ items:
   banedmgraceamt: 20
 - id: 150123
   name: Erudite Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -211,6 +355,12 @@ items:
   banedmgraceamt: 20
 - id: 150124
   name: Wood Elf
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -220,6 +370,12 @@ items:
   banedmgraceamt: 20
 - id: 150125
   name: High Elf
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -229,6 +385,12 @@ items:
   banedmgraceamt: 20
 - id: 150126
   name: Dark Elf
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -238,6 +400,12 @@ items:
   banedmgraceamt: 20
 - id: 150127
   name: Half Elf Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -247,6 +415,12 @@ items:
   banedmgraceamt: 20
 - id: 150128
   name: Dwarf Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -256,6 +430,12 @@ items:
   banedmgraceamt: 20
 - id: 150129
   name: Troll Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -265,6 +445,12 @@ items:
   banedmgraceamt: 20
 - id: 150130
   name: Ogre Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -274,6 +460,12 @@ items:
   banedmgraceamt: 20
 - id: 150131
   name: Halfling Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -283,6 +475,12 @@ items:
   banedmgraceamt: 20
 - id: 150132
   name: Gnome Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -292,6 +490,12 @@ items:
   banedmgraceamt: 20
 - id: 150133
   name: Froglok Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -301,6 +505,12 @@ items:
   banedmgraceamt: 20
 - id: 150134
   name: Shadowed Man
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -312,6 +522,12 @@ items:
   clicktype: 4
 - id: 150135
   name: Spider Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -320,6 +536,12 @@ items:
   proceffect: 348
 - id: 150136
   name: Beetle Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -331,6 +553,12 @@ items:
   clicktype: 4
 - id: 150137
   name: Snake Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -339,6 +567,12 @@ items:
   backstabdmg: 3
 - id: 150138
   name: Wolf Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -350,6 +584,12 @@ items:
   clicktype: 4
 - id: 150139
   name: Bear Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -358,6 +598,12 @@ items:
   hp: 75
 - id: 150140
   name: Ghoul Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -366,6 +612,12 @@ items:
   proceffect: 901
 - id: 150141
   name: Zombie Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -374,6 +626,12 @@ items:
   proceffect: 1008
 - id: 150142
   name: Skeleton Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 8
@@ -382,6 +640,12 @@ items:
   proceffect: 907
 - id: 150143
   name: Chromadrac Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1
@@ -394,6 +658,12 @@ items:
   pr: 10
 - id: 150144
   name: Dozekar the Cursed Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 4
@@ -401,6 +671,12 @@ items:
   lore: This item is yet to be discovered
 - id: 150145
   name: Drake Card
+  classes: 65535
+  races: 131071
+  stackable: 1
+  stacksize: 100
+  notrade: 1
+  norent: 1
   magic: 1
   icon: 648
   augtype: 1

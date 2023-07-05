@@ -2660,8 +2660,8 @@ skills:
       aa_name_sid: 38
       icon: brain-freeze
       id: 37
-      classes: 128 # Bard
-      type: 8192 # Enchanter
+      classes: 8192 # Enchanter
+      type: 3 # Class
       grant_only: 0
       level_req: 1
       ranks:

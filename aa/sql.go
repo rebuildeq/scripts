@@ -38,6 +38,10 @@ func generateAASQL(aa *AAYaml) error {
 		for rankIndex, rank := range skill.Ranks {
 			isDone := false
 
+			if rank.Slot1.EffectID == 0 && rank.Slot2.EffectID == 0 && rank.Slot3.EffectID == 0 && rank.Slot4.EffectID == 0 {
+				continue
+			}
+
 			if rank.LevelReq > levelReq {
 				levelReq = rank.LevelReq
 			}
@@ -142,7 +146,7 @@ func generateAASQL(aa *AAYaml) error {
 				nextID = skill.Ranks[rankIndex+1].ID
 			}
 
-			w.WriteString(fmt.Sprintf("	(%d, -1, -1, %d, %d, %d, %d, 0, 0, 0, 0, %d, %d)", rank.ID, lastSID, rank.DescriptionSID, rank.Cost, rank.LevelReq, prevID, nextID))
+			w.WriteString(fmt.Sprintf("	(%d, -1, -1, %d, %d, %d, %d, 0, %d, %d, 0, %d, %d)", rank.ID, lastSID, rank.DescriptionSID, rank.Cost, rank.LevelReq, rank.SpellID, rank.SpellType, prevID, nextID))
 			if rankIndex == len(skill.Ranks)-1 && skillIndex == len(aa.Skills)-1 {
 				w.WriteString(";\n\n")
 			} else {

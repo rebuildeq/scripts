@@ -2971,3 +2971,120 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 32
             base2: 1
+    - aa_name: Fading Memories
+      aa_name_sid: 42
+      icon: overmind
+      id: 41
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 30
+      ranks:
+        - index: 1
+          id: 240
+          description: Grants the Fading Memories AA, allowing you to escape all aggressions towards you. Costs 200 mana.
+          desc_sid: 243
+          cost: 10
+          spell_id: 5243
+          spell_type: 7
+          recast_time: 1
+    - aa_name: Believe
+      aa_name_sid: 43
+      icon: player-lift
+      id: 42
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 30
+      ranks:
+        - index: 1
+          id: 241
+          description: The cleric gains a 300 mod proc that deals from 0 to 5 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 244
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 5
+        - index: 2
+          id: 242
+          description: The cleric gains a 300 mod proc that deals from 0 to 10 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 245
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 10
+        - index: 3
+          id: 243
+          description: The cleric gains a 300 mod proc that deals from 0 to 15 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 246
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 15
+        - index: 4
+          id: 244
+          description: The cleric gains a 300 mod proc that deals from 0 to 20 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 247
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 20
+        - index: 5
+          id: 245
+          description: The cleric gains a 300 mod proc that deals from 0 to 25 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 248
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 25
+        - index: 6
+          id: 246
+          description: The cleric gains a 300 mod proc that deals from 0 to 30 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 249
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 30
+        - index: 7
+          id: 247
+          description: The cleric gains a 300 mod proc that deals from 0 to 35 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 250
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 35
+        - index: 8
+          id: 248
+          description: The cleric gains a 300 mod proc that deals from 0 to 40 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 251
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 40
+        - index: 9
+          id: 249
+          description: The cleric gains a 300 mod proc that deals from 0 to 45 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 252
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 45
+        - index: 10
+          id: 250
+          description: The cleric gains a 300 mod proc that deals from 0 to 50 magic damage, and half the damage is health back to the cleric.
+          desc_sid: 253
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 34
+            base2: 50
+

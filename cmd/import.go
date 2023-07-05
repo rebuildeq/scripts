@@ -71,6 +71,16 @@ func importRun(cmd *cobra.Command, args []string) error {
 		os.Exit(1)
 	}
 
+	err = importProcess(cmd, args)
+	if err != nil {
+		fmt.Println("Failed import:", err)
+		os.Exit(1)
+	}
+
+	return nil
+}
+
+func importProcess(cmd *cobra.Command, args []string) error {
 	isRan := false
 	for _, arg := range args {
 		switch arg {
@@ -146,6 +156,5 @@ func importRun(cmd *cobra.Command, args []string) error {
 		}
 		isRan = true
 	}
-
 	return nil
 }

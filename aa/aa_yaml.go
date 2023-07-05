@@ -7,36 +7,42 @@ type AAYaml struct {
 }
 
 type AASkill struct {
-	Name            string    `yaml:"aa_name,omitempty"`
-	Icon            string    `yaml:"icon,omitempty"`
+	ID              int       `yaml:"id,omitempty" db:"id"`
+	Icon            string    `yaml:"icon,omitempty" db:"icon"`
+	Name            string    `yaml:"aa_name,omitempty" db:"name"`
 	NameSID         int       `yaml:"aa_name_sid,omitempty"`
-	ID              int       `yaml:"id,omitempty"`
-	Type            int       `yaml:"type,omitempty"`
-	Classes         int       `yaml:"classes,omitempty"`
-	Races           int       `yaml:"races,omitempty"` // if 0, default to 65535
-	GrantOnly       int       `yaml:"grant_only,omitempty"`
-	DrakkinHeritage int       `yaml:"drakkin_heritage,omitempty"`
-	Ranks           []*AARank `yaml:"ranks,omitempty"`
-	FirstRankID     int       `yaml:"first_rank_id,omitempty"`
+	Category        int       `yaml:"category,omitempty" db:"category"`
+	Classes         int       `yaml:"classes,omitempty" db:"classes"`
+	Races           int       `yaml:"races,omitempty" db:"races"` // if 0, default to 65535
+	DrakkinHeritage int       `yaml:"drakkin_heritage,omitempty" db:"drakkin_heritage"`
+	Deities         int       `yaml:"deities,omitempty" db:"deities"`
+	Status          int       `yaml:"status,omitempty" db:"status"`
+	Type            int       `yaml:"type,omitempty" db:"type"`
+	Charges         int       `yaml:"charges,omitempty" db:"charges"`
+	GrantOnly       int       `yaml:"grant_only,omitempty" db:"grant_only"`
+	FirstRankID     int       `yaml:"first_rank_id,omitempty" db:"first_rank_id"`
+	Enabled         int       `yaml:"enabled,omitempty" db:"enabled"`
+	ResetOnDeath    int       `yaml:"reset_on_death,omitempty" db:"reset_on_death"`
+	Ranks           []*AARank `yaml:"ranks,omitempty" db:"ranks"`
 }
 
 type AARank struct {
-	Index          int    `yaml:"index,omitempty"`
-	ID             int    `yaml:"id,omitempty"`
-	Title          string `yaml:"title,omitempty"`
-	TitleSID       int    `yaml:"title_sid,omitempty"`
-	Description    string `yaml:"description,omitempty"`
-	DescriptionSID int    `yaml:"desc_sid,omitempty"`
-	Cost           int    `yaml:"cost,omitempty"`
-	LevelReq       int    `yaml:"level_req,omitempty"`
-	UpperHotkeySID int    `yaml:"upper_hotkey_sid,omitempty"`
-	LowerHotkeySID int    `yaml:"lower_hotkey_sid,omitempty"`
-	SpellID        int    `yaml:"spell_id,omitempty"`
-	SpellType      int    `yaml:"spell_type,omitempty"`
-	RecastTime     int    `yaml:"recast_time,omitempty"`
-	Expansion      int    `yaml:"expansion,omitempty"`
-	PrevID         int    `yaml:"prev_id,omitempty"`
-	NextID         int    `yaml:"next_id,omitempty"`
+	Index          int    `yaml:"index,omitempty" db:"index"`
+	ID             int    `yaml:"id,omitempty" db:"id"`
+	UpperHotkeySID int    `yaml:"upper_hotkey_sid,omitempty" db:"upper_hotkey_sid"`
+	LowerHotkeySID int    `yaml:"lower_hotkey_sid,omitempty" db:"lower_hotkey_sid"`
+	Title          string `yaml:"title,omitempty" db:"title"`
+	TitleSID       int    `yaml:"title_sid,omitempty" db:"title_sid"`
+	Description    string `yaml:"description,omitempty" db:"description"`
+	DescriptionSID int    `yaml:"desc_sid,omitempty" db:"desc_sid"`
+	Cost           int    `yaml:"cost,omitempty" db:"cost"`
+	LevelReq       int    `yaml:"level_req,omitempty" db:"level_req"`
+	SpellID        int    `yaml:"spell_id,omitempty" db:"spell"`
+	SpellType      int    `yaml:"spell_type,omitempty" db:"spell_type"`
+	RecastTime     int    `yaml:"recast_time,omitempty" db:"recast_time"`
+	Expansion      int    `yaml:"expansion,omitempty" db:"expansion"`
+	PrevID         int    `yaml:"prev_id,omitempty" db:"prev_id"`
+	NextID         int    `yaml:"next_id,omitempty" db:"next_id"`
 	Slot1          struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`

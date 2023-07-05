@@ -3,56 +3,70 @@ package aa
 import "fmt"
 
 type AAYaml struct {
-	Skills []struct {
-		Name            string `yaml:"aa_name"`
-		NameSID         int    `yaml:"aa_name_sid"`
-		ID              int    `yaml:"id"`
-		Type            int    `yaml:"type"`
-		Classes         int    `yaml:"classes"`
-		Races           int    `yaml:"races"` // if 0, default to 65535
-		GrantOnly       int    `yaml:"grant_only"`
-		DrakkinHeritage int    `yaml:"drakkin_heritage"`
-		Ranks           []struct {
-			Index          int    `yaml:"index"`
-			ID             int    `yaml:"id"`
-			Title          string `yaml:"title"`
-			TitleSID       int    `yaml:"title_sid"`
-			Description    string `yaml:"description"`
-			DescriptionSID int    `yaml:"desc_sid"`
-			Cost           int    `yaml:"cost"`
-			LevelReq       int    `yaml:"level_req"`
-			Slot1          struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot1"`
-			Slot2 struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot2"`
-			Slot3 struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot3"`
-			Slot4 struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot4"`
-			Slot5 struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot5"`
-			Slot6 struct {
-				EffectID int `yaml:"effect_id"`
-				Base1    int `yaml:"base1"`
-				Base2    int `yaml:"base2"`
-			} `yaml:"slot6"`
-		} `yaml:"ranks"`
-	} `yaml:"skills"`
+	Skills []*AASkill `yaml:"skills,omitempty"`
+}
+
+type AASkill struct {
+	Name            string    `yaml:"aa_name,omitempty"`
+	NameSID         int       `yaml:"aa_name_sid,omitempty"`
+	ID              int       `yaml:"id,omitempty"`
+	Type            int       `yaml:"type,omitempty"`
+	Classes         int       `yaml:"classes,omitempty"`
+	Races           int       `yaml:"races,omitempty"` // if 0, default to 65535
+	GrantOnly       int       `yaml:"grant_only,omitempty"`
+	DrakkinHeritage int       `yaml:"drakkin_heritage,omitempty"`
+	Ranks           []*AARank `yaml:"ranks,omitempty"`
+	FirstRankID     int       `yaml:"first_rank_id,omitempty"`
+}
+
+type AARank struct {
+	Index          int    `yaml:"index,omitempty"`
+	ID             int    `yaml:"id,omitempty"`
+	Title          string `yaml:"title,omitempty"`
+	TitleSID       int    `yaml:"title_sid,omitempty"`
+	Description    string `yaml:"description,omitempty"`
+	DescriptionSID int    `yaml:"desc_sid,omitempty"`
+	Cost           int    `yaml:"cost,omitempty"`
+	LevelReq       int    `yaml:"level_req,omitempty"`
+	UpperHotkeySID int    `yaml:"upper_hotkey_sid,omitempty"`
+	LowerHotkeySID int    `yaml:"lower_hotkey_sid,omitempty"`
+	SpellID        int    `yaml:"spell_id,omitempty"`
+	SpellType      int    `yaml:"spell_type,omitempty"`
+	RecastTime     int    `yaml:"recast_time,omitempty"`
+	Expansion      int    `yaml:"expansion,omitempty"`
+	PrevID         int    `yaml:"prev_id,omitempty"`
+	NextID         int    `yaml:"next_id,omitempty"`
+	Slot1          struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot1,omitempty"`
+	Slot2 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot2,omitempty"`
+	Slot3 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot3,omitempty"`
+	Slot4 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot4,omitempty"`
+	Slot5 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot5,omitempty"`
+	Slot6 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2,omitempty"`
+	} `yaml:"slot6,omitempty"`
+	nextID int
 }
 
 func (e *AAYaml) sanitize() error {

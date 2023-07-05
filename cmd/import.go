@@ -24,6 +24,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/xackery/rebuildeq/aa"
 	"github.com/xackery/rebuildeq/charcreate"
+	"github.com/xackery/rebuildeq/item"
+	"github.com/xackery/rebuildeq/npc"
 	"github.com/xackery/rebuildeq/rule"
 	"github.com/xackery/rebuildeq/spell"
 	"github.com/xackery/rebuildeq/task"
@@ -49,7 +51,7 @@ func init() {
 func importRun(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	if len(args) == 0 {
-		fmt.Println("usage: rebuildeq import [rule|spell|aa|task|charcreate|all]")
+		fmt.Println("usage: rebuildeq import [aa|rule|spell|aa|task|charcreate|all]")
 		os.Exit(1)
 	}
 	fmt.Println("Starting import with args", strings.Join(args, " "))
@@ -69,6 +71,7 @@ func importRun(cmd *cobra.Command, args []string) error {
 		os.Exit(1)
 	}
 
+	isRan := false
 	for _, arg := range args {
 		switch arg {
 		case "rule":
@@ -96,7 +99,16 @@ func importRun(cmd *cobra.Command, args []string) error {
 			if err != nil {
 				return fmt.Errorf("charcreate: %w", err)
 			}
-
+		case "npc":
+			err := npc.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("npc: %w", err)
+			}
+		case "item":
+			err := item.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("item: %w", err)
+			}
 		case "all":
 			err := rule.Import(cmd, args)
 			if err != nil {
@@ -118,10 +130,21 @@ func importRun(cmd *cobra.Command, args []string) error {
 			if err != nil {
 				return fmt.Errorf("charcreate: %w", err)
 			}
+			err = npc.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("npc: %w", err)
+			}
+			err = item.Import(cmd, args)
+			if err != nil {
+				return fmt.Errorf("item: %w", err)
+			}
 			return nil
 		default:
-			return fmt.Errorf("unknown import target: %s", arg)
+			if !isRan {
+				return fmt.Errorf("unknown import target: %s", arg)
+			}
 		}
+		isRan = true
 	}
 
 	return nil

@@ -24,6 +24,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/xackery/rebuildeq/aa"
 	"github.com/xackery/rebuildeq/charcreate"
+	"github.com/xackery/rebuildeq/item"
 	"github.com/xackery/rebuildeq/rule"
 	"github.com/xackery/rebuildeq/spell"
 	"github.com/xackery/rebuildeq/task"
@@ -96,6 +97,11 @@ func buildRun(cmd *cobra.Command, args []string) error {
 			if err != nil {
 				return fmt.Errorf("charcreate: %w", err)
 			}
+		case "item":
+			err := item.Build(cmd, args)
+			if err != nil {
+				return fmt.Errorf("item: %w", err)
+			}
 		case "all":
 			err := rule.Build(cmd, args)
 			if err != nil {
@@ -116,6 +122,10 @@ func buildRun(cmd *cobra.Command, args []string) error {
 			err = charcreate.Build(cmd, args)
 			if err != nil {
 				return fmt.Errorf("charcreate: %w", err)
+			}
+			err = item.Build(cmd, args)
+			if err != nil {
+				return fmt.Errorf("item: %w", err)
 			}
 			return nil
 		default:

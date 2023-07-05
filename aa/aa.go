@@ -60,7 +60,3 @@ func generate(db *dbReader) error {
 	}
 	return nil
 }
-
-func Import(cmd *cobra.Command, args []string) error {
-	return nil
-}

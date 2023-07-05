@@ -52,10 +52,12 @@ func importItem(db *sqlx.DB, id int) error {
 	var rows *sqlx.Rows
 	var err error
 
+	outName := "item_dump.yaml"
 	if id == -1 {
 		rows, err = db.QueryxContext(ctx, "SELECT * from items")
 	} else {
 		rows, err = db.QueryxContext(ctx, "SELECT * from items WHERE id = ?", id)
+		outName = fmt.Sprintf("item_%d_dump.yaml", id)
 	}
 	if err != nil {
 		return fmt.Errorf("db query: %w", err)
@@ -76,7 +78,7 @@ func importItem(db *sqlx.DB, id int) error {
 		fmt.Println("No items found")
 		return nil
 	}
-	w, err := os.Create("item_dump.yaml")
+	w, err := os.Create(outName)
 	if err != nil {
 		return err
 	}

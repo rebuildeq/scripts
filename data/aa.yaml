@@ -1,6 +1,7 @@
 skills:
     - aa_name: Innate Run Speed
       aa_name_sid: 2
+      icon: boot-stomp
       id: 1
       classes: 65535
       type: 1 # General
@@ -99,6 +100,7 @@ skills:
             base2: 0
     - aa_name: Packrat
       aa_name_sid: 3
+      icon: ammo-bag
       id: 2
       classes: 65535
       type: 1 # General
@@ -197,6 +199,7 @@ skills:
               base2: 0
     - aa_name: Planar Power
       aa_name_sid: 4
+      icon: moon-sun
       id: 3
       classes: 65535
       type: 1 # General
@@ -535,6 +538,7 @@ skills:
             base2: 6
     - aa_name: TODO Dark Elf
       aa_name_sid: 5
+      icon: hood
       id: 4
       classes: 65535
       races: 16
@@ -565,6 +569,7 @@ skills:
             base2: 0
     - aa_name: TODO Barbarian
       aa_name_sid: 6
+      icon: axe
       id: 5
       classes: 65535
       races: 2
@@ -591,6 +596,7 @@ skills:
             base2: 0
     - aa_name: TODO Dwarf
       aa_name_sid: 7
+      icon: beer
       id: 6
       classes: 65535
       races: 128
@@ -617,6 +623,7 @@ skills:
             base2: 0
     - aa_name: TODO Erudite
       aa_name_sid: 8
+      icon: book
       id: 7
       classes: 65535
       races: 4
@@ -647,6 +654,7 @@ skills:
             base2: 0
     - aa_name: TODO Froglok
       aa_name_sid: 9
+      icon: water-drop
       id: 8
       classes: 65535
       races: 16384
@@ -673,6 +681,7 @@ skills:
             base2: 0
     - aa_name: TODO Gnome
       aa_name_sid: 10
+      icon: gears
       id: 9
       classes: 65535
       races: 2048
@@ -699,6 +708,7 @@ skills:
             base2: 0
     - aa_name: TODO Half Elf
       aa_name_sid: 11
+      icon: seagull
       id: 10
       classes: 65535
       races: 64
@@ -741,6 +751,7 @@ skills:
             base2: 0
     - aa_name: TODO High Elf
       aa_name_sid: 12
+      icon: flask
       id: 11
       classes: 65535
       races: 16
@@ -763,6 +774,7 @@ skills:
             base2: 0
     - aa_name: TODO Human
       aa_name_sid: 13
+      icon: player
       id: 12
       classes: 65535
       races: 1
@@ -801,6 +813,7 @@ skills:
             base2: 0
     - aa_name: TODO Iksar
       aa_name_sid: 14
+      icon: venomous-snake
       id: 13
       classes: 65535
       races: 4096
@@ -831,6 +844,7 @@ skills:
             base2: 0
     - aa_name: TODO Ogre
       aa_name_sid: 15
+      icon: muscle-fat
       id: 14
       classes: 65535
       races: 512
@@ -849,6 +863,7 @@ skills:
             base2: 0
     - aa_name: TODO Troll
       aa_name_sid: 16
+      icon: health
       id: 15
       classes: 65535
       races: 9
@@ -871,6 +886,7 @@ skills:
             base2: 0
     - aa_name: TODO Wood Elf
       aa_name_sid: 17
+      icon: palm-tree
       id: 16
       classes: 65535
       races: 8
@@ -897,6 +913,7 @@ skills:
             base2: 0
     - aa_name: TODO Vah Shir
       aa_name_sid: 18
+      icon: cat
       id: 17
       classes: 65535
       races: 32768
@@ -915,6 +932,7 @@ skills:
             base2: 0
     - aa_name: TODO Drakkin
       aa_name_sid: 19
+      icon: wyvern
       id: 18
       classes: 65535
       races: 32768
@@ -933,6 +951,7 @@ skills:
             base2: 0
     - aa_name: TODO Elemental Harmony
       aa_name_sid: 20
+      icon: fire-symbol
       id: 19
       classes: 128 # Bard
       type: 3 # Class
@@ -1031,6 +1050,7 @@ skills:
             base2: 50
     - aa_name: TODO Healing Treble
       aa_name_sid: 21
+      icon: health-increase
       id: 20
       classes: 128 # Bard
       type: 3 # Class
@@ -1129,6 +1149,7 @@ skills:
             base2: 50
     - aa_name: TODO Psalm of Norrath
       aa_name_sid: 22
+      icon: heavy-shield
       id: 21
       classes: 128 # Bard
       type: 3 # Class
@@ -1227,6 +1248,7 @@ skills:
             base2: 50
     - aa_name: TODO Cassindra's Chorus
       aa_name_sid: 23
+      icon: unplugged
       id: 22
       classes: 128 # Bard
       type: 3 # Class
@@ -1325,6 +1347,7 @@ skills:
             base2: 120
     - aa_name: TODO Shield of Songs
       aa_name_sid: 24
+      icon: bolt-shield
       id: 23
       classes: 128 # Bard
       type: 3 # Class
@@ -1423,6 +1446,7 @@ skills:
             base2: 130
     - aa_name: TODO Katta's Concord
       aa_name_sid: 25
+      icon: bottled-bolt
       id: 24
       classes: 128 # Bard
       type: 3 # Class
@@ -1521,6 +1545,7 @@ skills:
             base2: 130
     - aa_name: TODO Cassindra's Secret
       aa_name_sid: 26
+      icon: pawn
       id: 25
       classes: 128 # Bard
       type: 3 # Class
@@ -1619,6 +1644,7 @@ skills:
             base2: 30
     - aa_name: TODO Jonthon's Whistle
       aa_name_sid: 27
+      icon: fluffy-swirl
       id: 26
       classes: 128 # Bard
       type: 3 # Class
@@ -1717,6 +1743,7 @@ skills:
             base2: 120
     - aa_name: Innate Songblade
       aa_name_sid: 28
+      icon: lightning-sword
       id: 27
       classes: 128 # Bard
       type: 3 # Class
@@ -1894,6 +1921,7 @@ skills:
             base2: 36 # 1H Piercing
     - aa_name: TODO Shin's Spirit
       aa_name_sid: 29
+      icon: aura
       id: 28
       classes: 65535
       type: 1 # General
@@ -2001,6 +2029,7 @@ skills:
             base2: 100
     - aa_name: TODO Shin's Soul
       aa_name_sid: 30
+      icon: aware
       id: 29
       classes: 65535
       type: 1 # General
@@ -2108,6 +2137,7 @@ skills:
             base2: 100
     - aa_name: TODO Harmonic Affinity
       aa_name_sid: 31
+      icon: microphone
       id: 30
       classes: 128 # Bard
       type: 3 # Class
@@ -2206,6 +2236,7 @@ skills:
             base2: 20
     - aa_name: TODO Bard's Wish
       aa_name_sid: 32
+      icon: ship-emblem
       id: 31
       classes: 128 # Bard
       type: 3 # Class
@@ -2223,6 +2254,7 @@ skills:
             base2: 2
     - aa_name: TODO Chant Cycle
       aa_name_sid: 33
+      icon: chain
       id: 32
       classes: 128 # Bard
       type: 3 # Class
@@ -2321,6 +2353,7 @@ skills:
             base2: 20
     - aa_name: TODO Boastful Bellow
       aa_name_sid: 34
+      icon: horns
       id: 33
       classes: 128 # Bard
       type: 3 # Class
@@ -2419,6 +2452,7 @@ skills:
             base2: 20
     - aa_name: TODO Selo's Crescendo
       aa_name_sid: 35
+      icon: boot-stomp
       id: 34
       classes: 128 # Bard
       type: 3 # Class
@@ -2436,6 +2470,7 @@ skills:
             base2: 1
     - aa_name: TODO Soothing Melody
       aa_name_sid: 36
+      icon: hearts
       id: 35
       classes: 128 # Bard
       type: 3 # Class
@@ -2534,6 +2569,7 @@ skills:
             base2: 10
     - aa_name: Extended Notes
       aa_name_sid: 37
+      icon: nodular
       id: 36
       classes: 128 # Bard
       type: 3 # Class

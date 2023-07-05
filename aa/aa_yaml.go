@@ -8,6 +8,7 @@ type AAYaml struct {
 
 type AASkill struct {
 	Name            string    `yaml:"aa_name,omitempty"`
+	Icon            string    `yaml:"icon,omitempty"`
 	NameSID         int       `yaml:"aa_name_sid,omitempty"`
 	ID              int       `yaml:"id,omitempty"`
 	Type            int       `yaml:"type,omitempty"`

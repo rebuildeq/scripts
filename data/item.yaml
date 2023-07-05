@@ -5,7 +5,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -19,7 +19,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -33,7 +33,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -47,7 +47,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -61,7 +61,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -75,7 +75,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 900
@@ -90,7 +90,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -104,7 +104,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 900
@@ -118,7 +118,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 900
@@ -133,7 +133,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 900
@@ -147,7 +147,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -161,7 +161,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -175,7 +175,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -189,7 +189,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -203,7 +203,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -221,7 +221,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -235,7 +235,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -252,7 +252,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -266,7 +266,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -280,7 +280,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -297,7 +297,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -314,7 +314,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -329,7 +329,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -344,7 +344,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -359,7 +359,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -374,7 +374,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -389,7 +389,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -404,7 +404,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -419,7 +419,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -434,7 +434,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -449,7 +449,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -464,7 +464,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -479,7 +479,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -494,7 +494,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -509,7 +509,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -526,7 +526,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -540,7 +540,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -557,7 +557,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -571,7 +571,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -588,7 +588,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -602,7 +602,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -616,7 +616,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -630,7 +630,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -644,7 +644,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -662,7 +662,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -675,7 +675,7 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  notrade: 1
+  nodrop: 1
   norent: 1
   magic: 1
   icon: 648
@@ -683,3 +683,9 @@ items:
   itemtype: 54
   lore: 5 Mana Regen
   manaregen: 5
+- id: 151000
+  name: MonsterDex
+  clickeffect: 1411
+  casttime: 1000
+  casttime_: 1000
+  clicktype: 1

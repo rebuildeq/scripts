@@ -30,10 +30,14 @@ build-task: build copy-data
 # builds charcreate
 build-charcreate: build copy-data
 	cd bin && ./rebuildeq build charcreate
+build-item: build copy-data
+	cd bin && ./rebuildeq build item
 # copies data from data/ to bin/
 copy-data:
 	cp data/* bin/
 	cp .env bin/
+import-aa: build copy-data
+	cd bin && ./rebuildeq import aa
 import-rule: build copy-data
 	cd bin && ./rebuildeq import rule
 import-spell: build copy-data
@@ -42,6 +46,10 @@ import-task: build copy-data
 	cd bin && ./rebuildeq import task
 import-charcreate: build copy-data
 	cd bin && ./rebuildeq import charcreate
+import-npc: build copy-data
+	cd bin && ./rebuildeq import npc
+import-item: build copy-data
+	cd bin && ./rebuildeq import item 1001
 show-tables: copy-data
 	source .env && cd bin && docker run --rm \
 	-v ${PWD}:/src \

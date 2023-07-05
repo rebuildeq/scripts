@@ -2661,7 +2661,7 @@ skills:
       icon: brain-freeze
       id: 37
       classes: 128 # Bard
-      type: 3 # Class
+      type: 8192 # Enchanter
       grant_only: 0
       level_req: 1
       ranks:
@@ -2754,4 +2754,202 @@ skills:
           slot1:
             effect_id: 432 # SE_RebuildEQ
             base1: 98
+            base2: 50
+    - aa_name: Color Shock
+      aa_name_sid: 39
+      icon: batteries
+      id: 38
+      classes: 8192 # Enchanter
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 209
+          description: When you are dealt non-runed melee damage in combat, you have from 0% to 1% chance to stun the enemy.
+          desc_sid: 222
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 1
+        - index: 2
+          id: 210
+          description: When you are dealt non-runed melee damage in combat, you have from 1% to 2% chance to stun the enemy.
+          desc_sid: 223
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 2
+        - index: 3
+          id: 211
+          description: When you are dealt non-runed melee damage in combat, you have from 2% to 3% chance to stun the enemy.
+          desc_sid: 224
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 3
+        - index: 4
+          id: 212
+          description: When you are dealt non-runed melee damage in combat, you have from 3% to 4% chance to stun the enemy.
+          desc_sid: 225
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 4
+        - index: 5
+          id: 213
+          description: When you are dealt non-runed melee damage in combat, you have from 4% to 5% chance to stun the enemy.
+          desc_sid: 226
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 5
+        - index: 6
+          id: 214
+          description: When you are dealt non-runed melee damage in combat, you have from 5% to 6% chance to stun the enemy.
+          desc_sid: 227
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 6
+        - index: 7
+          id: 215
+          description: When you are dealt non-runed melee damage in combat, you have from 6% to 7% chance to stun the enemy.
+          desc_sid: 228
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 7
+        - index: 8
+          id: 216
+          description: When you are dealt non-runed melee damage in combat, you have from 7% to 8% chance to stun the enemy.
+          desc_sid: 229
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 8
+        - index: 9
+          id: 217
+          description: When you are dealt non-runed melee damage in combat, you have from 8% to 9% chance to stun the enemy.
+          desc_sid: 230
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 9
+        - index: 10
+          id: 218
+          description: When you are dealt non-runed melee damage in combat, you have from 9% to 10% chance to stun the enemy.
+          desc_sid: 231
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 99
+            base2: 10
+    - aa_name: Siren's Song
+      aa_name_sid: 40
+      icon: biohazard
+      id: 39
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 27
+      ranks:
+        - index: 1
+          id: 219
+          description: Charm songs now cost from 0% to 5% less mana.
+          desc_sid: 232
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 5
+        - index: 2
+          id: 220
+          description: Charm songs now cost from 5% to 10% less mana.
+          desc_sid: 233
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 10
+        - index: 3
+          id: 221
+          description: Charm songs now cost from 10% to 15% less mana.
+          desc_sid: 234
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 15
+        - index: 4
+          id: 222
+          description: Charm songs now cost from 15% to 20% less mana.
+          desc_sid: 235
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 20
+        - index: 5
+          id: 223
+          description: Charm songs now cost from 20% to 25% less mana.
+          desc_sid: 236
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 25
+        - index: 6
+          id: 224
+          description: Charm songs now cost from 25% to 30% less mana.
+          desc_sid: 237
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 30
+        - index: 7
+          id: 225
+          description: Charm songs now cost from 30% to 35% less mana.
+          desc_sid: 238
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 35
+        - index: 8
+          id: 226
+          description: Charm songs now cost from 35% to 40% less mana.
+          desc_sid: 239
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 40
+        - index: 9
+          id: 227
+          description: Charm songs now cost from 40% to 45% less mana.
+          desc_sid: 240
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
+            base2: 45
+        - index: 10
+          id: 228
+          description: Charm songs now cost from 45% to 50% less mana.
+          desc_sid: 241
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 31
             base2: 50

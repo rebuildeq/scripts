@@ -2656,3 +2656,102 @@ skills:
           slot1:
             effect_id: 270 # SE_BardSongRange
             base1: 100
+    - aa_name: Mind Devourer
+      aa_name_sid: 38
+      icon: brain-freeze
+      id: 37
+      classes: 128 # Bard
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 208
+          description: When you cast a detrimental spell against a monster with mana, you have from 0% to 1% chance to recover from 0% to 5% mana.
+          desc_sid: 212
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 5
+        - index: 2
+          id: 209
+          description: When you cast a detrimental spell against a monster with mana, you have from 1% to 2% chance to recover from 5% to 10% mana.
+          desc_sid: 213
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 10
+        - index: 3
+          id: 210
+          description: When you cast a detrimental spell against a monster with mana, you have from 2% to 3% chance to recover from 10% to 15% mana.
+          desc_sid: 214
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 15
+        - index: 4
+          id: 211
+          description: When you cast a detrimental spell against a monster with mana, you have from 3% to 4% chance to recover from 15% to 20% mana.
+          desc_sid: 215
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 20
+        - index: 5
+          id: 212
+          description: When you cast a detrimental spell against a monster with mana, you have from 4% to 5% chance to recover from 20% to 25% mana.
+          desc_sid: 216
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 25
+        - index: 6
+          id: 213
+          description: When you cast a detrimental spell against a monster with mana, you have from 5% to 6% chance to recover from 25% to 30% mana.
+          desc_sid: 217
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 30
+        - index: 7
+          id: 214
+          description: When you cast a detrimental spell against a monster with mana, you have from 6% to 7% chance to recover from 30% to 35% mana.
+          desc_sid: 218
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 35
+        - index: 8
+          id: 215
+          description: When you cast a detrimental spell against a monster with mana, you have from 7% to 8% chance to recover from 35% to 40% mana.
+          desc_sid: 219
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 40
+        - index: 9
+          id: 216
+          description: When you cast a detrimental spell against a monster with mana, you have from 8% to 9% chance to recover from 40% to 45% mana.
+          desc_sid: 220
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 45
+        - index: 10
+          id: 217
+          description: When you cast a detrimental spell against a monster with mana, you have from 9% to 10% chance to recover from 45% to 50% mana.
+          desc_sid: 221
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 98
+            base2: 50

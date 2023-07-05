@@ -21,7 +21,7 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 
 	for _, skill := range aa.Skills {
 		for _, rank := range skill.Ranks {
-			key := fmt.Sprintf("%s^%s", categoryConvert(skill.Type), classConvert(skill.Classes))
+			key := fmt.Sprintf("%d^%s^%s", skill.Type, categoryConvert(skill.Type), classConvert(skill.Classes))
 			icon := ""
 			if skill.Icon != "" {
 				icon = fmt.Sprintf("{{< xa id=\"%s\" >}} ", skill.Icon)
@@ -34,8 +34,8 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 
 	for key, skills := range pages {
 		info := strings.Split(key, "^")
-		category := info[0]
-		class := info[1]
+		category := info[1]
+		class := info[2]
 		page += fmt.Sprintf("\n\n### %s AAs - %s\n\n", category, class)
 		page += "Name|Category|Class|Ranks|Cost|Description\n"
 		page += "----|--------|-----|-----|----|-----------\n"

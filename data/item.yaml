@@ -823,7 +823,8 @@ items:
   manaregen: 5
 - id: 151000
   name: MonsterDex
-  clickeffect: 1411
+  clickeffect: 11657
   casttime: 1000
   casttime_: 1000
   clicktype: 1
+  scriptfileid: 30080

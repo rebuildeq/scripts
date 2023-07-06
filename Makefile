@@ -43,7 +43,7 @@ import-aa: build copy-data
 import-rule: build copy-data
 	cd bin && ./rebuildeq import rule
 import-spell: build copy-data
-	cd bin && ./rebuildeq import spell 23598
+	cd bin && ./rebuildeq import spell 11657
 import-task: build copy-data
 	cd bin && ./rebuildeq import task
 import-charcreate: build copy-data
@@ -51,7 +51,7 @@ import-charcreate: build copy-data
 import-npc: build copy-data
 	cd bin && ./rebuildeq import npc
 import-item: build copy-data
-	cd bin && ./rebuildeq import item 1001
+	cd bin && ./rebuildeq import item 54685
 show-tables: copy-data
 	source .env && cd bin && docker run --rm \
 	-v ${PWD}:/src \

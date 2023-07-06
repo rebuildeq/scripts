@@ -1,5 +1,5 @@
 spells:
-- id: 5243
+- id: 5243 # used by bard fading memories AA
   name: Fading Memories
   player_1: BLUE_TRAIL
   mana: 200
@@ -21,5 +21,29 @@ spells:
   OutofCombat: 1
   field221: 1
   field222: 39
+  min_dist_mod: 1
+  max_dist_mod: 1
+- id: 11657 # used by MonsterDex
+  name: Identify Monster
+  player_1: PLAYER_1
+  range: 100
+  icon: 2519
+  memicon: 2053
+  goodEffect: 1
+  targettype: 1
+  skill: 98
+  CastingAnim: 58
+  SpellAffectIndex: 32
+  new_icon: 163
+  spellanim: 233
+  descnum: 11657
+  pvpresistcalc: 100
+  spell_category: -99
+  suspendable: 1
+  field204: 1
+  InCombat: 1
+  OutofCombat: 1
+  field221: 1
+  field222: 52
   min_dist_mod: 1
   max_dist_mod: 1

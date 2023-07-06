@@ -3186,3 +3186,219 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 35
             base2: 100
+    - aa_name: Harken the Gods
+      aa_name_sid: 45
+      icon: wolf-howl
+      id: 44
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 261
+          description: Yaulp now gives increased accuracy, attack, and mana regen.
+          desc_sid: 264
+          cost: 10
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 36
+            base2: 1
+    - aa_name: Blessing of Haste
+      aa_name_sid: 46
+      icon: aquarius
+      id: 45
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 262
+          description: All spell haste spells are 0% to 10% more effective on the cleric.
+          desc_sid: 265
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 10
+        - index: 2
+          id: 263
+          description: All spell haste spells are 0% to 20% more effective on the cleric.
+          desc_sid: 266
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 20
+        - index: 3
+          id: 271
+          description: All spell haste spells are 0% to 30% more effective on the cleric.
+          desc_sid: 274
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 30
+        - index: 4
+          id: 264
+          description: All spell haste spells are 0% to 40% more effective on the cleric.
+          desc_sid: 267
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 40
+        - index: 5
+          id: 265
+          description: All spell haste spells are 0% to 50% more effective on the cleric.
+          desc_sid: 268
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 50
+        - index: 6
+          id: 266
+          description: All spell haste spells are 0% to 60% more effective on the cleric.
+          desc_sid: 269
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 60
+        - index: 7
+          id: 267
+          description: All spell haste spells are 0% to 70% more effective on the cleric.
+          desc_sid: 270
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 70
+        - index: 8
+          id: 268
+          description: All spell haste spells are 0% to 80% more effective on the cleric.
+          desc_sid: 271
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 80
+        - index: 9
+          id: 269
+          description: All spell haste spells are 0% to 90% more effective on the cleric.
+          desc_sid: 272
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 90
+        - index: 10
+          id: 270
+          description: All spell haste spells are 0% to 100% more effective on the cleric.
+          desc_sid: 273
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 37
+            base2: 100
+    - aa_name: Divine Hammer
+      aa_name_sid: 47
+      icon: flat-hammer
+      id: 46
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 30
+      ranks:
+        - index: 1
+          id: 272
+          description: The cleric gains a 60 mod proc that deals from 0 to 15 damage.
+          desc_sid: 275
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 1
+        - index: 2
+          id: 273
+          description: The cleric gains a 60 mod proc that deals from 0 to 30 damage.
+          desc_sid: 276
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 2
+        - index: 3
+          id: 274
+          description: The cleric gains a 60 mod proc that deals from 0 to 45 damage.
+          desc_sid: 277
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 3
+        - index: 4
+          id: 275
+          description: The cleric gains a 60 mod proc that deals from 0 to 60 damage.
+          desc_sid: 278
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 4
+        - index: 5
+          id: 276
+          description: The cleric gains a 60 mod proc that deals from 0 to 75 damage.
+          desc_sid: 279
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 5
+        - index: 6
+          id: 277
+          description: The cleric gains a 60 mod proc that deals from 0 to 90 damage.
+          desc_sid: 280
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 6
+        - index: 7
+          id: 278
+          description: The cleric gains a 60 mod proc that deals from 0 to 105 damage.
+          desc_sid: 281
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 7
+        - index: 8
+          id: 279
+          description: The cleric gains a 60 mod proc that deals from 0 to 120 damage.
+          desc_sid: 282
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 8
+        - index: 9
+          id: 280
+          description: The cleric gains a 60 mod proc that deals from 0 to 135 damage.
+          desc_sid: 283
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 9
+        - index: 10
+          id: 281
+          description: The cleric gains a 60 mod proc that deals from 0 to 150 damage.
+          desc_sid: 284
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 38
+            base2: 10

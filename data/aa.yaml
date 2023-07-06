@@ -3419,3 +3419,102 @@ skills:
           spell_id: 2738
           spell_type: 2
           recast_time: 32400
+    - aa_name: Promise
+      aa_name_sid: 49
+      icon: chessboard
+      id: 48
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 0
+      ranks:
+        - index: 1
+          id: 283
+          description: All heals done by a cleric have their mana cost reduced by 0% to 5% mana.
+          desc_sid: 286
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 5
+        - index: 2
+          id: 284
+          description: All heals done by a cleric have their mana cost reduced by 0% to 10% mana.
+          desc_sid: 287
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 10
+        - index: 3
+          id: 285
+          description: All heals done by a cleric have their mana cost reduced by 0% to 15% mana.
+          desc_sid: 288
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 15
+        - index: 4
+          id: 286
+          description: All heals done by a cleric have their mana cost reduced by 0% to 20% mana.
+          desc_sid: 289
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 20
+        - index: 5
+          id: 287
+          description: All heals done by a cleric have their mana cost reduced by 0% to 25% mana.
+          desc_sid: 290
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 25
+        - index: 6
+          id: 288
+          description: All heals done by a cleric have their mana cost reduced by 0% to 30% mana.
+          desc_sid: 291
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 30
+        - index: 7
+          id: 289
+          description: All heals done by a cleric have their mana cost reduced by 0% to 35% mana.
+          desc_sid: 292
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 35
+        - index: 8
+          id: 290
+          description: All heals done by a cleric have their mana cost reduced by 0% to 40% mana.
+          desc_sid: 293
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 40
+        - index: 9
+          id: 291
+          description: All heals done by a cleric have their mana cost reduced by 0% to 45% mana.
+          desc_sid: 294
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 45
+        - index: 10
+          id: 292
+          description: All heals done by a cleric have their mana cost reduced by 0% to 50% mana.
+          desc_sid: 295
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 48
+            base2: 50

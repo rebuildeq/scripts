@@ -36,7 +36,7 @@ func generate() error {
 	}
 
 	charCreate := CharCreateYaml{}
-	err = yaml.Unmarshal(data, &charCreate)
+	err = yaml.UnmarshalStrict(data, &charCreate)
 	if err != nil {
 		return fmt.Errorf("charCreate unmarshal: %w", err)
 	}

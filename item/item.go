@@ -35,7 +35,7 @@ func generate() error {
 		return err
 	}
 	item := ItemYaml{}
-	err = yaml.Unmarshal(data, &item)
+	err = yaml.UnmarshalStrict(data, &item)
 	if err != nil {
 		return fmt.Errorf("item unmarshal: %w", err)
 	}

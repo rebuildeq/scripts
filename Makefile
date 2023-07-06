@@ -21,6 +21,8 @@ build-aa: build copy-data
 # builds spell
 build-spell: build copy-data
 	cd bin && ./rebuildeq build spell
+	cp bin/spells_us.txt ../launcheq/rof
+	cp bin/dbstr_us.txt ../launcheq/rof
 # builds rule
 build-rule: build copy-data
 	cd bin && ./rebuildeq build rule

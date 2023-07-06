@@ -35,7 +35,7 @@ func generate(db *dbReader) error {
 	}
 
 	spell := SpellYaml{}
-	err = yaml.Unmarshal(data, &spell)
+	err = yaml.UnmarshalStrict(data, &spell)
 	if err != nil {
 		return fmt.Errorf("spell unmarshal: %w", err)
 	}
@@ -83,7 +83,7 @@ func generateSpellSQL(sp *SpellYaml) error {
 			case reflect.Float64:
 				w.WriteString(fmt.Sprintf("%f", field.Value()))
 			case reflect.Float32:
-				w.WriteString(fmt.Sprintf("%f", field.Value()))
+				w.WriteString(fmt.Sprintf("%0.0f", field.Value()))
 			case reflect.Bool:
 				w.WriteString(fmt.Sprintf("%t", field.Value()))
 			default:

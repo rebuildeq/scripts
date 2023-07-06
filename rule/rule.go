@@ -32,7 +32,7 @@ func generate() error {
 		return err
 	}
 	rule := RuleYaml{}
-	err = yaml.Unmarshal(data, &rule)
+	err = yaml.UnmarshalStrict(data, &rule)
 	if err != nil {
 		return fmt.Errorf("rule unmarshal: %w", err)
 	}

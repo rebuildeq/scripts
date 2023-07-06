@@ -96,11 +96,14 @@ func modifySpellsUS(db *dbReader, sp *SpellYaml) error {
 			case reflect.String:
 				line += fmt.Sprintf("%s", field.Value())
 			case reflect.Int:
-				line += fmt.Sprintf("%d", field.Value())
+				if (field.Name() == "Range" || field.Name() == "Aoerange") && field.Value() == 0 {
+				} else {
+					line += fmt.Sprintf("%d", field.Value())
+				}
 			case reflect.Float64:
-				line += fmt.Sprintf("%f", field.Value())
+				line += fmt.Sprintf("%0.0f", field.Value())
 			case reflect.Float32:
-				line += fmt.Sprintf("%f", field.Value())
+				line += fmt.Sprintf("%0.0f", field.Value())
 			case reflect.Bool:
 				line += fmt.Sprintf("%t", field.Value())
 			default:

@@ -34,7 +34,7 @@ func generate() error {
 		return err
 	}
 	task := TaskYaml{}
-	err = yaml.Unmarshal(data, &task)
+	err = yaml.UnmarshalStrict(data, &task)
 	if err != nil {
 		return fmt.Errorf("task unmarshal: %w", err)
 	}

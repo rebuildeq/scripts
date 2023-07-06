@@ -278,9 +278,9 @@ func (spell *Spell) sanitize() error {
 	//`cast_on_you` varchar(120) DEFAULT NULL,
 	//`cast_on_other` varchar(120) DEFAULT NULL,
 	//`spell_fades` varchar(120) DEFAULT NULL,
-	if spell.Range == 0 {
-		spell.Range = 100
-	}
+	//if spell.Range == 0 {
+	//	spell.Range = 100
+	//}
 
 	//`aoerange` int(11) NOT NULL DEFAULT 0,
 	//`pushback` int(11) NOT NULL DEFAULT 0,
@@ -467,7 +467,7 @@ func (spell *Spell) sanitize() error {
 		spell.New_icon = 161
 	}
 
-	if spell.Descnum == 0 {
+	/*if spell.Descnum == 0 {
 		return fmt.Errorf("descnum is 0 for spell %d", spell.ID)
 	}
 
@@ -477,11 +477,11 @@ func (spell *Spell) sanitize() error {
 
 	if spell.Effectdescnum == 0 {
 		return fmt.Errorf("effectdescnum is 0 for spell %d", spell.ID)
-	}
+	}*/
 
-	if spell.Spell_category == 0 {
+	/*if spell.Spell_category == 0 {
 		spell.Spell_category = -99
-	}
+	}*/
 
 	if spell.Field206 == 0 {
 		spell.Field206 = -1

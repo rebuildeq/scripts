@@ -64,5 +64,6 @@ func Import(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	fmt.Println("Created spell_dump.yaml")
+
 	return nil
 }

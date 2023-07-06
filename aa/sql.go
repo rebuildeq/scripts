@@ -135,6 +135,10 @@ func generateAASQL(aa *AAYaml) error {
 			prevID := -1
 			nextID := -1
 
+			if rank.LevelReq == 0 && skill.LevelReq != 0 {
+				rank.LevelReq = skill.LevelReq
+			}
+
 			if rank.TitleSID != 0 {
 				lastSID = rank.TitleSID
 			}

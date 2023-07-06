@@ -23,6 +23,7 @@ type AASkill struct {
 	FirstRankID     int       `yaml:"first_rank_id,omitempty" db:"first_rank_id"`
 	Enabled         int       `yaml:"enabled,omitempty" db:"enabled"`
 	ResetOnDeath    int       `yaml:"reset_on_death,omitempty" db:"reset_on_death"`
+	LevelReq        int       `yaml:"level_req,omitempty" db:"level_req"`
 	Ranks           []*AARank `yaml:"ranks,omitempty" db:"ranks"`
 }
 
@@ -46,34 +47,38 @@ type AARank struct {
 	Slot1          struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot1,omitempty"`
 	Slot2 struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot2,omitempty"`
 	Slot3 struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot3,omitempty"`
 	Slot4 struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot4,omitempty"`
 	Slot5 struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot5,omitempty"`
 	Slot6 struct {
 		EffectID int `yaml:"effect_id,omitempty"`
 		Base1    int `yaml:"base1,omitempty"`
-		Base2    int `yaml:"base2,omitempty"`
+		Base2    int `yaml:"base2"`
 	} `yaml:"slot6,omitempty"`
-	nextID int
+	Slot7 struct {
+		EffectID int `yaml:"effect_id,omitempty"`
+		Base1    int `yaml:"base1,omitempty"`
+		Base2    int `yaml:"base2"`
+	} `yaml:"slot7,omitempty"`
 }
 
 func (e *AAYaml) sanitize() error {
@@ -128,6 +133,32 @@ func (e *AAYaml) sanitize() error {
 			}
 			if descName != rank.Description {
 				return fmt.Errorf("description name mismatch for descriptionSID %d skill id %d rank %d between '%s' and '%s'", rank.DescriptionSID, skillIndex, rankIndex, descName, rank.Description)
+			}
+		}
+	}
+	return nil
+}
+
+func (e *AAYaml) omitEmpty() error {
+	for _, skill := range e.Skills {
+		if skill.Category == -1 {
+			skill.Category = 0
+		}
+		for _, rank := range skill.Ranks {
+			if rank.SpellID == -1 {
+				rank.SpellID = 0
+			}
+			if rank.PrevID == -1 {
+				rank.PrevID = 0
+			}
+			if rank.NextID == -1 {
+				rank.NextID = 0
+			}
+			if rank.UpperHotkeySID == -1 {
+				rank.UpperHotkeySID = 0
+			}
+			if rank.LowerHotkeySID == -1 {
+				rank.LowerHotkeySID = 0
 			}
 		}
 	}

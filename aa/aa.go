@@ -34,7 +34,7 @@ func generate(db *dbReader) error {
 		return err
 	}
 	aa := AAYaml{}
-	err = yaml.Unmarshal(data, &aa)
+	err = yaml.UnmarshalStrict(data, &aa)
 	if err != nil {
 		return fmt.Errorf("unmarshal: %w", err)
 	}

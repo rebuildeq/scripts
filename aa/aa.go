@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-yaml/yaml"
 	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -29,14 +29,17 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate(db *dbReader) error {
-	data, err := os.ReadFile("aa.yaml")
+	r, err := os.Open("aa.yaml")
 	if err != nil {
 		return err
 	}
-	aa := AAYaml{}
-	err = yaml.UnmarshalStrict(data, &aa)
+	defer r.Close()
+	aa := &AAYaml{}
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(aa)
 	if err != nil {
-		return fmt.Errorf("unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = aa.sanitize()
@@ -44,17 +47,17 @@ func generate(db *dbReader) error {
 		return fmt.Errorf("sanitize: %w", err)
 	}
 
-	err = generateAASQL(&aa)
+	err = generateAASQL(aa)
 	if err != nil {
 		return fmt.Errorf("generateAASQL: %w", err)
 	}
 
-	err = modifyDBStr(db, &aa)
+	err = modifyDBStr(db, aa)
 	if err != nil {
 		return fmt.Errorf("modifyDBStr: %w", err)
 	}
 
-	err = generateWeb(&aa)
+	err = generateWeb(aa)
 	if err != nil {
 		return fmt.Errorf("generateWeb: %w", err)
 	}

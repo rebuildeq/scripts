@@ -10,8 +10,8 @@ import (
 	"github.com/fatih/structs"
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/go-yaml/yaml"
 	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -30,14 +30,18 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate() error {
-	data, err := os.ReadFile("item.yaml")
+
+	r, err := os.Open("item.yaml")
 	if err != nil {
 		return err
 	}
-	item := ItemYaml{}
-	err = yaml.UnmarshalStrict(data, &item)
+	defer r.Close()
+	item := &ItemYaml{}
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(item)
 	if err != nil {
-		return fmt.Errorf("item unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = item.sanitize()
@@ -45,7 +49,7 @@ func generate() error {
 		return fmt.Errorf("item sanitize: %w", err)
 	}
 
-	err = generateItemSQL(&item)
+	err = generateItemSQL(item)
 	if err != nil {
 		return fmt.Errorf("generateItemSQL: %w", err)
 	}

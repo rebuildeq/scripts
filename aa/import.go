@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-yaml/yaml"
+	"github.com/goccy/go-yaml"
 	"github.com/jmoiron/sqlx"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -94,14 +94,15 @@ func Import(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("importRanks: %w", err)
 	}
 
-	w, err := os.Create("aa_dump.yaml")
+	data, err := yaml.MarshalWithOptions(aa, yaml.WithComment(
+		yaml.CommentMap{
+			"$.skills": []*yaml.Comment{yaml.LineComment("Test!")},
+		},
+	))
 	if err != nil {
-		return err
+		return fmt.Errorf("marshal: %w", err)
 	}
-	defer w.Close()
-
-	enc := yaml.NewEncoder(w)
-	err = enc.Encode(aa)
+	err = os.WriteFile("aa_dump.yaml", data, 0644)
 	if err != nil {
 		return err
 	}

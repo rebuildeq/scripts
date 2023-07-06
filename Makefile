@@ -43,7 +43,7 @@ import-aa: build copy-data
 import-rule: build copy-data
 	cd bin && ./rebuildeq import rule
 import-spell: build copy-data
-	cd bin && ./rebuildeq import spell
+	cd bin && ./rebuildeq import spell 23598
 import-task: build copy-data
 	cd bin && ./rebuildeq import task
 import-charcreate: build copy-data

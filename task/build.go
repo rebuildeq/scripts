@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/fatih/structs"
-	"github.com/go-yaml/yaml"
 	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -29,14 +29,17 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate() error {
-	data, err := os.ReadFile("task.yaml")
+	r, err := os.Open("task.yaml")
 	if err != nil {
 		return err
 	}
-	task := TaskYaml{}
-	err = yaml.UnmarshalStrict(data, &task)
+	defer r.Close()
+	task := &TaskYaml{}
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(task)
 	if err != nil {
-		return fmt.Errorf("task unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = task.sanitize()
@@ -44,7 +47,7 @@ func generate() error {
 		return fmt.Errorf("task sanitize: %w", err)
 	}
 
-	err = generateTaskSQL(&task)
+	err = generateTaskSQL(task)
 	if err != nil {
 		return fmt.Errorf("generateTaskSQL: %w", err)
 	}

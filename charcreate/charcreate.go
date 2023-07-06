@@ -7,11 +7,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-yaml/yaml"
 	"github.com/jmoiron/sqlx"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/xackery/rebuildeq/util"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -30,15 +30,17 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate() error {
-	data, err := os.ReadFile("charcreate.yaml")
+	charCreate := &CharCreateYaml{}
+	r, err := os.Open("charcreate.yaml")
 	if err != nil {
-		return fmt.Errorf("read charCreate.yaml: %w", err)
+		return err
 	}
-
-	charCreate := CharCreateYaml{}
-	err = yaml.UnmarshalStrict(data, &charCreate)
+	defer r.Close()
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(charCreate)
 	if err != nil {
-		return fmt.Errorf("charCreate unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = charCreate.sanitize()
@@ -46,7 +48,7 @@ func generate() error {
 		return fmt.Errorf("charCreate sanitize: %w", err)
 	}
 
-	err = generateCharCreateSQL(&charCreate)
+	err = generateCharCreateSQL(charCreate)
 	if err != nil {
 		return fmt.Errorf("generateCharCreateSQL: %w", err)
 	}

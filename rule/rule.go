@@ -7,8 +7,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/go-yaml/yaml"
 	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -27,14 +27,17 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate() error {
-	data, err := os.ReadFile("rule.yaml")
+	r, err := os.Open("rule.yaml")
 	if err != nil {
 		return err
 	}
-	rule := RuleYaml{}
-	err = yaml.UnmarshalStrict(data, &rule)
+	defer r.Close()
+	rule := &RuleYaml{}
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(rule)
 	if err != nil {
-		return fmt.Errorf("rule unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = rule.sanitize()
@@ -42,7 +45,7 @@ func generate() error {
 		return fmt.Errorf("rule sanitize: %w", err)
 	}
 
-	err = generateRuleSQL(&rule)
+	err = generateRuleSQL(rule)
 	if err != nil {
 		return fmt.Errorf("generateRuleSQL: %w", err)
 	}

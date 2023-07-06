@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/fatih/structs"
-	"github.com/go-yaml/yaml"
 	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
 )
 
 func Build(cmd *cobra.Command, args []string) error {
@@ -29,15 +29,17 @@ func Build(cmd *cobra.Command, args []string) error {
 }
 
 func generate(db *dbReader) error {
-	data, err := os.ReadFile("spell.yaml")
+	r, err := os.Open("spell.yaml")
 	if err != nil {
-		return fmt.Errorf("read spell.yaml: %w", err)
+		return err
 	}
-
-	spell := SpellYaml{}
-	err = yaml.UnmarshalStrict(data, &spell)
+	defer r.Close()
+	spell := &SpellYaml{}
+	dec := yaml.NewDecoder(r)
+	dec.KnownFields(true)
+	err = dec.Decode(spell)
 	if err != nil {
-		return fmt.Errorf("spell unmarshal: %w", err)
+		return fmt.Errorf("decode: %w", err)
 	}
 
 	err = spell.sanitize()
@@ -45,12 +47,12 @@ func generate(db *dbReader) error {
 		return fmt.Errorf("spell sanitize: %w", err)
 	}
 
-	err = generateSpellSQL(&spell)
+	err = generateSpellSQL(spell)
 	if err != nil {
 		return fmt.Errorf("generateSpellSQL: %w", err)
 	}
 
-	err = modifySpellsUS(db, &spell)
+	err = modifySpellsUS(db, spell)
 	if err != nil {
 		return fmt.Errorf("modifySpellsUS: %w", err)
 	}

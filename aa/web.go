@@ -28,7 +28,9 @@ Rebuild EQ hand crafts all the AAs for a custom experience. AAs are not gained i
 			}
 			pages[key] = append(pages[key], fmt.Sprintf("%s%s|%s|%s|%d|%d|%s\n", icon, strings.TrimPrefix(skill.Name, "TODO "), categoryConvert(skill.Type), classConvert(skill.Classes), len(skill.Ranks), rank.Cost, rank.Description))
 			//page += fmt.Sprintf("%s|%s|%s|%s\n", skill.Name, categoryConvert(skill.Type), classConvert(skill.Classes), rank.Description)
-			break
+			if true {
+				break
+			}
 		}
 	}
 

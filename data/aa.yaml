@@ -3402,3 +3402,20 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 38
             base2: 10
+    - aa_name: Divine Resurrection
+      aa_name_sid: 48
+      icon: sunbeams
+      id: 47
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 0
+      ranks:
+        - index: 1
+          id: 282
+          description: Grants the Divine Resurrection AA, reviving a fallen player. Reuse time is 12 hours.
+          desc_sid: 285
+          cost: 10
+          spell_id: 2738
+          spell_type: 2
+          recast_time: 32400

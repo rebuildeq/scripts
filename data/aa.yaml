@@ -3087,4 +3087,102 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 34
             base2: 50
-
+    - aa_name: Ward of Vie
+      aa_name_sid: 44
+      icon: round-shield
+      id: 43
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 1
+      ranks:
+        - index: 1
+          id: 251
+          description: All ward spells last from 0% to 10% additional maximum hitpoints.
+          desc_sid: 254
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 10
+        - index: 2
+          id: 252
+          description: All ward spells last from 0% to 20% additional maximum hitpoints.
+          desc_sid: 255
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 20
+        - index: 3
+          id: 253
+          description: All ward spells last from 0% to 30% additional maximum hitpoints.
+          desc_sid: 256
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 30
+        - index: 4
+          id: 254
+          description: All ward spells last from 0% to 40% additional maximum hitpoints.
+          desc_sid: 257
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 40
+        - index: 5
+          id: 255
+          description: All ward spells last from 0% to 50% additional maximum hitpoints.
+          desc_sid: 258
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 50
+        - index: 6
+          id: 256
+          description: All ward spells last from 0% to 60% additional maximum hitpoints.
+          desc_sid: 259
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 60
+        - index: 7
+          id: 257
+          description: All ward spells last from 0% to 70% additional maximum hitpoints.
+          desc_sid: 260
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 70
+        - index: 8
+          id: 258
+          description: All ward spells last from 0% to 80% additional maximum hitpoints.
+          desc_sid: 261
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 80
+        - index: 9
+          id: 259
+          description: All ward spells last from 0% to 90% additional maximum hitpoints.
+          desc_sid: 262
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 90
+        - index: 10
+          id: 260
+          description: All ward spells last from 0% to 100% additional maximum hitpoints.
+          desc_sid: 263
+          cost: 1
+          slot1:
+            effect_id: 432 # SE_RebuildEQ
+            base1: 35
+            base2: 100

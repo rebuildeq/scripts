@@ -83,7 +83,7 @@ items:
   slots: 131072
   itemtype: 54
   lore: 10 STR
-  str: 10
+  astr: 10
 - id: 150105
   name: Giant Card
   classes: 65535
@@ -118,7 +118,7 @@ items:
   slots: 262144
   itemtype: 54
   lore:	5 STR
-  str: 5
+  astr: 5
 - id: 150107
   name: Lycanthrope Card
   classes: 65535
@@ -170,7 +170,7 @@ items:
   slots: 262144
   itemtype: 54
   lore:	10 INT
-  int: 10
+  aint: 10
 - id: 150110
   name: Plant Card
   classes: 65535
@@ -204,7 +204,7 @@ items:
   slots: 262144
   itemtype: 54
   lore:	5 Dexterity
-  dex: 5
+  adex: 5
 - id: 150112
   name: Undead Card
   classes: 65535
@@ -330,7 +330,7 @@ items:
   slots: 131072
   itemtype: 54
   lore:	15 HP Regen
-  hpregen: 15
+  regen: 15
 - id: 150119
   name: Goblin Card
   classes: 65535

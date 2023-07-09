@@ -828,3 +828,6 @@ items:
   casttime_: 1000
   clicktype: 1
   scriptfileid: 30080
+  norent: 1
+  magic: 1
+  maxcharges: -1

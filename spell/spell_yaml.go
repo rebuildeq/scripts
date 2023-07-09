@@ -167,7 +167,7 @@ type Spell struct {
 	Field152             int     `yaml:"field152,omitempty" db:"field152"`                         // int(11) NOT NULL DEFAULT 0,
 	Field153             int     `yaml:"field153,omitempty" db:"field153"`                         // int(11) NOT NULL DEFAULT 0,
 	Short_buff_box       int     `yaml:"short_buff_box,omitempty" db:"short_buff_box"`             // int(11) NOT NULL DEFAULT -1,
-	Description          string  `yaml:"description,omitempty" db:"description"`                   // text,
+	Description          string  `yaml:"description,omitempty"`                                    // text,
 	Descnum              int     `yaml:"descnum,omitempty" db:"descnum"`                           // int(11) NOT NULL DEFAULT 0,
 	Typedescnum          int     `yaml:"typedescnum,omitempty" db:"typedescnum"`                   // int(11) DEFAULT NULL,
 	Effectdescnum        int     `yaml:"effectdescnum,omitempty" db:"effectdescnum"`               // int(11) DEFAULT NULL,

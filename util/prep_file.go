@@ -18,6 +18,7 @@ func PrepFile(baseName string, extension string) error {
 		if err != nil {
 			return err
 		}
+		return nil
 	}
 	_, err = os.Stat(originalFile)
 	if err != nil {

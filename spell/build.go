@@ -14,6 +14,7 @@ import (
 func Build(cmd *cobra.Command, args []string) error {
 	start := time.Now()
 	db := &dbReader{}
+	dbSpell := &dbSpellReader{}
 	fmt.Printf("Spell...")
 	var err error
 	defer func() {
@@ -24,11 +25,11 @@ func Build(cmd *cobra.Command, args []string) error {
 		}
 		fmt.Println("Spell changed", db.changedSpellsUSCount, "spells_us entries")
 	}()
-	err = generate(db)
+	err = generate(db, dbSpell)
 	return nil
 }
 
-func generate(db *dbReader) error {
+func generate(db *dbReader, dbSpell *dbSpellReader) error {
 	r, err := os.Open("spell.yaml")
 	if err != nil {
 		return err
@@ -57,10 +58,16 @@ func generate(db *dbReader) error {
 		return fmt.Errorf("modifySpellsUS: %w", err)
 	}
 
+	err = modifyDBStr(dbSpell, spell)
+	if err != nil {
+		return fmt.Errorf("modifyDBStr: %w", err)
+	}
+
 	return nil
 }
 
 func generateSpellSQL(sp *SpellYaml) error {
+
 	w, err := os.Create("spell.sql")
 	if err != nil {
 		return err

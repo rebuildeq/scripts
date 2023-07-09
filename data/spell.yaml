@@ -36,6 +36,7 @@ spells:
   SpellAffectIndex: 32
   new_icon: 163
   spellanim: 233
+  description: Identifies what cards a monster drops.
   descnum: 11657
   pvpresistcalc: 100
   spell_category: -99
@@ -45,5 +46,38 @@ spells:
   OutofCombat: 1
   field221: 1
   field222: 52
+  min_dist_mod: 1
+  max_dist_mod: 1
+- id: 907 # Used by Skeleton Card
+  name: Dry Bone Fire Burst 5
+  player_1: PLAYER_1
+  you_cast: You cast Smolder.
+  other_casts: '''s eyes cast fire.'
+  cast_on_you: You feel your skin smolder.
+  cast_on_other: '''s skin smolders.'
+  range: 200
+  recast_time: 12000
+  effect_base_value1: -5
+  icon: 2515
+  memicon: 2052
+  formula1: 102
+  LightType: 6
+  resisttype: 2
+  targettype: 5
+  skill: 24
+  TargetAnim: 13
+  SpellAffectIndex: 18
+  new_icon: 51
+  spellanim: 84
+  typedescnum: 25
+  effectdescnum: 38
+  field163: 100
+  pvpresistcalc: 100
+  spell_category: -99
+  field204: 1
+  InCombat: 1
+  OutofCombat: 1
+  field221: 3
+  field222: 19
   min_dist_mod: 1
   max_dist_mod: 1

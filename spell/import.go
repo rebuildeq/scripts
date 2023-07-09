@@ -1,15 +1,18 @@
 package spell
 
 import (
+	"bufio"
 	"context"
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/xackery/rebuildeq/util"
 	"gopkg.in/yaml.v3"
 )
 
@@ -51,6 +54,45 @@ func importSpell(db *sqlx.DB, id int) error {
 		return err
 	}
 
+	descIDs := make(map[int]string)
+	err = util.PrepFile("dbstr_us", ".txt")
+	if err != nil {
+		return err
+	}
+
+	defer func() {
+		os.Remove("dbstr_us_tmp.txt")
+	}()
+
+	r, err := os.Open("dbstr_us_tmp.txt")
+	if err != nil {
+		return err
+	}
+	defer r.Close()
+	scanner := bufio.NewScanner(r)
+
+	lineNumber := 0
+	for scanner.Scan() {
+		lineNumber++
+		line := scanner.Text()
+		records := strings.Split(line, "^")
+		id, err := strconv.Atoi(records[0])
+		if err != nil {
+			return fmt.Errorf("strconv spell id line %d: %w", lineNumber, err)
+		}
+		category, err := strconv.Atoi(records[1])
+		if err != nil {
+			return fmt.Errorf("strconv spell category line %d: %w", lineNumber, err)
+		}
+		switch category {
+		case 6:
+			descIDs[id] = strings.TrimSpace(records[2])
+			if id == 907 {
+				fmt.Println(id)
+			}
+		}
+	}
+
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
@@ -74,6 +116,8 @@ func importSpell(db *sqlx.DB, id int) error {
 		if err != nil {
 			return fmt.Errorf("db struct scan: %w", err)
 		}
+
+		r.Description = descIDs[r.ID]
 
 		err = r.omitEmpty()
 		if err != nil {

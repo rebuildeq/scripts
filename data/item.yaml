@@ -5,8 +5,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -22,8 +22,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -39,8 +39,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -56,8 +56,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -73,8 +73,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -90,8 +90,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 900
   augtype: 8
@@ -108,8 +108,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 2
@@ -125,8 +125,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 900
   augtype: 8
@@ -142,8 +142,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 900
   augtype: 8
@@ -160,8 +160,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 900
   augtype: 2
@@ -177,8 +177,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -194,8 +194,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 2
@@ -211,8 +211,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -228,8 +228,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -245,8 +245,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 2
@@ -266,8 +266,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 2
@@ -283,8 +283,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -303,8 +303,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -320,8 +320,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -337,8 +337,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -357,8 +357,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -377,8 +377,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -395,8 +395,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -413,8 +413,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -431,8 +431,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -449,8 +449,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -467,8 +467,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -485,8 +485,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -503,8 +503,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -521,8 +521,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -539,8 +539,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -557,8 +557,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -575,8 +575,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -593,8 +593,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -611,8 +611,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -631,8 +631,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -648,8 +648,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -668,8 +668,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -685,8 +685,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -705,8 +705,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -722,8 +722,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -739,8 +739,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -756,8 +756,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 8
@@ -773,8 +773,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -794,8 +794,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 4
@@ -810,8 +810,8 @@ items:
   races: 131071
   stackable: 1
   stacksize: 100
-  nodrop: 1
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
   icon: 648
   augtype: 1
@@ -828,6 +828,7 @@ items:
   casttime_: 1000
   clicktype: 1
   scriptfileid: 30080
-  norent: 1
+  nodrop: 1 # 1 = tradable, 0 no trade
+  norent: 1 # 1 = permanent, 0 = temporary
   magic: 1
-  maxcharges: -1
+  maxcharges: -1  # -1 = unlimited casts

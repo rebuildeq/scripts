@@ -80,9 +80,13 @@ rules:
     notes: Setting whether the mail system is activated. If false, client won't bring
       up the Mail window
   - name: Merchant:BuyCostMod
-    value: "0.7499999880791" # was 0.9499999880791
+    value: "0.4" # was 0.9499999880791
     ruleset_id: 1
     notes: Modifier for NPC buy price
+  - name: Merchant:SellCostMod
+    value: "4.0" # was 1.0499999523163
+    ruleset_id: 1
+    notes: Modifier for NPC sell price
   - name: Merchant:ChaBonusMod
     value: "2.7500000476837" # was 3.4500000476837
     ruleset_id: 1
@@ -93,10 +97,6 @@ rules:
     ruleset_id: 1
     notes: Determines CHA bottom, up to 102 CHA. 1.52 is 37 CHA at apprehensive. 0.98
       is 0 CHA at apprehensive
-  - name: Merchant:SellCostMod
-    value: "0.8499999523163" # was 1.0499999523163
-    ruleset_id: 1
-    notes: Modifier for NPC sell price
   - name: NPC:LiveLikeEnrage
     value: "true" # was false
     ruleset_id: 1

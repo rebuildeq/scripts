@@ -3518,3 +3518,92 @@ skills:
             effect_id: 432 # SE_RebuildEQ
             base1: 48
             base2: 50
+    - aa_name: Harmonic Balance
+      aa_name_sid: 50
+      icon: radial-balance
+      id: 49
+      classes: 2 # Cleric
+      type: 3 # Class
+      grant_only: 0
+      level_req: 0
+      ranks:
+        - index: 1
+          id: 293
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 10.5 minutes to 10 minutes.
+          desc_sid: 296
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 600
+        - index: 2
+          id: 294
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 10 minutes to 9.5 minutes.
+          desc_sid: 297
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 570
+        - index: 3
+          id: 295
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 9.5 minutes to 9 minutes.
+          desc_sid: 298
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 540
+        - index: 4
+          id: 296
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 9 minutes to 8.5 minutes.
+          desc_sid: 299
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 510
+        - index: 5
+          id: 297
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 8.5 minutes to 8 minutes.
+          desc_sid: 300
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 480
+        - index: 6
+          id: 298
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 8 minutes to 7.5 minutes.
+          desc_sid: 301
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 450
+        - index: 7
+          id: 299
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 7.5 minutes to 7 minutes.
+          desc_sid: 302
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 420
+        - index: 8
+          id: 300
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 7 minutes to 6.5 minutes.
+          desc_sid: 303
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 390
+        - index: 9
+          id: 301
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 6.5 minutes to 6 minutes.
+          desc_sid: 304
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 360
+        - index: 10
+          id: 302
+          description: Grants the Harmonic Balance AA, balances the spirits of your group members, evening the wounds between your group, healing 200 hp, and 50% chance of removing the effects of harmful spells. 10 minute recast time, each rank reduces recast time from 6 minutes to 5.5 minutes.
+          desc_sid: 305
+          cost: 1
+          spell_id: 6233
+          spell_type: 9
+          recast_time: 330

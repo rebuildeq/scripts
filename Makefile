@@ -44,6 +44,8 @@ import-rule: build copy-data
 	cd bin && ./rebuildeq import rule
 import-spell: build copy-data
 	cd bin && ./rebuildeq import spell 11657
+dump-spell-%:
+	cd bin && ./rebuildeq import spell $*
 import-task: build copy-data
 	cd bin && ./rebuildeq import task
 import-charcreate: build copy-data
@@ -52,6 +54,8 @@ import-npc: build copy-data
 	cd bin && ./rebuildeq import npc
 import-item: build copy-data
 	cd bin && ./rebuildeq import item 54685
+dump-item-%:
+	cd bin && ./rebuildeq import item $*
 show-tables: copy-data
 	source .env && cd bin && docker run --rm \
 	-v ${PWD}:/src \

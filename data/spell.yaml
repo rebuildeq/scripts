@@ -81,3 +81,41 @@ spells:
   field222: 19
   min_dist_mod: 1
   max_dist_mod: 1
+- id: 6233
+  name: Harmonic Balance
+  player_1: PLAYER_1
+  cast_on_you: Your life force is harmonically balanced.
+  cast_on_other: '''s life force is harmonically balanced.'
+  range: 200
+  aoerange: 100
+  effect_base_value2: 200 # was 1725
+  effect_base_value3: 500 # was 950, 95% chance
+  icon: 2503
+  memicon: 2108
+  goodEffect: 1
+  effectid1: 153
+  effectid3: 154
+  targettype: 3
+  skill: 5
+  CastingAnim: 43
+  SpellAffectIndex: 8
+  new_icon: 118
+  spellanim: 278
+  deleteable: 1
+  description: Balances the spirits of your group members, evening the wounds between your group, healing what wounds remain, and potentially removing the effects of harmful spells.
+  descnum: 6233
+  typedescnum: 95
+  effectdescnum: 7
+  field163: 100
+  pvpresistbase: 5
+  pvpresistcalc: 101
+  pvpresistcap: 12
+  spell_category: 92
+  suspendable: 1
+  field204: 1
+  InCombat: 1
+  OutofCombat: 1
+  field221: 5
+  field222: 19
+  min_dist_mod: 1
+  max_dist_mod: 1

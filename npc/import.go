@@ -30,7 +30,7 @@ func Import(cmd *cobra.Command, args []string) error {
 	}
 	defer db.Close()
 
-	for id := 1; id < 1000; id++ {
+	for id := 0; id < 1000; id++ {
 		err = importZone(db, id)
 		if err != nil {
 			return fmt.Errorf("import zone %d: %w", id, err)
@@ -44,7 +44,10 @@ func importZone(db *sqlx.DB, id int) error {
 	//start := time.Now()
 	zoneName := util.ZoneIDToName(id)
 	if zoneName == "unknown" {
-		return nil
+		if id > 0 {
+			return nil
+		}
+		zoneName = "global"
 	}
 	npc := &NpcYaml{}
 	npc.sanitize()
